@@ -29,6 +29,16 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
 
+      - name: Sanity-check secrets (prints lengths only, never values)
+        env:
+          HOSTAWAY_ACCOUNT_ID: ${{ secrets.HOSTAWAY_ACCOUNT_ID }}
+          HOSTAWAY_API_KEY: ${{ secrets.HOSTAWAY_API_KEY }}
+        run: |
+          echo "HOSTAWAY_ACCOUNT_ID length: ${#HOSTAWAY_ACCOUNT_ID} (expected 6 digits)"
+          echo "HOSTAWAY_API_KEY length: ${#HOSTAWAY_API_KEY} (expected 64 characters)"
+          case "$HOSTAWAY_ACCOUNT_ID" in *[!0-9]*) echo "::warning::HOSTAWAY_ACCOUNT_ID contains something other than digits - re-paste just the number";; esac
+          case "$HOSTAWAY_API_KEY" in *[!0-9a-fA-F]*) echo "::warning::HOSTAWAY_API_KEY contains characters that are not 0-9/a-f - re-paste just the 64-character key (no 'HOSTAWAY_API_KEY=', no spaces)";; esac
+
       - name: Build recommendations (reads Hostaway, never writes)
         env:
           HOSTAWAY_ACCOUNT_ID: ${{ secrets.HOSTAWAY_ACCOUNT_ID }}
