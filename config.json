@@ -1,0 +1,109 @@
+{
+  "_comment": "Plain-language settings for The Cedar pricing engine. Edit numbers here; no code changes needed.",
+  "enabled": true,
+  "timezone": "America/New_York",
+  "horizon_days": 90,
+
+  "floor": 109,
+  "ceiling": 249,
+  "max_daily_move": null,
+  "min_change": 5,
+  "round_to_nine": true,
+
+  "comp_position": 0.90,
+
+  "rooms": [
+    {"id": 488699, "room": 1,  "name": "Vinyl Lounge",        "offset": 0},
+    {"id": 488705, "room": 2,  "name": "Movie Room",          "offset": 0},
+    {"id": 488709, "room": 3,  "name": "Stargazer's Retreat", "offset": 0},
+    {"id": 488710, "room": 4,  "name": "Architect's Suite",   "offset": 0},
+    {"id": 488713, "room": 5,  "name": "Artist's Studio",     "offset": 0},
+    {"id": 488715, "room": 6,  "name": "Traveler's Den",      "offset": 0},
+    {"id": 488727, "room": 7,  "name": "Captain's Room",      "offset": 10},
+    {"id": 488729, "room": 8,  "name": "Fisherman's Lodge",   "offset": 10},
+    {"id": 488731, "room": 9,  "name": "Brewmaster's Room",   "offset": 10},
+    {"id": 488736, "room": 10, "name": "Naturalist's Cabin",  "offset": 10},
+    {"id": 488737, "room": 11, "name": "Garden Room",         "offset": 0},
+    {"id": 488741, "room": 12, "name": "Writer's Room",       "offset": 0}
+  ],
+
+  "occupancy_factors": {
+    "_comment": "Occupancy of the 12 rooms on that night (booked / open rooms). Multiplier applied when occupancy is BELOW the threshold, checked top to bottom.",
+    "steps": [
+      {"below": 0.25, "factor": 0.85},
+      {"below": 0.50, "factor": 0.93},
+      {"below": 0.75, "factor": 1.00},
+      {"below": 0.90, "factor": 1.08},
+      {"below": 1.01, "factor": 1.15}
+    ]
+  },
+
+  "lead_time_factors": {
+    "_comment": "How many days until the night. Multiplier applied when days-out is AT OR BELOW the threshold, checked top to bottom.",
+    "steps": [
+      {"days_out": 7,   "factor": 1.00},
+      {"days_out": 29,  "factor": 1.00},
+      {"days_out": 59,  "factor": 0.95},
+      {"days_out": 999, "factor": 0.90}
+    ],
+    "last_minute": {
+      "_comment": "Nights 0-2 days out: discount if the house is emptier than low_occ_below, premium if fuller than high_occ_above.",
+      "days_out": 2,
+      "low_occ_below": 0.50, "low_occ_factor": 0.90,
+      "high_occ_above": 0.75, "high_occ_factor": 1.05
+    }
+  },
+
+  "weather": {
+    "_comment": "Only applied to nights within apply_within_days (NWS forecast reach).",
+    "apply_within_days": 7,
+    "rain_prob_threshold": 60, "rain_factor": 0.95,
+    "nice_temp_min": 75, "nice_factor": 1.05, "nice_days": ["Fri", "Sat"],
+    "nws_forecast_url": "https://api.weather.gov/gridpoints/CLE/48,60/forecast"
+  },
+
+  "comps": {
+    "_comment": "Competitor rates come from Expedia (via Chrome on the Mac mini). Named comps below define the median; 'segment' is just a label for the report.",
+    "min_comps_for_valid_median": 5,
+    "sane_median_range": [60, 600],
+    "max_sample_age_days_near": 3,
+    "max_sample_age_days_far": 14,
+    "near_means_within_days": 14,
+    "interpolate_window_days": 10,
+    "exclude_name_patterns": ["The Cedar", "at The Cedar", "Bloom Where"],
+    "comp_set": [
+      {"match": "Cedar Point's Express Hotel",         "segment": "cedar_point"},
+      {"match": "Fairfield by Marriott Inn & Suites Sandusky", "segment": "strip"},
+      {"match": "Springhill Suites By Marriott Sandusky", "segment": "strip"},
+      {"match": "Tru by Hilton Sandusky",              "segment": "strip"},
+      {"match": "Holiday Inn Express & Suites Sandusky", "segment": "strip"},
+      {"match": "Hampton Inn & Suites Sandusky",       "segment": "strip"},
+      {"match": "Comfort Inn Sandusky",                "segment": "strip"},
+      {"match": "Best Western Plus Sandusky",          "segment": "strip"},
+      {"match": "Quality Inn & Suites Sandusky",       "segment": "strip"},
+      {"match": "Sleep Inn Sandusky",                  "segment": "strip"},
+      {"match": "Country Inn & Suites by Radisson, Sandusky", "segment": "strip"},
+      {"match": "La Quinta Inn by Wyndham Sandusky",   "segment": "strip"},
+      {"match": "South Shore Inn",                     "segment": "motel"},
+      {"match": "Cedar Stables Inn",                   "segment": "motel"},
+      {"match": "Our Guest Inn and Suites",            "segment": "motel"},
+      {"match": "South Beach Resort Hotel",            "segment": "motel"},
+      {"match": "Fairfield by Marriott Port Clinton",  "segment": "port_clinton"},
+      {"match": "Holiday Inn Express & Suites Port Clinton", "segment": "port_clinton"},
+      {"match": "Sleep Inn & Suites Port Clinton",     "segment": "port_clinton"},
+      {"match": "Best Western Port Clinton",           "segment": "port_clinton"},
+      {"match": "Country Inn & Suites by Radisson, Port Clinton", "segment": "port_clinton"},
+      {"match": "Commodore Perry Inn",                 "segment": "port_clinton"},
+      {"match": "Quality Inn Port Clinton Waterfront", "segment": "port_clinton"},
+      {"match": "Anchor Bay Inn",                      "segment": "port_clinton"}
+    ],
+    "vacation_rental_range": [80, 350]
+  },
+
+  "serpapi": {
+    "_comment": "Optional cloud backup for competitor rates (Google Hotels via SerpApi). Off unless enabled=true AND a SERPAPI_KEY secret exists.",
+    "enabled": false,
+    "daily_budget": 8,
+    "query": "hotels in Sandusky Ohio"
+  }
+}
