@@ -1,0 +1,320 @@
+
+### 2026-09-11T21:05:01.212976Z — DRY RUN — nothing sent to Hostaway (2026-09-11): 318 nights
+- 2026-09-11 room 1: $115 → $109 — comp median $128 x0.9 = $115 · occ 33% x0.93 · 0d out, house empty x0.9 · nice Fri 76° x1.05 · = $109
+- 2026-09-11 room 3: $115 → $109 — comp median $128 x0.9 = $115 · occ 33% x0.93 · 0d out, house empty x0.9 · nice Fri 76° x1.05 · = $109
+- 2026-09-11 room 4: $115 → $109 — comp median $128 x0.9 = $115 · occ 33% x0.93 · 0d out, house empty x0.9 · nice Fri 76° x1.05 · = $109
+- 2026-09-11 room 5: $115 → $109 — comp median $128 x0.9 = $115 · occ 33% x0.93 · 0d out, house empty x0.9 · nice Fri 76° x1.05 · = $109
+- 2026-09-11 room 6: $115 → $109 — comp median $128 x0.9 = $115 · occ 33% x0.93 · 0d out, house empty x0.9 · nice Fri 76° x1.05 · = $109
+- 2026-09-11 room 8: $119 → $109 — comp median $128 x0.9 = $115 · occ 33% x0.93 · 0d out, house empty x0.9 · nice Fri 76° x1.05 · room 8 +$10 · = $109
+- 2026-09-11 room 11: $129 → $109 — comp median $128 x0.9 = $115 · occ 33% x0.93 · 0d out, house empty x0.9 · nice Fri 76° x1.05 · = $109
+- 2026-09-12 room 2: $129 → $159 — comp median $169 x0.9 = $152 · occ 67% x1.0 · 1d out x1.00 · nice Sat 80° x1.05 · = $159
+- 2026-09-12 room 4: $129 → $159 — comp median $169 x0.9 = $152 · occ 67% x1.0 · 1d out x1.00 · nice Sat 80° x1.05 · = $159
+- 2026-09-12 room 5: $129 → $159 — comp median $169 x0.9 = $152 · occ 67% x1.0 · 1d out x1.00 · nice Sat 80° x1.05 · = $159
+- 2026-09-12 room 8: $129 → $169 — comp median $169 x0.9 = $152 · occ 67% x1.0 · 1d out x1.00 · nice Sat 80° x1.05 · room 8 +$10 · = $169
+- 2026-09-13 room 8: $129 → $109 — comp median $98 x0.9 = $88 · occ 17% x0.85 · 2d out, house empty x0.9 · room 8 +$10 · = $109
+- 2026-09-13 room 9: $129 → $109 — comp median $98 x0.9 = $88 · occ 17% x0.85 · 2d out, house empty x0.9 · room 9 +$10 · = $109
+- 2026-09-13 room 10: $129 → $109 — comp median $98 x0.9 = $88 · occ 17% x0.85 · 2d out, house empty x0.9 · room 10 +$10 · = $109
+- 2026-09-13 room 11: $129 → $109 — comp median $98 x0.9 = $88 · occ 17% x0.85 · 2d out, house empty x0.9 · = $109
+- 2026-09-13 room 12: $129 → $109 — comp median $98 x0.9 = $88 · occ 17% x0.85 · 2d out, house empty x0.9 · = $109
+- 2026-09-14 room 7: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 3d out x1.0 · room 7 +$10 · = $109
+- 2026-09-14 room 8: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 3d out x1.0 · room 8 +$10 · = $109
+- 2026-09-14 room 9: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 3d out x1.0 · room 9 +$10 · = $109
+- 2026-09-14 room 10: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 3d out x1.0 · room 10 +$10 · = $109
+- 2026-09-14 room 11: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 3d out x1.0 · = $109
+- 2026-09-14 room 12: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 3d out x1.0 · = $109
+- 2026-09-15 room 7: $129 → $109 — comp median $106 x0.9 = $95 · occ 8% x0.85 · 4d out x1.0 · room 7 +$10 · = $109
+- 2026-09-15 room 8: $129 → $109 — comp median $106 x0.9 = $95 · occ 8% x0.85 · 4d out x1.0 · room 8 +$10 · = $109
+- 2026-09-15 room 9: $129 → $109 — comp median $106 x0.9 = $95 · occ 8% x0.85 · 4d out x1.0 · room 9 +$10 · = $109
+- 2026-09-15 room 10: $129 → $109 — comp median $106 x0.9 = $95 · occ 8% x0.85 · 4d out x1.0 · room 10 +$10 · = $109
+- 2026-09-15 room 11: $129 → $109 — comp median $106 x0.9 = $95 · occ 8% x0.85 · 4d out x1.0 · = $109
+- 2026-09-16 room 7: $129 → $109 — comp median $92 x0.9 = $83 · occ 0% x0.85 · 5d out x1.0 · room 7 +$10 · = $109
+- 2026-09-16 room 8: $129 → $109 — comp median $92 x0.9 = $83 · occ 0% x0.85 · 5d out x1.0 · room 8 +$10 · = $109
+- 2026-09-16 room 9: $129 → $109 — comp median $92 x0.9 = $83 · occ 0% x0.85 · 5d out x1.0 · room 9 +$10 · = $109
+- 2026-09-16 room 10: $129 → $109 — comp median $92 x0.9 = $83 · occ 0% x0.85 · 5d out x1.0 · room 10 +$10 · = $109
+- 2026-09-16 room 11: $129 → $109 — comp median $92 x0.9 = $83 · occ 0% x0.85 · 5d out x1.0 · = $109
+- 2026-09-16 room 12: $129 → $109 — comp median $92 x0.9 = $83 · occ 0% x0.85 · 5d out x1.0 · = $109
+- 2026-09-17 room 2: $119 → $109 — comp median $96 x0.9 = $86 · occ 17% x0.85 · 6d out x1.0 · rain 60% x0.95 · = $109
+- 2026-09-17 room 3: $119 → $109 — comp median $96 x0.9 = $86 · occ 17% x0.85 · 6d out x1.0 · rain 60% x0.95 · = $109
+- 2026-09-17 room 4: $119 → $109 — comp median $96 x0.9 = $86 · occ 17% x0.85 · 6d out x1.0 · rain 60% x0.95 · = $109
+- 2026-09-17 room 5: $119 → $109 — comp median $96 x0.9 = $86 · occ 17% x0.85 · 6d out x1.0 · rain 60% x0.95 · = $109
+- 2026-09-17 room 6: $119 → $109 — comp median $96 x0.9 = $86 · occ 17% x0.85 · 6d out x1.0 · rain 60% x0.95 · = $109
+- 2026-09-17 room 8: $139 → $109 — comp median $96 x0.9 = $86 · occ 17% x0.85 · 6d out x1.0 · rain 60% x0.95 · room 8 +$10 · = $109
+- 2026-09-17 room 9: $139 → $109 — comp median $96 x0.9 = $86 · occ 17% x0.85 · 6d out x1.0 · rain 60% x0.95 · room 9 +$10 · = $109
+- 2026-09-17 room 10: $129 → $109 — comp median $96 x0.9 = $86 · occ 17% x0.85 · 6d out x1.0 · rain 60% x0.95 · room 10 +$10 · = $109
+- 2026-09-17 room 11: $129 → $109 — comp median $96 x0.9 = $86 · occ 17% x0.85 · 6d out x1.0 · rain 60% x0.95 · = $109
+- 2026-09-17 room 12: $129 → $109 — comp median $96 x0.9 = $86 · occ 17% x0.85 · 6d out x1.0 · rain 60% x0.95 · = $109
+- 2026-09-18 room 2: $165 → $119 — comp median $142 x0.9 = $127 · occ 42% x0.93 · 7d out x1.0 · = $119
+- 2026-09-18 room 3: $155 → $119 — comp median $142 x0.9 = $127 · occ 42% x0.93 · 7d out x1.0 · = $119
+- 2026-09-18 room 4: $155 → $119 — comp median $142 x0.9 = $127 · occ 42% x0.93 · 7d out x1.0 · = $119
+- 2026-09-18 room 5: $155 → $119 — comp median $142 x0.9 = $127 · occ 42% x0.93 · 7d out x1.0 · = $119
+- 2026-09-18 room 6: $155 → $119 — comp median $142 x0.9 = $127 · occ 42% x0.93 · 7d out x1.0 · = $119
+- 2026-09-18 room 11: $129 → $119 — comp median $142 x0.9 = $127 · occ 42% x0.93 · 7d out x1.0 · = $119
+- 2026-09-19 room 2: $209 → $129 — comp median $144 x0.9 = $130 · occ 50% x1.0 · 8d out x1.0 · = $129
+- 2026-09-19 room 3: $195 → $129 — comp median $144 x0.9 = $130 · occ 50% x1.0 · 8d out x1.0 · = $129
+- 2026-09-19 room 4: $195 → $129 — comp median $144 x0.9 = $130 · occ 50% x1.0 · 8d out x1.0 · = $129
+- 2026-09-19 room 5: $195 → $129 — comp median $144 x0.9 = $130 · occ 50% x1.0 · 8d out x1.0 · = $129
+- 2026-09-19 room 6: $195 → $129 — comp median $144 x0.9 = $130 · occ 50% x1.0 · 8d out x1.0 · = $129
+- 2026-09-19 room 10: $129 → $139 — comp median $144 x0.9 = $130 · occ 50% x1.0 · 8d out x1.0 · room 10 +$10 · = $139
+- 2026-09-20 room 7: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 9d out x1.0 · room 7 +$10 · = $109
+- 2026-09-20 room 8: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 9d out x1.0 · room 8 +$10 · = $109
+- 2026-09-20 room 9: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 9d out x1.0 · room 9 +$10 · = $109
+- 2026-09-20 room 10: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 9d out x1.0 · room 10 +$10 · = $109
+- 2026-09-20 room 11: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 9d out x1.0 · = $109
+- 2026-09-20 room 12: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 9d out x1.0 · = $109
+- 2026-09-21 room 7: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 10d out x1.0 · room 7 +$10 · = $109
+- 2026-09-21 room 8: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 10d out x1.0 · room 8 +$10 · = $109
+- 2026-09-21 room 9: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 10d out x1.0 · room 9 +$10 · = $109
+- 2026-09-21 room 10: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 10d out x1.0 · room 10 +$10 · = $109
+- 2026-09-21 room 11: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 10d out x1.0 · = $109
+- 2026-09-21 room 12: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 10d out x1.0 · = $109
+- 2026-09-22 room 7: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 11d out x1.0 · room 7 +$10 · = $109
+- 2026-09-22 room 8: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 11d out x1.0 · room 8 +$10 · = $109
+- 2026-09-22 room 9: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 11d out x1.0 · room 9 +$10 · = $109
+- 2026-09-22 room 10: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 11d out x1.0 · room 10 +$10 · = $109
+- 2026-09-22 room 11: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 11d out x1.0 · = $109
+- 2026-09-22 room 12: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 11d out x1.0 · = $109
+- 2026-09-23 room 7: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 12d out x1.0 · room 7 +$10 · = $109
+- 2026-09-23 room 8: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 12d out x1.0 · room 8 +$10 · = $109
+- 2026-09-23 room 9: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 12d out x1.0 · room 9 +$10 · = $109
+- 2026-09-23 room 10: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 12d out x1.0 · room 10 +$10 · = $109
+- 2026-09-23 room 11: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 12d out x1.0 · = $109
+- 2026-09-23 room 12: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 12d out x1.0 · = $109
+- 2026-09-24 room 1: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · = $109
+- 2026-09-24 room 2: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · = $109
+- 2026-09-24 room 3: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · = $109
+- 2026-09-24 room 4: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · = $109
+- 2026-09-24 room 5: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · = $109
+- 2026-09-24 room 6: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · = $109
+- 2026-09-24 room 7: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · room 7 +$10 · = $109
+- 2026-09-24 room 8: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · room 8 +$10 · = $109
+- 2026-09-24 room 9: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · room 9 +$10 · = $109
+- 2026-09-24 room 10: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · room 10 +$10 · = $109
+- 2026-09-24 room 11: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · = $109
+- 2026-09-24 room 12: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 13d out x1.0 · = $109
+- 2026-09-25 room 1: $129 → $109 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · = $109
+- 2026-09-25 room 2: $129 → $109 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · = $109
+- 2026-09-25 room 3: $129 → $109 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · = $109
+- 2026-09-25 room 4: $129 → $109 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · = $109
+- 2026-09-25 room 5: $129 → $109 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · = $109
+- 2026-09-25 room 6: $129 → $109 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · = $109
+- 2026-09-25 room 7: $129 → $119 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · room 7 +$10 · = $119
+- 2026-09-25 room 8: $129 → $119 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · room 8 +$10 · = $119
+- 2026-09-25 room 9: $129 → $119 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · room 9 +$10 · = $119
+- 2026-09-25 room 10: $129 → $119 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · room 10 +$10 · = $119
+- 2026-09-25 room 11: $129 → $109 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · = $109
+- 2026-09-25 room 12: $129 → $109 — comp median $147 x0.9 = $132 · occ 0% x0.85 · 14d out x1.0 · = $109
+- 2026-09-26 room 8: $129 → $139 — comp median $166 x0.9 = $149 · occ 8% x0.85 · 15d out x1.0 · room 8 +$10 · = $139
+- 2026-09-26 room 9: $129 → $139 — comp median $166 x0.9 = $149 · occ 8% x0.85 · 15d out x1.0 · room 9 +$10 · = $139
+- 2026-09-26 room 10: $129 → $139 — comp median $166 x0.9 = $149 · occ 8% x0.85 · 15d out x1.0 · room 10 +$10 · = $139
+- 2026-09-27 room 1: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · = $109
+- 2026-09-27 room 2: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · = $109
+- 2026-09-27 room 3: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · = $109
+- 2026-09-27 room 4: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · = $109
+- 2026-09-27 room 5: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · = $109
+- 2026-09-27 room 6: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · = $109
+- 2026-09-27 room 7: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · room 7 +$10 · = $109
+- 2026-09-27 room 8: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · room 8 +$10 · = $109
+- 2026-09-27 room 9: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · room 9 +$10 · = $109
+- 2026-09-27 room 10: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · room 10 +$10 · = $109
+- 2026-09-27 room 11: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · = $109
+- 2026-09-27 room 12: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 16d out x1.0 · = $109
+- 2026-09-28 room 1: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · = $109
+- 2026-09-28 room 2: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · = $109
+- 2026-09-28 room 3: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · = $109
+- 2026-09-28 room 4: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · = $109
+- 2026-09-28 room 5: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · = $109
+- 2026-09-28 room 6: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · = $109
+- 2026-09-28 room 7: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · room 7 +$10 · = $109
+- 2026-09-28 room 8: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · room 8 +$10 · = $109
+- 2026-09-28 room 9: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · room 9 +$10 · = $109
+- 2026-09-28 room 10: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · room 10 +$10 · = $109
+- 2026-09-28 room 11: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · = $109
+- 2026-09-28 room 12: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 17d out x1.0 · = $109
+- 2026-09-29 room 1: $129 → $109 — comp median $85 x0.9 = $76 · occ 8% x0.85 · 18d out x1.0 · = $109
+- 2026-09-29 room 2: $129 → $109 — comp median $85 x0.9 = $76 · occ 8% x0.85 · 18d out x1.0 · = $109
+- 2026-09-29 room 3: $129 → $109 — comp median $85 x0.9 = $76 · occ 8% x0.85 · 18d out x1.0 · = $109
+- 2026-09-29 room 4: $129 → $109 — comp median $85 x0.9 = $76 · occ 8% x0.85 · 18d out x1.0 · = $109
+- 2026-09-29 room 5: $129 → $109 — comp median $85 x0.9 = $76 · occ 8% x0.85 · 18d out x1.0 · = $109
+- 2026-09-29 room 6: $129 → $109 — comp median $85 x0.9 = $76 · occ 8% x0.85 · 18d out x1.0 · = $109
+- 2026-09-29 room 7: $129 → $109 — comp median $85 x0.9 = $76 · occ 8% x0.85 · 18d out x1.0 · room 7 +$10 · = $109
+- 2026-09-29 room 8: $129 → $109 — comp median $85 x0.9 = $76 · occ 8% x0.85 · 18d out x1.0 · room 8 +$10 · = $109
+- 2026-09-29 room 9: $129 → $109 — comp median $85 x0.9 = $76 · occ 8% x0.85 · 18d out x1.0 · room 9 +$10 · = $109
+- 2026-09-29 room 10: $129 → $109 — comp median $85 x0.9 = $76 · occ 8% x0.85 · 18d out x1.0 · room 10 +$10 · = $109
+- 2026-09-29 room 11: $129 → $109 — comp median $85 x0.9 = $76 · occ 8% x0.85 · 18d out x1.0 · = $109
+- 2026-09-30 room 1: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · = $109
+- 2026-09-30 room 2: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · = $109
+- 2026-09-30 room 3: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · = $109
+- 2026-09-30 room 4: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · = $109
+- 2026-09-30 room 5: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · = $109
+- 2026-09-30 room 6: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · = $109
+- 2026-09-30 room 7: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · room 7 +$10 · = $109
+- 2026-09-30 room 8: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · room 8 +$10 · = $109
+- 2026-09-30 room 9: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · room 9 +$10 · = $109
+- 2026-09-30 room 10: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · room 10 +$10 · = $109
+- 2026-09-30 room 11: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · = $109
+- 2026-09-30 room 12: $129 → $109 — comp median $85 x0.9 = $76 · occ 0% x0.85 · 19d out x1.0 · = $109
+- 2026-10-02 room 1: $129 → $109 — comp median $132 x0.9 = $119 · occ 25% x0.93 · 21d out x1.0 · = $109
+- 2026-10-02 room 2: $129 → $109 — comp median $132 x0.9 = $119 · occ 25% x0.93 · 21d out x1.0 · = $109
+- 2026-10-02 room 3: $129 → $109 — comp median $132 x0.9 = $119 · occ 25% x0.93 · 21d out x1.0 · = $109
+- 2026-10-02 room 4: $129 → $109 — comp median $132 x0.9 = $119 · occ 25% x0.93 · 21d out x1.0 · = $109
+- 2026-10-02 room 5: $129 → $109 — comp median $132 x0.9 = $119 · occ 25% x0.93 · 21d out x1.0 · = $109
+- 2026-10-02 room 6: $129 → $109 — comp median $132 x0.9 = $119 · occ 25% x0.93 · 21d out x1.0 · = $109
+- 2026-10-02 room 9: $129 → $119 — comp median $132 x0.9 = $119 · occ 25% x0.93 · 21d out x1.0 · room 9 +$10 · = $119
+- 2026-10-02 room 10: $129 → $119 — comp median $132 x0.9 = $119 · occ 25% x0.93 · 21d out x1.0 · room 10 +$10 · = $119
+- 2026-10-02 room 11: $129 → $109 — comp median $132 x0.9 = $119 · occ 25% x0.93 · 21d out x1.0 · = $109
+- 2026-10-03 room 1: $129 → $119 — comp median $147 x0.9 = $132 · occ 33% x0.93 · 22d out x1.0 · = $119
+- 2026-10-03 room 2: $129 → $119 — comp median $147 x0.9 = $132 · occ 33% x0.93 · 22d out x1.0 · = $119
+- 2026-10-03 room 3: $129 → $119 — comp median $147 x0.9 = $132 · occ 33% x0.93 · 22d out x1.0 · = $119
+- 2026-10-03 room 4: $129 → $119 — comp median $147 x0.9 = $132 · occ 33% x0.93 · 22d out x1.0 · = $119
+- 2026-10-03 room 5: $129 → $119 — comp median $147 x0.9 = $132 · occ 33% x0.93 · 22d out x1.0 · = $119
+- 2026-10-03 room 6: $129 → $119 — comp median $147 x0.9 = $132 · occ 33% x0.93 · 22d out x1.0 · = $119
+- 2026-10-03 room 11: $129 → $119 — comp median $147 x0.9 = $132 · occ 33% x0.93 · 22d out x1.0 · = $119
+- 2026-10-09 room 1: $129 → $119 — comp median $150 x0.9 = $135 · occ 8% x0.85 · 28d out x1.0 · = $119
+- 2026-10-09 room 2: $129 → $119 — comp median $150 x0.9 = $135 · occ 8% x0.85 · 28d out x1.0 · = $119
+- 2026-10-09 room 3: $129 → $119 — comp median $150 x0.9 = $135 · occ 8% x0.85 · 28d out x1.0 · = $119
+- 2026-10-09 room 4: $129 → $119 — comp median $150 x0.9 = $135 · occ 8% x0.85 · 28d out x1.0 · = $119
+- 2026-10-09 room 5: $129 → $119 — comp median $150 x0.9 = $135 · occ 8% x0.85 · 28d out x1.0 · = $119
+- 2026-10-09 room 11: $129 → $119 — comp median $150 x0.9 = $135 · occ 8% x0.85 · 28d out x1.0 · = $119
+- 2026-10-09 room 12: $129 → $119 — comp median $150 x0.9 = $135 · occ 8% x0.85 · 28d out x1.0 · = $119
+- 2026-10-10 room 1: $129 → $119 — comp median $160 x0.9 = $144 · occ 8% x0.85 · 29d out x1.0 · = $119
+- 2026-10-10 room 2: $129 → $119 — comp median $160 x0.9 = $144 · occ 8% x0.85 · 29d out x1.0 · = $119
+- 2026-10-10 room 3: $129 → $119 — comp median $160 x0.9 = $144 · occ 8% x0.85 · 29d out x1.0 · = $119
+- 2026-10-10 room 4: $129 → $119 — comp median $160 x0.9 = $144 · occ 8% x0.85 · 29d out x1.0 · = $119
+- 2026-10-10 room 5: $129 → $119 — comp median $160 x0.9 = $144 · occ 8% x0.85 · 29d out x1.0 · = $119
+- 2026-10-10 room 6: $129 → $119 — comp median $160 x0.9 = $144 · occ 8% x0.85 · 29d out x1.0 · = $119
+- 2026-10-10 room 11: $129 → $119 — comp median $160 x0.9 = $144 · occ 8% x0.85 · 29d out x1.0 · = $119
+- 2026-10-10 room 12: $129 → $119 — comp median $160 x0.9 = $144 · occ 8% x0.85 · 29d out x1.0 · = $119
+- 2026-10-16 room 1: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · = $109
+- 2026-10-16 room 2: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · = $109
+- 2026-10-16 room 3: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · = $109
+- 2026-10-16 room 4: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · = $109
+- 2026-10-16 room 5: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · = $109
+- 2026-10-16 room 6: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · = $109
+- 2026-10-16 room 7: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · room 7 +$10 · = $109
+- 2026-10-16 room 8: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · room 8 +$10 · = $109
+- 2026-10-16 room 9: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · room 9 +$10 · = $109
+- 2026-10-16 room 10: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · room 10 +$10 · = $109
+- 2026-10-16 room 11: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · = $109
+- 2026-10-16 room 12: $129 → $109 — comp median $119 x0.9 = $107 · occ 0% x0.85 · 35d out x0.95 · = $109
+- 2026-10-17 room 1: $129 → $109 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · = $109
+- 2026-10-17 room 2: $129 → $109 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · = $109
+- 2026-10-17 room 3: $129 → $109 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · = $109
+- 2026-10-17 room 4: $129 → $109 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · = $109
+- 2026-10-17 room 5: $129 → $109 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · = $109
+- 2026-10-17 room 6: $129 → $109 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · = $109
+- 2026-10-17 room 7: $129 → $119 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · room 7 +$10 · = $119
+- 2026-10-17 room 8: $129 → $119 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · room 8 +$10 · = $119
+- 2026-10-17 room 9: $129 → $119 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · room 9 +$10 · = $119
+- 2026-10-17 room 10: $129 → $119 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · room 10 +$10 · = $119
+- 2026-10-17 room 11: $129 → $109 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · = $109
+- 2026-10-17 room 12: $129 → $109 — comp median $150 x0.9 = $135 · occ 0% x0.85 · 36d out x0.95 · = $109
+- 2026-10-23 room 1: $129 → $109 — comp median $118 x0.9 = $106 · occ 8% x0.85 · 42d out x0.95 · = $109
+- 2026-10-23 room 2: $129 → $109 — comp median $118 x0.9 = $106 · occ 8% x0.85 · 42d out x0.95 · = $109
+- 2026-10-23 room 3: $129 → $109 — comp median $118 x0.9 = $106 · occ 8% x0.85 · 42d out x0.95 · = $109
+- 2026-10-23 room 4: $129 → $109 — comp median $118 x0.9 = $106 · occ 8% x0.85 · 42d out x0.95 · = $109
+- 2026-10-23 room 5: $129 → $109 — comp median $118 x0.9 = $106 · occ 8% x0.85 · 42d out x0.95 · = $109
+- 2026-10-23 room 6: $129 → $109 — comp median $118 x0.9 = $106 · occ 8% x0.85 · 42d out x0.95 · = $109
+- 2026-10-23 room 7: $129 → $109 — comp median $118 x0.9 = $106 · occ 8% x0.85 · 42d out x0.95 · room 7 +$10 · = $109
+- 2026-10-23 room 8: $129 → $109 — comp median $118 x0.9 = $106 · occ 8% x0.85 · 42d out x0.95 · room 8 +$10 · = $109
+- 2026-10-23 room 9: $129 → $109 — comp median $118 x0.9 = $106 · occ 8% x0.85 · 42d out x0.95 · room 9 +$10 · = $109
+- 2026-10-23 room 10: $129 → $109 — comp median $118 x0.9 = $106 · occ 8% x0.85 · 42d out x0.95 · room 10 +$10 · = $109
+- 2026-10-23 room 11: $129 → $109 — comp median $118 x0.9 = $106 · occ 8% x0.85 · 42d out x0.95 · = $109
+- 2026-10-24 room 1: $129 → $109 — comp median $149 x0.9 = $134 · occ 8% x0.85 · 43d out x0.95 · = $109
+- 2026-10-24 room 2: $129 → $109 — comp median $149 x0.9 = $134 · occ 8% x0.85 · 43d out x0.95 · = $109
+- 2026-10-24 room 3: $129 → $109 — comp median $149 x0.9 = $134 · occ 8% x0.85 · 43d out x0.95 · = $109
+- 2026-10-24 room 4: $129 → $109 — comp median $149 x0.9 = $134 · occ 8% x0.85 · 43d out x0.95 · = $109
+- 2026-10-24 room 5: $129 → $109 — comp median $149 x0.9 = $134 · occ 8% x0.85 · 43d out x0.95 · = $109
+- 2026-10-24 room 6: $129 → $109 — comp median $149 x0.9 = $134 · occ 8% x0.85 · 43d out x0.95 · = $109
+- 2026-10-24 room 7: $129 → $119 — comp median $149 x0.9 = $134 · occ 8% x0.85 · 43d out x0.95 · room 7 +$10 · = $119
+- 2026-10-24 room 8: $129 → $119 — comp median $149 x0.9 = $134 · occ 8% x0.85 · 43d out x0.95 · room 8 +$10 · = $119
+- 2026-10-24 room 9: $129 → $119 — comp median $149 x0.9 = $134 · occ 8% x0.85 · 43d out x0.95 · room 9 +$10 · = $119
+- 2026-10-24 room 10: $129 → $119 — comp median $149 x0.9 = $134 · occ 8% x0.85 · 43d out x0.95 · room 10 +$10 · = $119
+- 2026-10-24 room 11: $129 → $109 — comp median $149 x0.9 = $134 · occ 8% x0.85 · 43d out x0.95 · = $109
+- 2026-10-30 room 1: $129 → $109 — comp median $133 x0.9 = $120 · occ 17% x0.85 · 49d out x0.95 · = $109
+- 2026-10-30 room 2: $129 → $109 — comp median $133 x0.9 = $120 · occ 17% x0.85 · 49d out x0.95 · = $109
+- 2026-10-30 room 3: $129 → $109 — comp median $133 x0.9 = $120 · occ 17% x0.85 · 49d out x0.95 · = $109
+- 2026-10-30 room 4: $129 → $109 — comp median $133 x0.9 = $120 · occ 17% x0.85 · 49d out x0.95 · = $109
+- 2026-10-30 room 5: $129 → $109 — comp median $133 x0.9 = $120 · occ 17% x0.85 · 49d out x0.95 · = $109
+- 2026-10-30 room 6: $129 → $109 — comp median $133 x0.9 = $120 · occ 17% x0.85 · 49d out x0.95 · = $109
+- 2026-10-30 room 7: $129 → $109 — comp median $133 x0.9 = $120 · occ 17% x0.85 · 49d out x0.95 · room 7 +$10 · = $109
+- 2026-10-30 room 8: $129 → $109 — comp median $133 x0.9 = $120 · occ 17% x0.85 · 49d out x0.95 · room 8 +$10 · = $109
+- 2026-10-30 room 10: $129 → $109 — comp median $133 x0.9 = $120 · occ 17% x0.85 · 49d out x0.95 · room 10 +$10 · = $109
+- 2026-10-30 room 11: $129 → $109 — comp median $133 x0.9 = $120 · occ 17% x0.85 · 49d out x0.95 · = $109
+- 2026-10-31 room 1: $129 → $109 — comp median $150 x0.9 = $135 · occ 17% x0.85 · 50d out x0.95 · = $109
+- 2026-10-31 room 2: $129 → $109 — comp median $150 x0.9 = $135 · occ 17% x0.85 · 50d out x0.95 · = $109
+- 2026-10-31 room 3: $129 → $109 — comp median $150 x0.9 = $135 · occ 17% x0.85 · 50d out x0.95 · = $109
+- 2026-10-31 room 4: $129 → $109 — comp median $150 x0.9 = $135 · occ 17% x0.85 · 50d out x0.95 · = $109
+- 2026-10-31 room 5: $129 → $109 — comp median $150 x0.9 = $135 · occ 17% x0.85 · 50d out x0.95 · = $109
+- 2026-10-31 room 6: $129 → $109 — comp median $150 x0.9 = $135 · occ 17% x0.85 · 50d out x0.95 · = $109
+- 2026-10-31 room 7: $129 → $119 — comp median $150 x0.9 = $135 · occ 17% x0.85 · 50d out x0.95 · room 7 +$10 · = $119
+- 2026-10-31 room 8: $129 → $119 — comp median $150 x0.9 = $135 · occ 17% x0.85 · 50d out x0.95 · room 8 +$10 · = $119
+- 2026-10-31 room 10: $129 → $119 — comp median $150 x0.9 = $135 · occ 17% x0.85 · 50d out x0.95 · room 10 +$10 · = $119
+- 2026-10-31 room 11: $129 → $109 — comp median $150 x0.9 = $135 · occ 17% x0.85 · 50d out x0.95 · = $109
+- 2026-11-06 room 1: $129 → $109 — comp median $110 x0.9 = $99 · occ 17% x0.85 · 56d out x0.95 · = $109
+- 2026-11-06 room 2: $129 → $109 — comp median $110 x0.9 = $99 · occ 17% x0.85 · 56d out x0.95 · = $109
+- 2026-11-06 room 3: $129 → $109 — comp median $110 x0.9 = $99 · occ 17% x0.85 · 56d out x0.95 · = $109
+- 2026-11-06 room 4: $129 → $109 — comp median $110 x0.9 = $99 · occ 17% x0.85 · 56d out x0.95 · = $109
+- 2026-11-06 room 5: $129 → $109 — comp median $110 x0.9 = $99 · occ 17% x0.85 · 56d out x0.95 · = $109
+- 2026-11-06 room 6: $129 → $109 — comp median $110 x0.9 = $99 · occ 17% x0.85 · 56d out x0.95 · = $109
+- 2026-11-06 room 9: $129 → $109 — comp median $110 x0.9 = $99 · occ 17% x0.85 · 56d out x0.95 · room 9 +$10 · = $109
+- 2026-11-06 room 10: $129 → $109 — comp median $110 x0.9 = $99 · occ 17% x0.85 · 56d out x0.95 · room 10 +$10 · = $109
+- 2026-11-06 room 11: $129 → $109 — comp median $110 x0.9 = $99 · occ 17% x0.85 · 56d out x0.95 · = $109
+- 2026-11-06 room 12: $129 → $109 — comp median $110 x0.9 = $99 · occ 17% x0.85 · 56d out x0.95 · = $109
+- 2026-11-07 room 1: $129 → $109 — comp median $111 x0.9 = $100 · occ 17% x0.85 · 57d out x0.95 · = $109
+- 2026-11-07 room 2: $129 → $109 — comp median $111 x0.9 = $100 · occ 17% x0.85 · 57d out x0.95 · = $109
+- 2026-11-07 room 3: $129 → $109 — comp median $111 x0.9 = $100 · occ 17% x0.85 · 57d out x0.95 · = $109
+- 2026-11-07 room 4: $129 → $109 — comp median $111 x0.9 = $100 · occ 17% x0.85 · 57d out x0.95 · = $109
+- 2026-11-07 room 5: $129 → $109 — comp median $111 x0.9 = $100 · occ 17% x0.85 · 57d out x0.95 · = $109
+- 2026-11-07 room 6: $129 → $109 — comp median $111 x0.9 = $100 · occ 17% x0.85 · 57d out x0.95 · = $109
+- 2026-11-07 room 9: $129 → $109 — comp median $111 x0.9 = $100 · occ 17% x0.85 · 57d out x0.95 · room 9 +$10 · = $109
+- 2026-11-07 room 10: $129 → $109 — comp median $111 x0.9 = $100 · occ 17% x0.85 · 57d out x0.95 · room 10 +$10 · = $109
+- 2026-11-07 room 11: $129 → $109 — comp median $111 x0.9 = $100 · occ 17% x0.85 · 57d out x0.95 · = $109
+- 2026-11-07 room 12: $129 → $109 — comp median $111 x0.9 = $100 · occ 17% x0.85 · 57d out x0.95 · = $109
+- 2026-11-13 room 1: $129 → $109 — comp median $111 x0.9 = $100 · occ 0% x0.85 · 63d out x0.9 · = $109
+- 2026-11-13 room 2: $129 → $109 — comp median $111 x0.9 = $100 · occ 0% x0.85 · 63d out x0.9 · = $109
+- 2026-11-13 room 3: $129 → $109 — comp median $111 x0.9 = $100 · occ 0% x0.85 · 63d out x0.9 · = $109
+- 2026-11-13 room 4: $129 → $109 — comp median $111 x0.9 = $100 · occ 0% x0.85 · 63d out x0.9 · = $109
+- 2026-11-13 room 5: $129 → $109 — comp median $111 x0.9 = $100 · occ 0% x0.85 · 63d out x0.9 · = $109
+- 2026-11-13 room 6: $129 → $109 — comp median $111 x0.9 = $100 · occ 0% x0.85 · 63d out x0.9 · = $109
+- 2026-11-14 room 1: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 64d out x0.9 · = $109
+- 2026-11-14 room 2: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 64d out x0.9 · = $109
+- 2026-11-14 room 3: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 64d out x0.9 · = $109
+- 2026-11-14 room 4: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 64d out x0.9 · = $109
+- 2026-11-14 room 5: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 64d out x0.9 · = $109
+- 2026-11-14 room 6: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 64d out x0.9 · = $109
+- 2026-11-20 room 1: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 70d out x0.9 · = $109
+- 2026-11-20 room 2: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 70d out x0.9 · = $109
+- 2026-11-20 room 3: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 70d out x0.9 · = $109
+- 2026-11-20 room 4: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 70d out x0.9 · = $109
+- 2026-11-20 room 5: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 70d out x0.9 · = $109
+- 2026-11-20 room 6: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 70d out x0.9 · = $109
+- 2026-11-21 room 1: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 71d out x0.9 · = $109
+- 2026-11-21 room 2: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 71d out x0.9 · = $109
+- 2026-11-21 room 3: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 71d out x0.9 · = $109
+- 2026-11-21 room 4: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 71d out x0.9 · = $109
+- 2026-11-21 room 5: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 71d out x0.9 · = $109
+- 2026-11-21 room 6: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 71d out x0.9 · = $109
+- 2026-11-27 room 1: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 77d out x0.9 · = $109
+- 2026-11-27 room 2: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 77d out x0.9 · = $109
+- 2026-11-27 room 3: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 77d out x0.9 · = $109
+- 2026-11-27 room 4: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 77d out x0.9 · = $109
+- 2026-11-27 room 5: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 77d out x0.9 · = $109
+- 2026-11-27 room 6: $129 → $109 — comp median $106 x0.9 = $96 · occ 0% x0.85 · 77d out x0.9 · = $109
+- 2026-11-28 room 1: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 78d out x0.9 · = $109
+- 2026-11-28 room 2: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 78d out x0.9 · = $109
+- 2026-11-28 room 3: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 78d out x0.9 · = $109
+- 2026-11-28 room 4: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 78d out x0.9 · = $109
+- 2026-11-28 room 5: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 78d out x0.9 · = $109
+- 2026-11-28 room 6: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 78d out x0.9 · = $109
+- 2026-12-04 room 1: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 84d out x0.9 · = $109
+- 2026-12-04 room 2: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 84d out x0.9 · = $109
+- 2026-12-04 room 3: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 84d out x0.9 · = $109
+- 2026-12-04 room 4: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 84d out x0.9 · = $109
+- 2026-12-04 room 5: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 84d out x0.9 · = $109
+- 2026-12-04 room 6: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 84d out x0.9 · = $109
+- 2026-12-05 room 1: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 85d out x0.9 · = $109
+- 2026-12-05 room 2: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 85d out x0.9 · = $109
+- 2026-12-05 room 3: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 85d out x0.9 · = $109
+- 2026-12-05 room 4: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 85d out x0.9 · = $109
+- 2026-12-05 room 5: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 85d out x0.9 · = $109
+- 2026-12-05 room 6: $129 → $109 — comp median $107 x0.9 = $96 · occ 0% x0.85 · 85d out x0.9 · = $109
