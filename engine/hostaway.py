@@ -7,8 +7,11 @@ BASE = "https://api.hostaway.com/v1"
 
 class Hostaway:
     def __init__(self, account_id=None, api_key=None):
-        self.account_id = account_id or os.environ.get("HOSTAWAY_ACCOUNT_ID")
-        self.api_key = api_key or os.environ.get("HOSTAWAY_API_KEY")
+        # Tolerate the usual copy/paste slips in the GitHub secret boxes: stray spaces,
+        # newlines, quotes, or a pasted "HOSTAWAY_API_KEY=..." line.
+        clean = lambda v: (v or "").strip().strip("\"'").split("=")[-1].strip().strip("\"'")
+        self.account_id = clean(account_id or os.environ.get("HOSTAWAY_ACCOUNT_ID"))
+        self.api_key = clean(api_key or os.environ.get("HOSTAWAY_API_KEY"))
         if not self.account_id or not self.api_key:
             raise RuntimeError("HOSTAWAY_ACCOUNT_ID / HOSTAWAY_API_KEY are not set (GitHub secrets).")
         self.token = self._get_token()
