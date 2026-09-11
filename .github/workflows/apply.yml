@@ -1,0 +1,110 @@
+name: 2 - Apply approved prices to Hostaway
+
+on:
+  workflow_dispatch:
+    inputs:
+      rec_date:
+        description: "Recommendation date to apply (YYYY-MM-DD, or 'latest')"
+        required: true
+        default: "latest"
+      approval_text:
+        description: "approve | approve except rooms 3,5 | approve except Sep 19-20 | approve only Sep 19"
+        required: true
+        default: "approve"
+      dry_run:
+        description: "Dry run (true = compute + log only, nothing sent to Hostaway)"
+        required: true
+        default: "true"
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: cedar-pricing
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    # Only the repo owner can approve. Comments must be on a "Pricing recommendations ..." issue and start with "approve" (or "skip").
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.comment.user.login == 'Riv419' &&
+       contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association) &&
+       startsWith(github.event.issue.title, 'Pricing recommendations') &&
+       (startsWith(github.event.comment.body, 'approve') || startsWith(github.event.comment.body, 'Approve') ||
+        startsWith(github.event.comment.body, 'skip') || startsWith(github.event.comment.body, 'Skip')))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Work out what was approved
+        id: what
+        env:
+          EVENT: ${{ github.event_name }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          COMMENT: ${{ github.event.comment.body }}
+          IN_DATE: ${{ github.event.inputs.rec_date }}
+          IN_TEXT: ${{ github.event.inputs.approval_text }}
+          IN_DRY: ${{ github.event.inputs.dry_run }}
+        run: |
+          if [ "$EVENT" = "issue_comment" ]; then
+            REC_DATE=$(echo "$ISSUE_TITLE" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1)
+            TEXT=$(echo "$COMMENT" | head -1)
+            DRY=false
+            case "$TEXT" in skip*|Skip*) echo "skip=true" >> "$GITHUB_OUTPUT";; esac
+          else
+            REC_DATE="$IN_DATE"; TEXT="$IN_TEXT"; DRY="$IN_DRY"
+          fi
+          echo "rec_date=$REC_DATE" >> "$GITHUB_OUTPUT"
+          echo "text=$TEXT" >> "$GITHUB_OUTPUT"
+          echo "dry=$DRY" >> "$GITHUB_OUTPUT"
+
+      - name: Skip (close issue, apply nothing)
+        if: steps.what.outputs.skip == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close ${{ github.event.issue.number }} --comment "Skipped — no prices changed."
+
+      - name: Apply to Hostaway
+        if: steps.what.outputs.skip != 'true'
+        id: apply
+        continue-on-error: true
+        env:
+          HOSTAWAY_ACCOUNT_ID: ${{ secrets.HOSTAWAY_ACCOUNT_ID }}
+          HOSTAWAY_API_KEY: ${{ secrets.HOSTAWAY_API_KEY }}
+          REC_DATE: ${{ steps.what.outputs.rec_date }}
+          APPROVAL_TEXT: ${{ steps.what.outputs.text }}
+          DRY_RUN: ${{ steps.what.outputs.dry == 'true' && '1' || '0' }}
+        run: python engine/apply.py
+
+      - name: Commit the audit log
+        if: steps.what.outputs.skip != 'true'
+        run: |
+          git config user.name  "cedar-pricing-bot"
+          git config user.email "cedar-pricing-bot@users.noreply.github.com"
+          git add -A
+          if ! git diff --staged --quiet; then
+            git commit -m "Apply log ${{ steps.what.outputs.rec_date }} ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git pull --rebase origin main || true
+            git push
+          fi
+
+      - name: Report back on the issue
+        if: steps.what.outputs.skip != 'true' && github.event_name == 'issue_comment'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f log/last_result.md ]; then BODY=$(cat log/last_result.md); else BODY="Apply step failed before producing a result — check the Actions log."; fi
+          gh issue comment ${{ github.event.issue.number }} --body "$BODY"
+          if [ "${{ steps.apply.outcome }}" = "success" ]; then gh issue close ${{ github.event.issue.number }}; fi
+
+      - name: Fail the run if apply failed
+        if: steps.what.outputs.skip != 'true' && steps.apply.outcome != 'success'
+        run: exit 1

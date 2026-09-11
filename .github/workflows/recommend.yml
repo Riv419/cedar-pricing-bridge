@@ -1,0 +1,74 @@
+name: 1 - Build pricing recommendations
+
+on:
+  workflow_dispatch:
+    inputs:
+      comps_json:
+        description: "Competitor rates JSON from the morning Chrome pass (leave blank to use stored samples)"
+        required: false
+        default: ""
+  schedule:
+    # Fallback run at 11:15 UTC (7:15 AM EDT / 6:15 AM EST). Skips itself if today's file already exists.
+    - cron: "15 11 * * *"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: cedar-pricing
+  cancel-in-progress: false
+
+jobs:
+  recommend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Build recommendations (reads Hostaway, never writes)
+        env:
+          HOSTAWAY_ACCOUNT_ID: ${{ secrets.HOSTAWAY_ACCOUNT_ID }}
+          HOSTAWAY_API_KEY: ${{ secrets.HOSTAWAY_API_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          COMPS_JSON: ${{ github.event.inputs.comps_json }}
+          ONLY_IF_MISSING: ${{ github.event_name == 'schedule' && '1' || '0' }}
+        run: python engine/recommend.py
+
+      - name: Commit results
+        id: commit
+        run: |
+          git config user.name  "cedar-pricing-bot"
+          git config user.email "cedar-pricing-bot@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            RUN_DATE=$(python -c "import json;print(json.load(open('recommendations/latest.json'))['run_date'])")
+            git commit -m "Recommendations for $RUN_DATE ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git pull --rebase origin main || true
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "run_date=$RUN_DATE" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open the approval issue
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_DATE: ${{ steps.commit.outputs.run_date }}
+        run: |
+          TITLE="Pricing recommendations $RUN_DATE"
+          # close older open approval issues so only one is live
+          for n in $(gh issue list --state open --search "Pricing recommendations in:title" --json number,title --jq '.[] | select(.title != "'"$TITLE"'") | .number'); do
+            gh issue close "$n" --comment "Superseded by today's recommendations."
+          done
+          EXISTING=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh issue edit "$EXISTING" --body-file recommendations/latest.md
+          else
+            gh issue create --title "$TITLE" --body-file recommendations/latest.md
+          fi

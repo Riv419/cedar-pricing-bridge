@@ -1,0 +1,37 @@
+name: 3 - Revert prices (undo an applied day)
+
+on:
+  workflow_dispatch:
+    inputs:
+      rec_date:
+        description: "Date whose applied prices should be rolled back (YYYY-MM-DD)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cedar-pricing
+  cancel-in-progress: false
+
+jobs:
+  revert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Restore previous prices
+        env:
+          HOSTAWAY_ACCOUNT_ID: ${{ secrets.HOSTAWAY_ACCOUNT_ID }}
+          HOSTAWAY_API_KEY: ${{ secrets.HOSTAWAY_API_KEY }}
+          REC_DATE: ${{ github.event.inputs.rec_date }}
+        run: python engine/revert.py
+      - name: Commit the log
+        run: |
+          git config user.name  "cedar-pricing-bot"
+          git config user.email "cedar-pricing-bot@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || (git commit -m "Reverted ${{ github.event.inputs.rec_date }}" && git pull --rebase origin main && git push)
