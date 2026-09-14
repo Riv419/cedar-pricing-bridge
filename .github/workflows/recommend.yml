@@ -35,9 +35,10 @@ jobs:
           HOSTAWAY_API_KEY: ${{ secrets.HOSTAWAY_API_KEY }}
         run: |
           echo "HOSTAWAY_ACCOUNT_ID length: ${#HOSTAWAY_ACCOUNT_ID} (expected 6 digits)"
-          echo "HOSTAWAY_API_KEY length: ${#HOSTAWAY_API_KEY} (expected 64 characters)"
+          echo "HOSTAWAY_API_KEY length: ${#HOSTAWAY_API_KEY}"
           case "$HOSTAWAY_ACCOUNT_ID" in *[!0-9]*) echo "::warning::HOSTAWAY_ACCOUNT_ID contains something other than digits - re-paste just the number";; esac
-          case "$HOSTAWAY_API_KEY" in *[!0-9a-fA-F]*) echo "::warning::HOSTAWAY_API_KEY contains characters that are not 0-9/a-f - re-paste just the 64-character key (no 'HOSTAWAY_API_KEY=', no spaces)";; esac
+          # Note: the key works fine at its current length (auth succeeds every run), so only warn if it's clearly empty or tiny.
+          if [ "${#HOSTAWAY_API_KEY}" -lt 40 ]; then echo "::warning::HOSTAWAY_API_KEY looks too short - re-paste just the key (no 'HOSTAWAY_API_KEY=', no spaces)"; fi
 
       - name: Build recommendations (reads Hostaway, never writes)
         env:
