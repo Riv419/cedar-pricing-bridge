@@ -36,10 +36,12 @@ OUT = "data/lodging/latest.json"
 # Hostaway statuses that mean "this room is taken that night".
 OCCUPYING = {"new", "modified", "ownerStay"}
 # Pretty names for Hostaway channel identifiers.
+# (keys are lowercase; lookup is case-insensitive)
 CHANNEL_NAMES = {
-    "airbnb": "Airbnb", "airbnbOfficial": "Airbnb", "bookingcom": "Booking.com",
-    "expedia": "Expedia", "vrbo": "Vrbo", "homeaway": "Vrbo", "direct": "Direct",
-    "bookingEngine": "Direct", "manual": "Direct", "ownerStay": "Owner stay",
+    "airbnb": "Airbnb", "airbnbofficial": "Airbnb", "bookingcom": "Booking.com",
+    "expedia": "Expedia", "vrbo": "Vrbo", "homeaway": "Vrbo",
+    "bookingengine": "Direct (website)", "direct": "Direct (manual)", "manual": "Direct (manual)",
+    "ownerstay": "Owner stay",
 }
 
 
@@ -47,7 +49,7 @@ def channel_label(r):
     name = (r.get("channelName") or "").strip()
     if r.get("status") == "ownerStay":
         return "Owner stay"
-    return CHANNEL_NAMES.get(name, name.title() if name else "Direct")
+    return CHANNEL_NAMES.get(name.lower(), name.title() if name else "Direct (manual)")
 
 
 def night_date(now_et):
