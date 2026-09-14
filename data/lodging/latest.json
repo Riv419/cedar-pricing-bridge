@@ -1,0 +1,160 @@
+{
+  "generated_at_et": "2026-09-14 15:15:58 EDT",
+  "property": "The Cedar (Bay View Lodging)",
+  "night": "2026-09-14",
+  "capacity": 12,
+  "revenue_basis": "occupancy basis: guest total (incl. fees & tax) \u00f7 nights; owner stays = $0",
+  "tonight": {
+    "date": "2026-09-14",
+    "dow": "Mon",
+    "occupied": 0,
+    "capacity": 12,
+    "occupancy_pct": 0,
+    "revenue": 0.0,
+    "adr": 0.0,
+    "by_channel": {}
+  },
+  "arrivals_today": [],
+  "departures_tomorrow": [],
+  "next_7_nights": [
+    {
+      "date": "2026-09-14",
+      "dow": "Mon",
+      "occupied": 0,
+      "capacity": 12,
+      "occupancy_pct": 0,
+      "revenue": 0.0,
+      "adr": 0.0,
+      "by_channel": {}
+    },
+    {
+      "date": "2026-09-15",
+      "dow": "Tue",
+      "occupied": 1,
+      "capacity": 12,
+      "occupancy_pct": 8,
+      "revenue": 148.62,
+      "adr": 148.62,
+      "by_channel": {
+        "Airbnb": {
+          "rooms": 1,
+          "revenue": 148.62
+        }
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "dow": "Wed",
+      "occupied": 0,
+      "capacity": 12,
+      "occupancy_pct": 0,
+      "revenue": 0.0,
+      "adr": 0.0,
+      "by_channel": {}
+    },
+    {
+      "date": "2026-09-17",
+      "dow": "Thu",
+      "occupied": 2,
+      "capacity": 12,
+      "occupancy_pct": 17,
+      "revenue": 286.14,
+      "adr": 143.07,
+      "by_channel": {
+        "Bookingengine": {
+          "rooms": 2,
+          "revenue": 286.14
+        }
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "dow": "Fri",
+      "occupied": 6,
+      "capacity": 12,
+      "occupancy_pct": 50,
+      "revenue": 806.31,
+      "adr": 134.38,
+      "by_channel": {
+        "Airbnb": {
+          "rooms": 1,
+          "revenue": 116.91
+        },
+        "Bookingengine": {
+          "rooms": 2,
+          "revenue": 302.4
+        },
+        "Direct": {
+          "rooms": 3,
+          "revenue": 387.0
+        }
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "dow": "Sat",
+      "occupied": 6,
+      "capacity": 12,
+      "occupancy_pct": 50,
+      "revenue": 811.94,
+      "adr": 135.32,
+      "by_channel": {
+        "Airbnb": {
+          "rooms": 1,
+          "revenue": 116.91
+        },
+        "Bookingengine": {
+          "rooms": 2,
+          "revenue": 308.03
+        },
+        "Direct": {
+          "rooms": 3,
+          "revenue": 387.0
+        }
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "dow": "Sun",
+      "occupied": 0,
+      "capacity": 12,
+      "occupancy_pct": 0,
+      "revenue": 0.0,
+      "adr": 0.0,
+      "by_channel": {}
+    }
+  ],
+  "next_7_totals": {
+    "room_nights": 15,
+    "capacity": 84,
+    "occupancy_pct": 18,
+    "revenue": 2053.01
+  },
+  "month_to_date": {
+    "month": "2026-09",
+    "through": "2026-09-14",
+    "room_nights": 55,
+    "capacity": 168,
+    "occupancy_pct": 33,
+    "revenue": 8322.94,
+    "by_channel": {
+      "Airbnb": {
+        "room_nights": 18,
+        "revenue": 2772.24
+      },
+      "Bookingengine": {
+        "room_nights": 27,
+        "revenue": 4304.73
+      },
+      "Direct": {
+        "room_nights": 4,
+        "revenue": 342.23
+      },
+      "Vrbo": {
+        "room_nights": 6,
+        "revenue": 903.74
+      }
+    }
+  },
+  "errors": []
+}
