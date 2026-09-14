@@ -1,0 +1,52 @@
+name: 4 - Pull lodging numbers (The Cedar)
+
+# Reads Hostaway (never writes) and commits data/lodging/latest.json:
+# tonight's occupancy + revenue by channel, arrivals/departures, 7-night
+# outlook, month-to-date. Ryan's nightly wrap and on-demand asks read it.
+#
+# Started mainly by the Mac mini trigger (bar-sales-bridge/mac/install.sh):
+# 12:45 AM, 7:05 AM, 12:05 PM, 5:05 PM, 9:05 PM Eastern. The schedule below
+# is only a backup — GitHub delays scheduled runs on free repos.
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "41 4 * * *"    # 12:41 AM EDT backup before the 1 AM wrap
+    - cron: "11 16 * * *"   # 12:11 PM EDT midday refresh
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cedar-lodging
+  cancel-in-progress: false
+
+jobs:
+  lodging:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Pull lodging numbers (reads Hostaway, never writes)
+        env:
+          HOSTAWAY_ACCOUNT_ID: ${{ secrets.HOSTAWAY_ACCOUNT_ID }}
+          HOSTAWAY_API_KEY: ${{ secrets.HOSTAWAY_API_KEY }}
+        run: python engine/lodging.py
+
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name  "cedar-pricing-bot"
+          git config user.email "cedar-pricing-bot@users.noreply.github.com"
+          git add data/lodging/
+          if git diff --staged --quiet; then
+            echo "No change; nothing to commit."
+          else
+            git commit -m "Lodging numbers ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git pull --rebase origin main || true
+            git push
+          fi
