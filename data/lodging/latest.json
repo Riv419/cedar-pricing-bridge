@@ -1,5 +1,5 @@
 {
-  "generated_at_et": "2026-09-14 15:15:58 EDT",
+  "generated_at_et": "2026-09-14 15:18:28 EDT",
   "property": "The Cedar (Bay View Lodging)",
   "night": "2026-09-14",
   "capacity": 12,
@@ -61,7 +61,7 @@
       "revenue": 286.14,
       "adr": 143.07,
       "by_channel": {
-        "Bookingengine": {
+        "Direct (website)": {
           "rooms": 2,
           "revenue": 286.14
         }
@@ -80,13 +80,13 @@
           "rooms": 1,
           "revenue": 116.91
         },
-        "Bookingengine": {
-          "rooms": 2,
-          "revenue": 302.4
-        },
-        "Direct": {
+        "Direct (manual)": {
           "rooms": 3,
           "revenue": 387.0
+        },
+        "Direct (website)": {
+          "rooms": 2,
+          "revenue": 302.4
         }
       }
     },
@@ -103,13 +103,13 @@
           "rooms": 1,
           "revenue": 116.91
         },
-        "Bookingengine": {
-          "rooms": 2,
-          "revenue": 308.03
-        },
-        "Direct": {
+        "Direct (manual)": {
           "rooms": 3,
           "revenue": 387.0
+        },
+        "Direct (website)": {
+          "rooms": 2,
+          "revenue": 308.03
         }
       }
     },
@@ -142,13 +142,13 @@
         "room_nights": 18,
         "revenue": 2772.24
       },
-      "Bookingengine": {
-        "room_nights": 27,
-        "revenue": 4304.73
-      },
-      "Direct": {
+      "Direct (manual)": {
         "room_nights": 4,
         "revenue": 342.23
+      },
+      "Direct (website)": {
+        "room_nights": 27,
+        "revenue": 4304.73
       },
       "Vrbo": {
         "room_nights": 6,
