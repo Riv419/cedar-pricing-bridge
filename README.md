@@ -64,3 +64,15 @@ sampled night of the same type (weekend/weekday) within 10 days is used and the 
 | `tests/make_mock.py` | Fake calendar + comps for an offline test run |
 
 Offline test: `python tests/make_mock.py && MOCK_CALENDAR=tests/mock_calendar.json COMPS_FILE=tests/mock_comps.json python engine/recommend.py`
+
+## Lodging numbers (added Sep 14, 2026)
+
+`engine/lodging.py` (workflow **4 - Pull lodging numbers**) reads Hostaway and
+commits `data/lodging/latest.json`: tonight's occupancy and revenue by channel,
+today's arrivals, tomorrow's departures, a 7-night outlook and month-to-date.
+Revenue is on an occupancy basis (guest total ÷ nights). No guest names are
+written — this repo is public. Started on time by the Mac mini trigger
+(see `bar-sales-bridge/mac/install.sh`); GitHub's schedule is only a backup.
+
+Claude tasks read it with the shell, not WebFetch:
+`git clone --depth 1 https://github.com/Riv419/cedar-pricing-bridge.git /tmp/cpb && cat /tmp/cpb/data/lodging/latest.json`
