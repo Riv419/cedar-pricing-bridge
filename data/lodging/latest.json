@@ -1,5 +1,5 @@
 {
-  "generated_at_et": "2026-09-16 05:29:28 EDT",
+  "generated_at_et": "2026-09-16 15:32:09 EDT",
   "property": "The Cedar (Bay View Lodging)",
   "night": "2026-09-16",
   "capacity": 12,
@@ -30,34 +30,30 @@
     {
       "date": "2026-09-17",
       "dow": "Thu",
-      "occupied": 2,
+      "occupied": 1,
       "capacity": 12,
-      "occupancy_pct": 17,
-      "revenue": 286.14,
-      "adr": 143.07,
+      "occupancy_pct": 8,
+      "revenue": 157.21,
+      "adr": 157.21,
       "by_channel": {
         "Direct (website)": {
-          "rooms": 2,
-          "revenue": 286.14
+          "rooms": 1,
+          "revenue": 157.21
         }
       }
     },
     {
       "date": "2026-09-18",
       "dow": "Fri",
-      "occupied": 6,
+      "occupied": 3,
       "capacity": 12,
-      "occupancy_pct": 50,
-      "revenue": 806.31,
-      "adr": 134.38,
+      "occupancy_pct": 25,
+      "revenue": 419.31,
+      "adr": 139.77,
       "by_channel": {
         "Airbnb": {
           "rooms": 1,
           "revenue": 116.91
-        },
-        "Direct (manual)": {
-          "rooms": 3,
-          "revenue": 387.0
         },
         "Direct (website)": {
           "rooms": 2,
@@ -68,19 +64,15 @@
     {
       "date": "2026-09-19",
       "dow": "Sat",
-      "occupied": 6,
+      "occupied": 3,
       "capacity": 12,
-      "occupancy_pct": 50,
-      "revenue": 811.94,
-      "adr": 135.32,
+      "occupancy_pct": 25,
+      "revenue": 424.94,
+      "adr": 141.65,
       "by_channel": {
         "Airbnb": {
           "rooms": 1,
           "revenue": 116.91
-        },
-        "Direct (manual)": {
-          "rooms": 3,
-          "revenue": 387.0
         },
         "Direct (website)": {
           "rooms": 2,
@@ -120,10 +112,10 @@
     }
   ],
   "next_7_totals": {
-    "room_nights": 14,
+    "room_nights": 7,
     "capacity": 84,
-    "occupancy_pct": 17,
-    "revenue": 1904.39
+    "occupancy_pct": 8,
+    "revenue": 1001.46
   },
   "month_to_date": {
     "month": "2026-09",
