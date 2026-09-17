@@ -5,12 +5,26 @@
   "horizon_days": 90,
 
   "floor": 109,
-  "ceiling": 249,
-  "max_daily_move": null,
+  "ceiling": 289,
+  "max_daily_move": 20,
   "min_change": 5,
   "round_to_nine": true,
 
   "comp_position": 0.90,
+
+  "auto_apply": {
+    "_comment": "Decided 9/17/26: prices go to Hostaway automatically, no morning approval. Only when the morning Chrome pass delivered a fresh competitor sample for at least min_fresh_dates nights; otherwise the day is skipped and Ryan is told. Set enabled=false to go back to reply-approve mode.",
+    "enabled": true,
+    "require_fresh_comps": true,
+    "min_fresh_dates": 5
+  },
+
+  "events": {
+    "_comment": "Events come from Claude's morning web search (workflow input events_json). impact -> multiplier. 'soft' is for known dead nights (e.g. Cedar Point closed on a weekday in November). Ignored if the events file is older than max_age_days.",
+    "file": "data/events/latest.json",
+    "max_age_days": 3,
+    "factors": {"low": 1.05, "medium": 1.12, "high": 1.25, "soft": 0.95}
+  },
 
   "rooms": [
     {"id": 488699, "room": 1,  "name": "Vinyl Lounge",        "offset": 0},
