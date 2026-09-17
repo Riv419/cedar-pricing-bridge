@@ -43,6 +43,13 @@ def weather_factor(date, days_out, wx, cfg):
     return 1.0, ""
 
 
+def event_factor(date, ev):
+    e = (ev or {}).get(date)
+    if not e:
+        return 1.0, ""
+    return e["factor"], f"{e['name']} x{e['factor']}"
+
+
 def round_price(x, cfg):
     if cfg.get("round_to_nine", True):
         return int(round(x / 10.0) * 10) - 1
@@ -57,7 +64,7 @@ def clamp(x, cfg, current=None):
     return x
 
 
-def price_night(date, today, ref, occ_rate, wx, room, cfg):
+def price_night(date, today, ref, occ_rate, wx, room, cfg, ev=None):
     """Return dict with recommended price and the reasoning chain."""
     days_out = (dt.date.fromisoformat(date) - dt.date.fromisoformat(today)).days
     steps = []
@@ -68,7 +75,10 @@ def price_night(date, today, ref, occ_rate, wx, room, cfg):
     f_wx, s = weather_factor(date, days_out, wx, cfg)
     if s:
         steps.append(s)
-    raw = base * f_occ * f_lead * f_wx
+    f_ev, s = event_factor(date, ev)
+    if s:
+        steps.append(s)
+    raw = base * f_occ * f_lead * f_wx * f_ev
     price = round_price(raw, cfg) + room.get("offset", 0)
     if room.get("offset"):
         steps.append(f"room {room['room']} +${room['offset']}")
