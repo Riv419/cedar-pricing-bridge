@@ -1,0 +1,123 @@
+{
+ "as_of": "2026-09-17",
+ "source": "claude web search",
+ "events": [
+  {
+   "date": "2026-09-18",
+   "name": "Cedar Point HalloWeekends Fri",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-09-19",
+   "name": "Cedar Point HalloWeekends Sat",
+   "impact": "high"
+  },
+  {
+   "date": "2026-09-20",
+   "name": "Cedar Point HalloWeekends Sun",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-09-25",
+   "name": "Cedar Point HalloWeekends Fri",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-09-26",
+   "name": "Cedar Point HalloWeekends Sat",
+   "impact": "high"
+  },
+  {
+   "date": "2026-09-27",
+   "name": "Cedar Point HalloWeekends Sun",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-10-02",
+   "name": "Cedar Point HalloWeekends Fri",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-10-03",
+   "name": "Cedar Point HalloWeekends Sat",
+   "impact": "high"
+  },
+  {
+   "date": "2026-10-04",
+   "name": "Cedar Point HalloWeekends Sun",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-10-09",
+   "name": "Cedar Point HalloWeekends Fri",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-10-10",
+   "name": "Cedar Point HalloWeekends Sat",
+   "impact": "high"
+  },
+  {
+   "date": "2026-10-11",
+   "name": "Cedar Point HalloWeekends Sun (Columbus Day wknd)",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-10-16",
+   "name": "Cedar Point HalloWeekends Fri",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-10-17",
+   "name": "Cedar Point HalloWeekends Sat + Sandusky Witches Walk",
+   "impact": "high"
+  },
+  {
+   "date": "2026-10-18",
+   "name": "Cedar Point HalloWeekends Sun",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-10-23",
+   "name": "Cedar Point HalloWeekends Fri",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-10-24",
+   "name": "Cedar Point HalloWeekends Sat",
+   "impact": "high"
+  },
+  {
+   "date": "2026-10-25",
+   "name": "Cedar Point HalloWeekends Sun",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-10-30",
+   "name": "Cedar Point HalloWeekends Fri",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-10-31",
+   "name": "Cedar Point HalloWeekends Sat",
+   "impact": "high"
+  },
+  {
+   "date": "2026-11-01",
+   "name": "Cedar Point HalloWeekends Sun",
+   "impact": "medium"
+  },
+  {
+   "start": "2026-10-21",
+   "end": "2026-10-22",
+   "name": "OLC Convention & Expo at Kalahari",
+   "impact": "medium"
+  },
+  {
+   "start": "2026-11-27",
+   "end": "2026-11-28",
+   "name": "Thanksgiving weekend",
+   "impact": "medium"
+  }
+ ]
+}
