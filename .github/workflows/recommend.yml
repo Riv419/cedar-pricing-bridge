@@ -7,6 +7,10 @@ on:
         description: "Competitor rates JSON from the morning Chrome pass (leave blank to use stored samples)"
         required: false
         default: ""
+      events_json:
+        description: "Events JSON from the morning web search (Cedar Point days, festivals, holidays) - leave blank to reuse the last list"
+        required: false
+        default: ""
   schedule:
     # Fallback run at 11:15 UTC (7:15 AM EDT / 6:15 AM EST). Skips itself if today's file already exists.
     - cron: "15 11 * * *"
@@ -41,13 +45,46 @@ jobs:
           if [ "${#HOSTAWAY_API_KEY}" -lt 40 ]; then echo "::warning::HOSTAWAY_API_KEY looks too short - re-paste just the key (no 'HOSTAWAY_API_KEY=', no spaces)"; fi
 
       - name: Build recommendations (reads Hostaway, never writes)
+        id: build
         env:
           HOSTAWAY_ACCOUNT_ID: ${{ secrets.HOSTAWAY_ACCOUNT_ID }}
           HOSTAWAY_API_KEY: ${{ secrets.HOSTAWAY_API_KEY }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           COMPS_JSON: ${{ github.event.inputs.comps_json }}
+          EVENTS_JSON: ${{ github.event.inputs.events_json }}
           ONLY_IF_MISSING: ${{ github.event_name == 'schedule' && '1' || '0' }}
-        run: python engine/recommend.py
+        run: |
+          python engine/recommend.py | tee /tmp/recommend.out
+          if grep -q "already exists; nothing to do" /tmp/recommend.out; then
+            echo "built=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "built=true" >> "$GITHUB_OUTPUT"
+            python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          r = json.load(open("recommendations/latest.json"))
+          g = r.get("auto_apply") or {}
+          print("auto_apply=" + ("true" if g.get("eligible") else "false"))
+          print("gate_reason=" + str(g.get("reason", "")).replace("\n", " "))
+          PY
+          fi
+
+      # Auto mode (decided 9/17/26): if today's run had a fresh competitor sample, apply the prices right away.
+      # apply.py still enforces floor/ceiling, the per-day move cap, "not twice in a day", and config.enabled.
+      - name: Apply automatically (only with a fresh competitor sample)
+        id: autoapply
+        if: steps.build.outputs.built == 'true' && steps.build.outputs.auto_apply == 'true'
+        continue-on-error: true
+        env:
+          HOSTAWAY_ACCOUNT_ID: ${{ secrets.HOSTAWAY_ACCOUNT_ID }}
+          HOSTAWAY_API_KEY: ${{ secrets.HOSTAWAY_API_KEY }}
+          REC_DATE: latest
+          APPROVAL_TEXT: "approve (automatic)"
+          DRY_RUN: "0"
+        run: python engine/apply.py
+
+      - name: Note why nothing was applied
+        if: steps.build.outputs.built == 'true' && steps.build.outputs.auto_apply != 'true'
+        run: echo "Not applied automatically - ${{ steps.build.outputs.gate_reason }}"
 
       - name: Commit results
         id: commit
@@ -66,11 +103,12 @@ jobs:
             echo "run_date=$RUN_DATE" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Open the approval issue
+      - name: Open the day's issue (audit trail; comments starting with "approve" still work)
         if: steps.commit.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           RUN_DATE: ${{ steps.commit.outputs.run_date }}
+          APPLIED: ${{ steps.autoapply.outcome }}
         run: |
           TITLE="Pricing recommendations $RUN_DATE"
           # close older open approval issues so only one is live
@@ -83,3 +121,13 @@ jobs:
           else
             gh issue create --title "$TITLE" --body-file recommendations/latest.md
           fi
+          if [ "$APPLIED" = "success" ] || [ "$APPLIED" = "failure" ]; then
+            NUM=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq '.[0].number')
+            [ -n "$NUM" ] && [ -f log/last_result.md ] && gh issue comment "$NUM" --body-file log/last_result.md
+          fi
+
+      - name: Fail the run if the automatic apply had errors
+        if: steps.autoapply.outcome == 'failure'
+        run: |
+          echo "::error::Automatic apply reported errors or verification failures - see log/ and CHANGELOG.md"
+          exit 1
