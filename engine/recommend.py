@@ -4,6 +4,7 @@ Env:
   HOSTAWAY_ACCOUNT_ID, HOSTAWAY_API_KEY   (GitHub secrets)
   COMPS_JSON     optional: competitor payload handed over by the morning Chrome pass
   COMPS_FILE     optional: same, as a file path
+  EVENTS_JSON    optional: events payload from the morning web search (see engine/events.py); saved to data/events/latest.json
   SERPAPI_KEY    optional: cloud backup (only used if config.serpapi.enabled)
   RUN_DATE       optional: YYYY-MM-DD (testing)
   MOCK_CALENDAR  optional: path to a JSON {listing_id: [day dicts]} instead of calling Hostaway (testing)
@@ -14,7 +15,7 @@ from zoneinfo import ZoneInfo
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from engine import comps as C, pricing as P, weather as W
+from engine import comps as C, pricing as P, weather as W, events as E
 from engine.summary import render_md
 
 
@@ -54,6 +55,9 @@ def main():
     else:
         notes.append("No new competitor sample today; using stored samples where still fresh.")
     store = C.save_store(store, today)
+    # how many nights did TODAY's sample actually make usable? (gate for auto-apply)
+    fresh_dates = [d for d in (done if payload else []) if d in store and
+                   len(store[d].get("comps", [])) >= cfg["comps"]["min_comps_for_valid_median"]]
 
     # 2. Hostaway calendar + occupancy
     if os.environ.get("MOCK_CALENDAR"):
@@ -79,6 +83,10 @@ def main():
     with open("data/weather/latest.json", "w") as f:
         json.dump({"as_of": today, "forecast": wx}, f, indent=1)
 
+    # 3b. events (Cedar Point days, festivals, holidays) from the morning search
+    ev, ev_notes = E.load(cfg, today)
+    notes.extend(ev_notes)
+
     # 4. price every open night
     recs, skipped_dates, unchanged = [], {}, 0
     booked_status = {"reserved", "pending", "mreserved"}
@@ -86,7 +94,8 @@ def main():
     date_info = {}
     for d in dates:
         ref, info = C.reference_for(d, today, store, cfg["comps"])
-        date_info[d] = {"ref": ref, "comp": info, "occ": occ.get(d), "wx": wx.get(d) if isinstance(wx, dict) else None}
+        date_info[d] = {"ref": ref, "comp": info, "occ": occ.get(d), "wx": wx.get(d) if isinstance(wx, dict) else None,
+                        "event": ev.get(d)}
         if ref is None:
             skipped_dates[d] = info.get("reason", "no comp data"); continue
         for room in cfg["rooms"]:
@@ -97,22 +106,39 @@ def main():
             if st in booked_status or st in blocked_status or day.get("isAvailable") == 0:
                 continue
             cur = day.get("price")
-            res = P.price_night(d, today, ref, (occ.get(d) or {}).get("rate"), wx, room, cfg)
+            res = P.price_night(d, today, ref, (occ.get(d) or {}).get("rate"), wx, room, cfg, ev)
             new = res["price"]
+            reason = res["reason"]
             if cfg.get("max_daily_move") and cur:
-                new = P.clamp(new, cfg, cur)
+                capped = P.clamp(new, cfg, cur)
+                if capped != new:
+                    reason += f" · capped to ${cfg['max_daily_move']}/day → ${capped}"
+                new = capped
             if cur is not None and abs(new - cur) < cfg["min_change"]:
                 unchanged += 1; continue
             recs.append({"date": d, "listing_id": room["id"], "room": room["room"], "name": room["name"],
                          "current": cur, "recommended": new, "delta": (new - cur) if cur is not None else None,
-                         "reason": res["reason"], "comp_ref": ref, "comp_kind": info["kind"],
+                         "reason": reason, "comp_ref": ref, "comp_kind": info["kind"],
                          "comp_sample_date": info.get("sample_date"), "occupancy": (occ.get(d) or {}).get("rate"),
                          "days_out": res["days_out"]})
+
+    # auto-apply gate: only with today's fresh competitor sample covering enough nights
+    aa = cfg.get("auto_apply") or {}
+    if not aa.get("enabled"):
+        gate = {"eligible": False, "reason": "auto-apply is off in config.json (reply-approve mode)"}
+    elif not recs:
+        gate = {"eligible": False, "reason": "nothing to change"}
+    elif aa.get("require_fresh_comps", True) and len(fresh_dates) < aa.get("min_fresh_dates", 5):
+        gate = {"eligible": False, "reason": f"no fresh competitor sample today ({len(fresh_dates)} usable nights, need {aa.get('min_fresh_dates', 5)}) — skipped, prices left as they were"}
+    else:
+        gate = {"eligible": True, "reason": f"fresh competitor sample for {len(fresh_dates)} nights"}
 
     result = {
         "generated_at_utc": dt.datetime.utcnow().isoformat() + "Z",
         "run_date": today, "horizon_days": horizon,
         "floor": cfg["floor"], "ceiling": cfg["ceiling"], "comp_position": cfg["comp_position"],
+        "max_daily_move": cfg.get("max_daily_move"),
+        "auto_apply": gate, "fresh_comp_dates": len(fresh_dates), "events_on_calendar": len(ev),
         "notes": notes,
         "counts": {"changes": len(recs), "unchanged_open_nights": unchanged, "dates_skipped_no_comps": len(skipped_dates)},
         "skipped_dates": skipped_dates,
