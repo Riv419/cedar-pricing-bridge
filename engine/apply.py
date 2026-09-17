@@ -108,8 +108,14 @@ def main():
             keep = False
         if ap["only_dates"] and r["date"] not in ap["only_dates"]:
             keep = False
-        # final safety clamp
+        # final safety clamps: floor/ceiling, then the per-day move cap against the price that was live this morning
         r["recommended"] = max(cfg["floor"], min(cfg["ceiling"], int(r["recommended"])))
+        mdm = cfg.get("max_daily_move")
+        if mdm and r.get("current") is not None:
+            r["recommended"] = int(max(r["current"] - mdm, min(r["current"] + mdm, r["recommended"])))
+            r["delta"] = r["recommended"] - r["current"]
+            if abs(r["delta"]) < cfg.get("min_change", 5):
+                keep = False
         (chosen if keep else excluded).append(r)
 
     by_listing = defaultdict(dict)
