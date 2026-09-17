@@ -34,16 +34,21 @@ Why: Hostaway warns against two pricing tools on one listing, and its engine sil
    `approval_text` = approve, **`dry_run` = true**. It writes `log/<date>-dryrun.json` and changes nothing.
 4. When you're happy with the logic, say so in chat. From then on your `approve` reply goes live.
 
-## 6. Daily use
-- Every morning Claude messages you the summary. Reply **approve**, **approve except rooms 3,5**,
-  **approve except Sep 19-20**, **approve only Sep 19**, or **skip**.
-- Or comment the same words on the GitHub issue from the GitHub app — same result.
+## 6. Daily use (auto mode since Sep 17, 2026)
+- Every morning ~6:15 AM the scheduled Cowork task runs the Chrome pass on the Mac mini, kicks off workflow 1, and
+  sends you a push notification with what changed. Prices are applied automatically (floor $109, ceiling $289,
+  max $20 move per night per day). Nothing to reply to.
+- If the competitor pass failed, the day is skipped and the notification says so. To push that day's prices anyway,
+  comment **approve** on the day's GitHub issue.
 - Undo a day: **Actions → 3 - Revert prices** → Run workflow → enter the date.
-- Pause everything: **Actions → 2 - Apply approved prices → ⋯ → Disable workflow** (or set `"enabled": false` in `config.json`).
+- Back to approve mode: edit `config.json` on GitHub → `"auto_apply": {"enabled": false}`.
+- Pause everything: set `"enabled": false` at the top of `config.json` (or disable workflow 1 in the Actions tab).
 
 ## 7. Tuning (edit `config.json` on GitHub → pencil icon → Commit)
 - `comp_position` 0.90 = 10% under the competitor median. 1.0 = match them.
-- `floor` / `ceiling` — hard limits.
+- `floor` / `ceiling` — hard limits ($109 / $289).
+- `max_daily_move` — biggest change any night can take in one day ($20).
+- `events.factors` — the event premiums (low/medium/high) and the "soft" discount for known dead nights.
 - `occupancy_factors`, `lead_time_factors`, `weather` — the multipliers, with comments inline.
 - `rooms[].offset` — per-room dollar bump (rooms 7–10 = +$10).
 - `comps.comp_set` — the competitor names. Add or remove hotels here (match is a case-insensitive "contains").
