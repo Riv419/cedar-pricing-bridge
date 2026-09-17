@@ -44,7 +44,8 @@ def render_md(res, cfg):
         rates = [v["occ"]["rate"] for k, v in di.items() if v.get("occ") and v["occ"]["rate"] is not None
                  and 0 <= (dt.date.fromisoformat(k) - dt.date.fromisoformat(d)).days < n]
         return f"{sum(rates)/len(rates):.0%}" if rates else "n/a"
-    L.append(f"Occupancy: next 7 nights **{pacing(7)}** · next 30 **{pacing(30)}** · floor ${cfg['floor']} / ceiling ${cfg['ceiling']} · target {cfg['comp_position']:.0%} of comp median")
+    cap = f" · max move ${cfg['max_daily_move']}/day" if cfg.get("max_daily_move") else ""
+    L.append(f"Occupancy: next 7 nights **{pacing(7)}** · next 30 **{pacing(30)}** · floor ${cfg['floor']} / ceiling ${cfg['ceiling']}{cap} · target {cfg['comp_position']:.0%} of comp median")
     L.append("")
     if res["status"] == "skipped":
         L.append("**SKIPPED — no usable competitor data today.** Nothing to approve.")
@@ -73,6 +74,8 @@ def render_md(res, cfg):
                 bits.append(f"Breakers Express ${segs['cedar_point']:.0f}")
             if comp.get("vr_median"):
                 bits.append(f"VR median ${comp['vr_median']:.0f}")
+            if info.get("event"):
+                bits.append(f"🎟 {info['event']['name']} ({info['event']['impact']})")
             L.append(f"**{_fmt_date(date)}** — " + " · ".join(bits))
             for line in _room_groups(by_date[date]):
                 L.append(f"- {line}")
@@ -82,5 +85,11 @@ def render_md(res, cfg):
         L.append(f"_Skipped {len(ds)} nights with no competitor data: {_fmt_date(ds[0])} … {_fmt_date(ds[-1])}_")
         L.append("")
     L.append("---")
-    L.append("Reply **approve** · **approve except rooms 3,5** · **approve except " + _fmt_date(d) + "** · **approve only " + _fmt_date(d) + "** · **skip**")
+    gate = res.get("auto_apply") or {}
+    if gate.get("eligible"):
+        L.append(f"**Applying automatically** ({gate.get('reason','')}). Undo a day: run *3 - Revert prices* with date {d}.")
+    elif (cfg.get("auto_apply") or {}).get("enabled"):
+        L.append(f"**Not applied — {gate.get('reason','')}.** To push them anyway, reply **approve** (or **approve except rooms 3,5**, **approve except {_fmt_date(d)}**).")
+    else:
+        L.append("Reply **approve** · **approve except rooms 3,5** · **approve except " + _fmt_date(d) + "** · **approve only " + _fmt_date(d) + "** · **skip**")
     return "\n".join(L) + "\n"
