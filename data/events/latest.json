@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-17",
+ "as_of": "2026-09-18",
  "source": "claude web search",
  "events": [
   {
@@ -18,6 +18,11 @@
    "impact": "medium"
   },
   {
+   "date": "2026-09-24",
+   "name": "Cedar Point HalloWeekends Thu",
+   "impact": "low"
+  },
+  {
    "date": "2026-09-25",
    "name": "Cedar Point HalloWeekends Fri",
    "impact": "medium"
@@ -31,6 +36,11 @@
    "date": "2026-09-27",
    "name": "Cedar Point HalloWeekends Sun",
    "impact": "medium"
+  },
+  {
+   "date": "2026-10-01",
+   "name": "Cedar Point HalloWeekends Thu",
+   "impact": "low"
   },
   {
    "date": "2026-10-02",
@@ -48,6 +58,11 @@
    "impact": "medium"
   },
   {
+   "date": "2026-10-08",
+   "name": "Cedar Point HalloWeekends Thu",
+   "impact": "low"
+  },
+  {
    "date": "2026-10-09",
    "name": "Cedar Point HalloWeekends Fri",
    "impact": "medium"
@@ -59,8 +74,13 @@
   },
   {
    "date": "2026-10-11",
-   "name": "Cedar Point HalloWeekends Sun (Columbus Day wknd)",
+   "name": "Cedar Point HalloWeekends Sun",
    "impact": "medium"
+  },
+  {
+   "date": "2026-10-15",
+   "name": "Cedar Point HalloWeekends Thu",
+   "impact": "low"
   },
   {
    "date": "2026-10-16",
@@ -69,13 +89,18 @@
   },
   {
    "date": "2026-10-17",
-   "name": "Cedar Point HalloWeekends Sat + Sandusky Witches Walk",
+   "name": "Cedar Point HalloWeekends Sat",
    "impact": "high"
   },
   {
    "date": "2026-10-18",
    "name": "Cedar Point HalloWeekends Sun",
    "impact": "medium"
+  },
+  {
+   "date": "2026-10-22",
+   "name": "Cedar Point HalloWeekends Thu",
+   "impact": "low"
   },
   {
    "date": "2026-10-23",
@@ -93,6 +118,11 @@
    "impact": "medium"
   },
   {
+   "date": "2026-10-29",
+   "name": "Cedar Point HalloWeekends Thu",
+   "impact": "low"
+  },
+  {
    "date": "2026-10-30",
    "name": "Cedar Point HalloWeekends Fri",
    "impact": "medium"
@@ -108,9 +138,13 @@
    "impact": "medium"
   },
   {
-   "start": "2026-10-21",
-   "end": "2026-10-22",
-   "name": "OLC Convention & Expo at Kalahari",
+   "date": "2026-10-17",
+   "name": "Sandusky Witches Walk (downtown)",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-10-11",
+   "name": "Columbus Day weekend Sun",
    "impact": "medium"
   },
   {
