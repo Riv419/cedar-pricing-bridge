@@ -1,54 +1,66 @@
 {
-  "generated_at_et": "2026-09-17 15:42:38 EDT",
+  "generated_at_et": "2026-09-18 05:10:45 EDT",
   "property": "The Cedar (Bay View Lodging)",
-  "night": "2026-09-17",
+  "night": "2026-09-18",
   "capacity": 12,
   "revenue_basis": "occupancy basis: guest total (incl. fees & tax) \u00f7 nights; owner stays = $0",
   "tonight": {
-    "date": "2026-09-17",
-    "dow": "Thu",
-    "occupied": 1,
+    "date": "2026-09-18",
+    "dow": "Fri",
+    "occupied": 3,
     "capacity": 12,
-    "occupancy_pct": 8,
-    "revenue": 157.21,
-    "adr": 157.21,
+    "occupancy_pct": 25,
+    "revenue": 450.37,
+    "adr": 150.12,
     "by_channel": {
-      "Direct (website)": {
+      "Airbnb": {
         "rooms": 1,
-        "revenue": 157.21
+        "revenue": 147.97
+      },
+      "Direct (website)": {
+        "rooms": 2,
+        "revenue": 302.4
       }
     }
   },
   "arrivals_today": [
     {
-      "room": 1,
-      "room_name": "Vinyl Lounge",
-      "channel": "Direct (website)",
-      "nights": 3,
-      "guests": 2,
-      "arrival": "2026-09-17",
+      "room": 10,
+      "room_name": "Naturalist's Cabin",
+      "channel": "Airbnb",
+      "nights": 2,
+      "guests": 4,
+      "arrival": "2026-09-18",
       "departure": "2026-09-20",
-      "total": 471.64,
-      "per_night": 157.21
+      "total": 295.93,
+      "per_night": 147.97
+    },
+    {
+      "room": 11,
+      "room_name": "Garden Room",
+      "channel": "Direct (website)",
+      "nights": 1,
+      "guests": 2,
+      "arrival": "2026-09-18",
+      "departure": "2026-09-19",
+      "total": 145.19,
+      "per_night": 145.19
     }
   ],
-  "departures_tomorrow": [],
-  "next_7_nights": [
+  "departures_tomorrow": [
     {
-      "date": "2026-09-17",
-      "dow": "Thu",
-      "occupied": 1,
-      "capacity": 12,
-      "occupancy_pct": 8,
-      "revenue": 157.21,
-      "adr": 157.21,
-      "by_channel": {
-        "Direct (website)": {
-          "rooms": 1,
-          "revenue": 157.21
-        }
-      }
-    },
+      "room": 11,
+      "room_name": "Garden Room",
+      "channel": "Direct (website)",
+      "nights": 1,
+      "guests": 2,
+      "arrival": "2026-09-18",
+      "departure": "2026-09-19",
+      "total": 145.19,
+      "per_night": 145.19
+    }
+  ],
+  "next_7_nights": [
     {
       "date": "2026-09-18",
       "dow": "Fri",
@@ -126,33 +138,43 @@
       "revenue": 0.0,
       "adr": 0.0,
       "by_channel": {}
+    },
+    {
+      "date": "2026-09-24",
+      "dow": "Thu",
+      "occupied": 0,
+      "capacity": 12,
+      "occupancy_pct": 0,
+      "revenue": 0.0,
+      "adr": 0.0,
+      "by_channel": {}
     }
   ],
   "next_7_totals": {
-    "room_nights": 9,
+    "room_nights": 8,
     "capacity": 84,
-    "occupancy_pct": 11,
-    "revenue": 1382.66
+    "occupancy_pct": 10,
+    "revenue": 1225.45
   },
   "month_to_date": {
     "month": "2026-09",
-    "through": "2026-09-17",
-    "room_nights": 57,
-    "capacity": 204,
+    "through": "2026-09-18",
+    "room_nights": 60,
+    "capacity": 216,
     "occupancy_pct": 28,
-    "revenue": 8628.77,
+    "revenue": 9079.14,
     "by_channel": {
       "Airbnb": {
-        "room_nights": 19,
-        "revenue": 2920.86
+        "room_nights": 20,
+        "revenue": 3068.83
       },
       "Direct (manual)": {
         "room_nights": 4,
         "revenue": 342.23
       },
       "Direct (website)": {
-        "room_nights": 28,
-        "revenue": 4461.94
+        "room_nights": 30,
+        "revenue": 4764.34
       },
       "Vrbo": {
         "room_nights": 6,
