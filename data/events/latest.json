@@ -1,12 +1,7 @@
 {
- "as_of": "2026-09-19",
+ "as_of": "2026-09-20",
  "source": "claude web search",
  "events": [
-  {
-   "date": "2026-09-19",
-   "name": "Cedar Point HalloWeekends Sat",
-   "impact": "high"
-  },
   {
    "date": "2026-09-20",
    "name": "Cedar Point HalloWeekends Sun",
