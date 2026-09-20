@@ -1,140 +1,22 @@
 {
-  "generated_at_et": "2026-09-19 14:35:14 EDT",
+  "generated_at_et": "2026-09-20 05:26:24 EDT",
   "property": "The Cedar (Bay View Lodging)",
-  "night": "2026-09-19",
+  "night": "2026-09-20",
   "capacity": 12,
   "revenue_basis": "occupancy basis: guest total (incl. fees & tax) \u00f7 nights; owner stays = $0",
   "tonight": {
-    "date": "2026-09-19",
-    "dow": "Sat",
-    "occupied": 5,
+    "date": "2026-09-20",
+    "dow": "Sun",
+    "occupied": 0,
     "capacity": 12,
-    "occupancy_pct": 42,
-    "revenue": 775.08,
-    "adr": 155.02,
-    "by_channel": {
-      "Airbnb": {
-        "rooms": 2,
-        "revenue": 265.59
-      },
-      "Direct (website)": {
-        "rooms": 3,
-        "revenue": 509.49
-      }
-    }
+    "occupancy_pct": 0,
+    "revenue": 0.0,
+    "adr": 0.0,
+    "by_channel": {}
   },
-  "arrivals_today": [
-    {
-      "room": 9,
-      "room_name": "Brewmaster's Room",
-      "channel": "Direct (website)",
-      "nights": 1,
-      "guests": 2,
-      "arrival": "2026-09-19",
-      "departure": "2026-09-20",
-      "total": 201.46,
-      "per_night": 201.46
-    },
-    {
-      "room": 11,
-      "room_name": "Garden Room",
-      "channel": "Direct (website)",
-      "nights": 1,
-      "guests": 2,
-      "arrival": "2026-09-19",
-      "departure": "2026-09-20",
-      "total": 150.82,
-      "per_night": 150.82
-    },
-    {
-      "room": 12,
-      "room_name": "Writer's Room",
-      "channel": "Airbnb",
-      "nights": 1,
-      "guests": 1,
-      "arrival": "2026-09-19",
-      "departure": "2026-09-20",
-      "total": 117.62,
-      "per_night": 117.62
-    }
-  ],
-  "departures_tomorrow": [
-    {
-      "room": 1,
-      "room_name": "Vinyl Lounge",
-      "channel": "Direct (website)",
-      "nights": 3,
-      "guests": 2,
-      "arrival": "2026-09-17",
-      "departure": "2026-09-20",
-      "total": 471.64,
-      "per_night": 157.21
-    },
-    {
-      "room": 9,
-      "room_name": "Brewmaster's Room",
-      "channel": "Direct (website)",
-      "nights": 1,
-      "guests": 2,
-      "arrival": "2026-09-19",
-      "departure": "2026-09-20",
-      "total": 201.46,
-      "per_night": 201.46
-    },
-    {
-      "room": 10,
-      "room_name": "Naturalist's Cabin",
-      "channel": "Airbnb",
-      "nights": 2,
-      "guests": 4,
-      "arrival": "2026-09-18",
-      "departure": "2026-09-20",
-      "total": 295.93,
-      "per_night": 147.97
-    },
-    {
-      "room": 11,
-      "room_name": "Garden Room",
-      "channel": "Direct (website)",
-      "nights": 1,
-      "guests": 2,
-      "arrival": "2026-09-19",
-      "departure": "2026-09-20",
-      "total": 150.82,
-      "per_night": 150.82
-    },
-    {
-      "room": 12,
-      "room_name": "Writer's Room",
-      "channel": "Airbnb",
-      "nights": 1,
-      "guests": 1,
-      "arrival": "2026-09-19",
-      "departure": "2026-09-20",
-      "total": 117.62,
-      "per_night": 117.62
-    }
-  ],
+  "arrivals_today": [],
+  "departures_tomorrow": [],
   "next_7_nights": [
-    {
-      "date": "2026-09-19",
-      "dow": "Sat",
-      "occupied": 5,
-      "capacity": 12,
-      "occupancy_pct": 42,
-      "revenue": 775.08,
-      "adr": 155.02,
-      "by_channel": {
-        "Airbnb": {
-          "rooms": 2,
-          "revenue": 265.59
-        },
-        "Direct (website)": {
-          "rooms": 3,
-          "revenue": 509.49
-        }
-      }
-    },
     {
       "date": "2026-09-20",
       "dow": "Sun",
@@ -199,20 +81,35 @@
           "revenue": 452.45
         }
       }
+    },
+    {
+      "date": "2026-09-26",
+      "dow": "Sat",
+      "occupied": 3,
+      "capacity": 12,
+      "occupancy_pct": 25,
+      "revenue": 508.82,
+      "adr": 169.61,
+      "by_channel": {
+        "Direct (website)": {
+          "rooms": 3,
+          "revenue": 508.82
+        }
+      }
     }
   ],
   "next_7_totals": {
-    "room_nights": 8,
+    "room_nights": 6,
     "capacity": 84,
-    "occupancy_pct": 10,
-    "revenue": 1227.53
+    "occupancy_pct": 7,
+    "revenue": 961.27
   },
   "month_to_date": {
     "month": "2026-09",
-    "through": "2026-09-19",
+    "through": "2026-09-20",
     "room_nights": 65,
-    "capacity": 228,
-    "occupancy_pct": 29,
+    "capacity": 240,
+    "occupancy_pct": 27,
     "revenue": 9854.22,
     "by_channel": {
       "Airbnb": {
