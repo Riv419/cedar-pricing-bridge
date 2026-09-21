@@ -1,39 +1,39 @@
 {
- "as_of": "2026-09-20",
+ "as_of": "2026-09-21",
  "forecast": {
-  "2026-09-20": {
-   "high": 70,
-   "rain_prob": 74,
-   "short": "Rain Showers Likely"
-  },
   "2026-09-21": {
    "high": 66,
-   "rain_prob": 28,
+   "rain_prob": 49,
    "short": "Chance Rain Showers"
   },
   "2026-09-22": {
    "high": 64,
-   "rain_prob": 63,
-   "short": "Chance Rain Showers"
+   "rain_prob": 42,
+   "short": "Slight Chance Water Spouts"
   },
   "2026-09-23": {
-   "high": 63,
-   "rain_prob": 63,
-   "short": "Rain Showers Likely"
+   "high": 62,
+   "rain_prob": 49,
+   "short": "Chance Rain Showers"
   },
   "2026-09-24": {
    "high": 64,
-   "rain_prob": 22,
-   "short": "Slight Chance Rain Showers then Partly Sunny"
-  },
-  "2026-09-25": {
-   "high": 65,
    "rain_prob": 9,
    "short": "Mostly Sunny"
   },
+  "2026-09-25": {
+   "high": 64,
+   "rain_prob": 5,
+   "short": "Mostly Sunny"
+  },
   "2026-09-26": {
-   "high": 68,
-   "rain_prob": 1,
+   "high": 66,
+   "rain_prob": 0,
+   "short": "Sunny"
+  },
+  "2026-09-27": {
+   "high": 69,
+   "rain_prob": 3,
    "short": "Mostly Sunny"
   }
  }
