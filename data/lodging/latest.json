@@ -1,12 +1,12 @@
 {
-  "generated_at_et": "2026-09-20 14:44:48 EDT",
+  "generated_at_et": "2026-09-21 06:11:27 EDT",
   "property": "The Cedar (Bay View Lodging)",
-  "night": "2026-09-20",
+  "night": "2026-09-21",
   "capacity": 12,
   "revenue_basis": "occupancy basis: guest total (incl. fees & tax) \u00f7 nights; owner stays = $0",
   "tonight": {
-    "date": "2026-09-20",
-    "dow": "Sun",
+    "date": "2026-09-21",
+    "dow": "Mon",
     "occupied": 0,
     "capacity": 12,
     "occupancy_pct": 0,
@@ -17,16 +17,6 @@
   "arrivals_today": [],
   "departures_tomorrow": [],
   "next_7_nights": [
-    {
-      "date": "2026-09-20",
-      "dow": "Sun",
-      "occupied": 0,
-      "capacity": 12,
-      "occupancy_pct": 0,
-      "revenue": 0.0,
-      "adr": 0.0,
-      "by_channel": {}
-    },
     {
       "date": "2026-09-21",
       "dow": "Mon",
@@ -96,6 +86,16 @@
           "revenue": 508.82
         }
       }
+    },
+    {
+      "date": "2026-09-27",
+      "dow": "Sun",
+      "occupied": 0,
+      "capacity": 12,
+      "occupancy_pct": 0,
+      "revenue": 0.0,
+      "adr": 0.0,
+      "by_channel": {}
     }
   ],
   "next_7_totals": {
@@ -106,10 +106,10 @@
   },
   "month_to_date": {
     "month": "2026-09",
-    "through": "2026-09-20",
+    "through": "2026-09-21",
     "room_nights": 65,
-    "capacity": 240,
-    "occupancy_pct": 27,
+    "capacity": 252,
+    "occupancy_pct": 26,
     "revenue": 9854.22,
     "by_channel": {
       "Airbnb": {
