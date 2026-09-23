@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "source": "claude web search",
  "events": [
   {
@@ -44,7 +44,7 @@
   },
   {
    "date": "2026-10-11",
-   "name": "Cedar Point HalloWeekends Sun + Columbus Day wknd (Sun before holiday)",
+   "name": "Cedar Point HalloWeekends Sun + Columbus Day wknd",
    "impact": "high"
   },
   {
@@ -54,7 +54,7 @@
   },
   {
    "date": "2026-10-17",
-   "name": "Cedar Point HalloWeekends Sat + Sandusky Witches Walk",
+   "name": "Cedar Point HalloWeekends Sat + Sandusky Witches Walk + Prodigy Dance",
    "impact": "high"
   },
   {
@@ -84,7 +84,7 @@
   },
   {
    "date": "2026-10-31",
-   "name": "Cedar Point HalloWeekends Sat",
+   "name": "Cedar Point HalloWeekends Sat (Halloween)",
    "impact": "high"
   },
   {

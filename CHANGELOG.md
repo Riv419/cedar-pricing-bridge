@@ -966,3 +966,20 @@
 - 2026-12-19 room 4: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 88d out x0.9 · = $109
 - 2026-12-19 room 5: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 88d out x0.9 · = $109
 - 2026-12-19 room 6: $129 → $109 — comp median $103 x0.9 = $93 · occ 0% x0.85 · 88d out x0.9 · = $109
+
+### 2026-09-23T10:52:52.797834Z — Applied to Hostaway (2026-09-23): 15 nights
+- 2026-09-26 room 1: $169 → $179 — comp median $172 x0.9 = $155 · occ 25% x0.93 · 3d out x1.0 · Cedar Point HalloWeekends Sat x1.25 · = $179
+- 2026-09-26 room 3: $169 → $179 — comp median $172 x0.9 = $155 · occ 25% x0.93 · 3d out x1.0 · Cedar Point HalloWeekends Sat x1.25 · = $179
+- 2026-09-26 room 4: $169 → $179 — comp median $172 x0.9 = $155 · occ 25% x0.93 · 3d out x1.0 · Cedar Point HalloWeekends Sat x1.25 · = $179
+- 2026-09-26 room 5: $169 → $179 — comp median $172 x0.9 = $155 · occ 25% x0.93 · 3d out x1.0 · Cedar Point HalloWeekends Sat x1.25 · = $179
+- 2026-09-26 room 6: $169 → $179 — comp median $172 x0.9 = $155 · occ 25% x0.93 · 3d out x1.0 · Cedar Point HalloWeekends Sat x1.25 · = $179
+- 2026-09-26 room 8: $179 → $189 — comp median $172 x0.9 = $155 · occ 25% x0.93 · 3d out x1.0 · Cedar Point HalloWeekends Sat x1.25 · room 8 +$10 · = $189
+- 2026-09-26 room 9: $179 → $189 — comp median $172 x0.9 = $155 · occ 25% x0.93 · 3d out x1.0 · Cedar Point HalloWeekends Sat x1.25 · room 9 +$10 · = $189
+- 2026-09-26 room 10: $179 → $189 — comp median $172 x0.9 = $155 · occ 25% x0.93 · 3d out x1.0 · Cedar Point HalloWeekends Sat x1.25 · room 10 +$10 · = $189
+- 2026-09-26 room 11: $169 → $179 — comp median $172 x0.9 = $155 · occ 25% x0.93 · 3d out x1.0 · Cedar Point HalloWeekends Sat x1.25 · = $179
+- 2026-10-16 room 7: $109 → $119 — comp median $132 x0.9 = $119 · occ 0% x0.85 · 23d out x1.0 · Cedar Point HalloWeekends Fri + Prodigy Dance Convention (Ka x1.12 · room 7 +$10 · = $119
+- 2026-10-16 room 8: $109 → $119 — comp median $132 x0.9 = $119 · occ 0% x0.85 · 23d out x1.0 · Cedar Point HalloWeekends Fri + Prodigy Dance Convention (Ka x1.12 · room 8 +$10 · = $119
+- 2026-10-16 room 9: $109 → $119 — comp median $132 x0.9 = $119 · occ 0% x0.85 · 23d out x1.0 · Cedar Point HalloWeekends Fri + Prodigy Dance Convention (Ka x1.12 · room 9 +$10 · = $119
+- 2026-10-23 room 7: $109 → $119 — comp median $132 x0.9 = $119 · occ 9% x0.85 · 30d out x0.95 · Cedar Point HalloWeekends Fri x1.12 · room 7 +$10 · = $119
+- 2026-10-23 room 8: $109 → $119 — comp median $132 x0.9 = $119 · occ 9% x0.85 · 30d out x0.95 · Cedar Point HalloWeekends Fri x1.12 · room 8 +$10 · = $119
+- 2026-10-23 room 9: $109 → $119 — comp median $132 x0.9 = $119 · occ 9% x0.85 · 30d out x0.95 · Cedar Point HalloWeekends Fri x1.12 · room 9 +$10 · = $119
