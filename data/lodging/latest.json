@@ -1,25 +1,53 @@
 {
-  "generated_at_et": "2026-09-25 16:00:40 EDT",
+  "generated_at_et": "2026-09-26 05:30:35 EDT",
   "property": "The Cedar (Bay View Lodging)",
-  "night": "2026-09-25",
+  "night": "2026-09-26",
   "capacity": 12,
   "revenue_basis": "occupancy basis: guest total (incl. fees & tax) \u00f7 nights; owner stays = $0",
   "tonight": {
-    "date": "2026-09-25",
-    "dow": "Fri",
-    "occupied": 3,
+    "date": "2026-09-26",
+    "dow": "Sat",
+    "occupied": 4,
     "capacity": 12,
-    "occupancy_pct": 25,
-    "revenue": 452.45,
-    "adr": 150.82,
+    "occupancy_pct": 33,
+    "revenue": 706.06,
+    "adr": 176.51,
     "by_channel": {
+      "Airbnb": {
+        "rooms": 1,
+        "revenue": 197.24
+      },
       "Direct (website)": {
         "rooms": 3,
-        "revenue": 452.45
+        "revenue": 508.82
       }
     }
   },
   "arrivals_today": [
+    {
+      "room": 7,
+      "room_name": "Captain's Room",
+      "channel": "Direct (website)",
+      "nights": 1,
+      "guests": 2,
+      "arrival": "2026-09-26",
+      "departure": "2026-09-27",
+      "total": 201.56,
+      "per_night": 201.56
+    },
+    {
+      "room": 11,
+      "room_name": "Garden Room",
+      "channel": "Airbnb",
+      "nights": 1,
+      "guests": 2,
+      "arrival": "2026-09-26",
+      "departure": "2026-09-27",
+      "total": 197.24,
+      "per_night": 197.24
+    }
+  ],
+  "departures_tomorrow": [
     {
       "room": 2,
       "room_name": "Movie Room",
@@ -32,15 +60,26 @@
       "per_night": 162.07
     },
     {
-      "room": 11,
-      "room_name": "Garden Room",
+      "room": 7,
+      "room_name": "Captain's Room",
       "channel": "Direct (website)",
       "nights": 1,
       "guests": 2,
-      "arrival": "2026-09-25",
-      "departure": "2026-09-26",
-      "total": 145.19,
-      "per_night": 145.19
+      "arrival": "2026-09-26",
+      "departure": "2026-09-27",
+      "total": 201.56,
+      "per_night": 201.56
+    },
+    {
+      "room": 11,
+      "room_name": "Garden Room",
+      "channel": "Airbnb",
+      "nights": 1,
+      "guests": 2,
+      "arrival": "2026-09-26",
+      "departure": "2026-09-27",
+      "total": 197.24,
+      "per_night": 197.24
     },
     {
       "room": 12,
@@ -54,35 +93,7 @@
       "per_night": 145.19
     }
   ],
-  "departures_tomorrow": [
-    {
-      "room": 11,
-      "room_name": "Garden Room",
-      "channel": "Direct (website)",
-      "nights": 1,
-      "guests": 2,
-      "arrival": "2026-09-25",
-      "departure": "2026-09-26",
-      "total": 145.19,
-      "per_night": 145.19
-    }
-  ],
   "next_7_nights": [
-    {
-      "date": "2026-09-25",
-      "dow": "Fri",
-      "occupied": 3,
-      "capacity": 12,
-      "occupancy_pct": 25,
-      "revenue": 452.45,
-      "adr": 150.82,
-      "by_channel": {
-        "Direct (website)": {
-          "rooms": 3,
-          "revenue": 452.45
-        }
-      }
-    },
     {
       "date": "2026-09-26",
       "dow": "Sat",
@@ -166,33 +177,52 @@
           "revenue": 120.72
         }
       }
+    },
+    {
+      "date": "2026-10-02",
+      "dow": "Fri",
+      "occupied": 3,
+      "capacity": 12,
+      "occupancy_pct": 25,
+      "revenue": 386.47,
+      "adr": 128.82,
+      "by_channel": {
+        "Airbnb": {
+          "rooms": 1,
+          "revenue": 128.47
+        },
+        "Direct (manual)": {
+          "rooms": 2,
+          "revenue": 258.0
+        }
+      }
     }
   ],
   "next_7_totals": {
     "room_nights": 10,
     "capacity": 84,
     "occupancy_pct": 12,
-    "revenue": 1522.63
+    "revenue": 1456.65
   },
   "month_to_date": {
     "month": "2026-09",
-    "through": "2026-09-25",
-    "room_nights": 68,
-    "capacity": 300,
+    "through": "2026-09-26",
+    "room_nights": 73,
+    "capacity": 312,
     "occupancy_pct": 23,
-    "revenue": 10306.67,
+    "revenue": 11191.68,
     "by_channel": {
       "Airbnb": {
-        "room_nights": 22,
-        "revenue": 3334.42
+        "room_nights": 23,
+        "revenue": 3531.66
       },
       "Direct (manual)": {
         "room_nights": 4,
         "revenue": 342.23
       },
       "Direct (website)": {
-        "room_nights": 36,
-        "revenue": 5726.28
+        "room_nights": 40,
+        "revenue": 6414.05
       },
       "Vrbo": {
         "room_nights": 6,
