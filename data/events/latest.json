@@ -1,12 +1,7 @@
 {
- "as_of": "2026-09-25",
+ "as_of": "2026-09-26",
  "source": "claude web search",
  "events": [
-  {
-   "date": "2026-09-25",
-   "name": "Cedar Point HalloWeekends Fri",
-   "impact": "medium"
-  },
   {
    "date": "2026-09-26",
    "name": "Cedar Point HalloWeekends Sat",
@@ -49,17 +44,17 @@
   },
   {
    "date": "2026-10-16",
-   "name": "Cedar Point HalloWeekends Fri + Prodigy Dance Convention (Kalahari)",
+   "name": "Cedar Point HalloWeekends Fri",
    "impact": "medium"
   },
   {
    "date": "2026-10-17",
-   "name": "Cedar Point HalloWeekends Sat + Sandusky Witches Walk + Prodigy Dance + Kalahari Spooktacular",
+   "name": "Cedar Point HalloWeekends Sat + Sandusky Witches Walk + Kalahari Spooktacular",
    "impact": "high"
   },
   {
    "date": "2026-10-18",
-   "name": "Cedar Point HalloWeekends Sun + Prodigy Dance Convention (Kalahari)",
+   "name": "Cedar Point HalloWeekends Sun",
    "impact": "medium"
   },
   {
@@ -107,6 +102,12 @@
    "end": "2026-11-28",
    "name": "Thanksgiving weekend",
    "impact": "medium"
+  },
+  {
+   "start": "2026-12-24",
+   "end": "2026-12-25",
+   "name": "Christmas Eve/Day",
+   "impact": "low"
   }
  ]
 }
