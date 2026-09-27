@@ -1,15 +1,10 @@
 {
- "as_of": "2026-09-26",
+ "as_of": "2026-09-27",
  "source": "claude web search",
  "events": [
   {
-   "date": "2026-09-26",
-   "name": "Cedar Point HalloWeekends Sat",
-   "impact": "high"
-  },
-  {
    "date": "2026-09-27",
-   "name": "Cedar Point HalloWeekends Sun",
+   "name": "Cedar Point HalloWeekends Sun + Battle for Lake Erie baseball tourney final day",
    "impact": "medium"
   },
   {
@@ -34,13 +29,13 @@
   },
   {
    "date": "2026-10-10",
-   "name": "Cedar Point HalloWeekends Sat + Columbus Day wknd + Kalahari Spooktacular",
+   "name": "Cedar Point HalloWeekends Sat (Columbus Day wknd)",
    "impact": "high"
   },
   {
    "date": "2026-10-11",
-   "name": "Cedar Point HalloWeekends Sun + Columbus Day wknd",
-   "impact": "high"
+   "name": "Cedar Point HalloWeekends Sun (Columbus Day wknd) + Fall Showdown baseball tourney",
+   "impact": "medium"
   },
   {
    "date": "2026-10-16",
@@ -49,7 +44,7 @@
   },
   {
    "date": "2026-10-17",
-   "name": "Cedar Point HalloWeekends Sat + Sandusky Witches Walk + Kalahari Spooktacular",
+   "name": "Cedar Point HalloWeekends Sat + Sandusky Witches Walk",
    "impact": "high"
   },
   {
@@ -64,7 +59,7 @@
   },
   {
    "date": "2026-10-24",
-   "name": "Cedar Point HalloWeekends Sat + Kalahari Spooktacular",
+   "name": "Cedar Point HalloWeekends Sat",
    "impact": "high"
   },
   {
@@ -79,34 +74,24 @@
   },
   {
    "date": "2026-10-31",
-   "name": "Cedar Point HalloWeekends Sat (Halloween) + Kalahari Spooktacular",
+   "name": "Cedar Point HalloWeekends Sat (Halloween)",
    "impact": "high"
   },
   {
    "date": "2026-11-01",
-   "name": "Cedar Point HalloWeekends closing day (Sun)",
+   "name": "Cedar Point HalloWeekends Sun (closing day)",
    "impact": "medium"
   },
   {
-   "date": "2026-11-25",
-   "name": "Thanksgiving eve",
-   "impact": "low"
-  },
-  {
-   "date": "2026-11-26",
-   "name": "Thanksgiving",
-   "impact": "low"
-  },
-  {
-   "start": "2026-11-27",
+   "start": "2026-11-26",
    "end": "2026-11-28",
    "name": "Thanksgiving weekend",
    "impact": "medium"
   },
   {
    "start": "2026-12-24",
-   "end": "2026-12-25",
-   "name": "Christmas Eve/Day",
+   "end": "2026-12-26",
+   "name": "Christmas",
    "impact": "low"
   }
  ]

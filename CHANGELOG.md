@@ -1187,3 +1187,20 @@
 - 2026-10-16 room 9: $129 → $119 — comp median $132 x0.9 = $119 · occ 0% x0.85 · 20d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · room 9 +$10 · = $119
 - 2026-10-16 room 11: $119 → $109 — comp median $132 x0.9 = $119 · occ 0% x0.85 · 20d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · = $109
 - 2026-10-16 room 12: $119 → $109 — comp median $132 x0.9 = $119 · occ 0% x0.85 · 20d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · = $109
+
+### 2026-09-27T10:56:45.533372Z — Applied to Hostaway (2026-09-27): 15 nights
+- 2026-10-09 room 6: $209 → $189 — comp median $144 x0.9 = $130 · occ 10% x0.85 · 12d out x1.0 · Cedar Point HalloWeekends Fri (Columbus Day wknd) x1.12 · = $119 · capped to $20/day → $189
+- 2026-10-23 room 1: $119 → $109 — comp median $132 x0.9 = $119 · occ 10% x0.85 · 26d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · = $109
+- 2026-10-23 room 2: $119 → $109 — comp median $132 x0.9 = $119 · occ 10% x0.85 · 26d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · = $109
+- 2026-10-23 room 3: $119 → $109 — comp median $132 x0.9 = $119 · occ 10% x0.85 · 26d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · = $109
+- 2026-10-23 room 5: $119 → $109 — comp median $132 x0.9 = $119 · occ 10% x0.85 · 26d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · = $109
+- 2026-10-23 room 6: $119 → $109 — comp median $132 x0.9 = $119 · occ 10% x0.85 · 26d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · = $109
+- 2026-10-23 room 7: $129 → $119 — comp median $132 x0.9 = $119 · occ 10% x0.85 · 26d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · room 7 +$10 · = $119
+- 2026-10-23 room 8: $129 → $119 — comp median $132 x0.9 = $119 · occ 10% x0.85 · 26d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · room 8 +$10 · = $119
+- 2026-10-23 room 9: $129 → $119 — comp median $132 x0.9 = $119 · occ 10% x0.85 · 26d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · room 9 +$10 · = $119
+- 2026-10-23 room 11: $119 → $109 — comp median $132 x0.9 = $119 · occ 10% x0.85 · 26d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · = $109
+- 2026-12-25 room 1: $129 → $109 — comp median $105 x0.9 = $94 · occ 0% x0.85 · 89d out x0.9 · Christmas x1.05 · = $109
+- 2026-12-25 room 2: $129 → $109 — comp median $105 x0.9 = $94 · occ 0% x0.85 · 89d out x0.9 · Christmas x1.05 · = $109
+- 2026-12-25 room 3: $129 → $109 — comp median $105 x0.9 = $94 · occ 0% x0.85 · 89d out x0.9 · Christmas x1.05 · = $109
+- 2026-12-25 room 5: $129 → $109 — comp median $105 x0.9 = $94 · occ 0% x0.85 · 89d out x0.9 · Christmas x1.05 · = $109
+- 2026-12-25 room 6: $129 → $109 — comp median $105 x0.9 = $94 · occ 0% x0.85 · 89d out x0.9 · Christmas x1.05 · = $109
