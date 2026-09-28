@@ -1204,3 +1204,11 @@
 - 2026-12-25 room 3: $129 → $109 — comp median $105 x0.9 = $94 · occ 0% x0.85 · 89d out x0.9 · Christmas x1.05 · = $109
 - 2026-12-25 room 5: $129 → $109 — comp median $105 x0.9 = $94 · occ 0% x0.85 · 89d out x0.9 · Christmas x1.05 · = $109
 - 2026-12-25 room 6: $129 → $109 — comp median $105 x0.9 = $94 · occ 0% x0.85 · 89d out x0.9 · Christmas x1.05 · = $109
+
+### 2026-09-28T10:44:59.257359Z — Applied to Hostaway (2026-09-28): 6 nights
+- 2026-10-09 room 6: $189 → $169 — comp median $144 x0.9 = $130 · occ 10% x0.85 · 11d out x1.0 · Cedar Point HalloWeekends Fri (Columbus Day wknd) x1.12 · = $119 · capped to $20/day → $169
+- 2026-12-26 room 1: $129 → $109 — comp median $102 x0.9 = $92 · occ 0% x0.85 · 89d out x0.9 · Christmas weekend x1.12 · = $109
+- 2026-12-26 room 2: $129 → $109 — comp median $102 x0.9 = $92 · occ 0% x0.85 · 89d out x0.9 · Christmas weekend x1.12 · = $109
+- 2026-12-26 room 3: $129 → $109 — comp median $102 x0.9 = $92 · occ 0% x0.85 · 89d out x0.9 · Christmas weekend x1.12 · = $109
+- 2026-12-26 room 5: $129 → $109 — comp median $102 x0.9 = $92 · occ 0% x0.85 · 89d out x0.9 · Christmas weekend x1.12 · = $109
+- 2026-12-26 room 6: $129 → $109 — comp median $102 x0.9 = $92 · occ 0% x0.85 · 89d out x0.9 · Christmas weekend x1.12 · = $109
