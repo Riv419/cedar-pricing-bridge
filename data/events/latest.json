@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-28",
+ "as_of": "2026-09-29",
  "source": "claude web search",
  "events": [
   {
@@ -24,7 +24,7 @@
   },
   {
    "date": "2026-10-10",
-   "name": "Cedar Point HalloWeekends Sat (Columbus Day wknd, Kalahari Spooktacular)",
+   "name": "Cedar Point HalloWeekends Sat (Columbus Day wknd)",
    "impact": "high"
   },
   {
@@ -54,7 +54,7 @@
   },
   {
    "date": "2026-10-24",
-   "name": "Cedar Point HalloWeekends Sat (Kalahari Spooktacular)",
+   "name": "Cedar Point HalloWeekends Sat",
    "impact": "high"
   },
   {
@@ -69,12 +69,12 @@
   },
   {
    "date": "2026-10-31",
-   "name": "Halloween + Cedar Point HalloWeekends Sat (Kalahari Spooktacular)",
+   "name": "Halloween + HalloWeekends Sat",
    "impact": "high"
   },
   {
    "date": "2026-11-01",
-   "name": "Cedar Point HalloWeekends closing Sun",
+   "name": "HalloWeekends closing Sun",
    "impact": "medium"
   },
   {
