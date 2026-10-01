@@ -119,11 +119,16 @@ jobs:
           if [ -n "$EXISTING" ]; then
             gh issue edit "$EXISTING" --body-file recommendations/latest.md
           else
-            gh issue create --title "$TITLE" --body-file recommendations/latest.md
+            URL=$(gh issue create --title "$TITLE" --body-file recommendations/latest.md)
+            echo "$URL"
+            EXISTING="${URL##*/}"
           fi
           if [ "$APPLIED" = "success" ] || [ "$APPLIED" = "failure" ]; then
-            NUM=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq '.[0].number')
-            [ -n "$NUM" ] && [ -f log/last_result.md ] && gh issue comment "$NUM" --body-file log/last_result.md
+            # Use the issue number we already have: searching right after creating an issue comes back empty,
+            # which used to make this step (and the whole run) show as failed even though prices applied fine.
+            if [ -n "$EXISTING" ] && [ -f log/last_result.md ]; then
+              gh issue comment "$EXISTING" --body-file log/last_result.md || echo "::warning::could not post the apply result on issue $EXISTING"
+            fi
           fi
 
       - name: Fail the run if the automatic apply had errors
