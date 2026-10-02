@@ -1,118 +1,4 @@
 {
- "2026-09-28": {
-  "comps": [
-   {
-    "name": "Our Guest Inn and Suites",
-    "price": 68,
-    "segment": "motel"
-   },
-   {
-    "name": "Quality Inn & Suites Sandusky",
-    "price": 75,
-    "segment": "strip"
-   },
-   {
-    "name": "Cedar Stables Inn",
-    "price": 89,
-    "segment": "motel"
-   },
-   {
-    "name": "South Shore Inn",
-    "price": 89,
-    "segment": "motel"
-   },
-   {
-    "name": "Tru by Hilton Sandusky",
-    "price": 129,
-    "segment": "strip"
-   },
-   {
-    "name": "Fairfield by Marriott Inn & Suites Sandusky",
-    "price": 134,
-    "segment": "strip"
-   },
-   {
-    "name": "Springhill Suites By Marriott Sandusky",
-    "price": 125,
-    "segment": "strip"
-   },
-   {
-    "name": "Comfort Inn Sandusky",
-    "price": 89,
-    "segment": "strip"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 139,
-    "segment": "strip"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 106,
-    "segment": "strip"
-   },
-   {
-    "name": "Sleep Inn & Suites Port Clinton",
-    "price": 84,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Best Western Plus Sandusky",
-    "price": 89,
-    "segment": "strip"
-   },
-   {
-    "name": "Sleep Inn Sandusky",
-    "price": 85,
-    "segment": "strip"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Port Clinton",
-    "price": 71,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Anchor Bay Inn",
-    "price": 109,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Hampton Inn & Suites Sandusky",
-    "price": 122,
-    "segment": "strip"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Port Clinton",
-    "price": 129,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Best Western Port Clinton",
-    "price": 80,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Fairfield by Marriott Port Clinton",
-    "price": 129,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Commodore Perry Inn",
-    "price": 98,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 80,
-    "segment": "port_clinton"
-   }
-  ],
-  "sampled_at": "2026-09-28T10:39:22Z",
-  "source": "expedia",
-  "total_listed": 21,
-  "vr_count": 0,
-  "vr_median": null
- },
  "2026-09-29": {
   "comps": [
    {
@@ -364,18 +250,8 @@
   "comps": [
    {
     "name": "Cedar Point's Express Hotel",
-    "price": 189,
+    "price": 179,
     "segment": "cedar_point"
-   },
-   {
-    "name": "South Beach Resort Hotel",
-    "price": 121,
-    "segment": "motel"
-   },
-   {
-    "name": "South Shore Inn",
-    "price": 154,
-    "segment": "motel"
    },
    {
     "name": "Comfort Inn Sandusky",
@@ -383,23 +259,68 @@
     "segment": "strip"
    },
    {
-    "name": "Anchor Bay Inn",
-    "price": 132,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Sleep Inn & Suites Port Clinton",
-    "price": 129,
-    "segment": "port_clinton"
-   },
-   {
     "name": "Quality Inn & Suites Sandusky",
     "price": 139,
     "segment": "strip"
    },
    {
+    "name": "Sleep Inn Sandusky",
+    "price": 128,
+    "segment": "strip"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Port Clinton",
+    "price": 129,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "South Shore Inn",
+    "price": 154,
+    "segment": "motel"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Sandusky",
+    "price": 149,
+    "segment": "strip"
+   },
+   {
+    "name": "Fairfield by Marriott Inn & Suites Sandusky",
+    "price": 218,
+    "segment": "strip"
+   },
+   {
+    "name": "Sleep Inn & Suites Port Clinton",
+    "price": 130,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "price": 109,
+    "segment": "port_clinton"
+   },
+   {
     "name": "Springhill Suites By Marriott Sandusky",
     "price": 179,
+    "segment": "strip"
+   },
+   {
+    "name": "Best Western Port Clinton",
+    "price": 94,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Anchor Bay Inn",
+    "price": 132,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Best Western Plus Sandusky",
+    "price": 169,
+    "segment": "strip"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Sandusky",
+    "price": 244,
     "segment": "strip"
    },
    {
@@ -408,97 +329,32 @@
     "segment": "port_clinton"
    },
    {
-    "name": "Country Inn & Suites by Radisson, Port Clinton",
-    "price": 112,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Sleep Inn Sandusky",
-    "price": 128,
-    "segment": "strip"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 149,
-    "segment": "strip"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Port Clinton",
-    "price": 149,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Fairfield by Marriott Inn & Suites Sandusky",
-    "price": 218,
-    "segment": "strip"
-   },
-   {
-    "name": "Best Western Port Clinton",
-    "price": 104,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 224,
+    "name": "Hampton Inn & Suites Sandusky",
+    "price": 179,
     "segment": "strip"
    },
    {
     "name": "Our Guest Inn and Suites",
     "price": 119,
     "segment": "motel"
-   },
-   {
-    "name": "Hampton Inn & Suites Sandusky",
-    "price": 180,
-    "segment": "strip"
-   },
-   {
-    "name": "Commodore Perry Inn",
-    "price": 122,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Best Western Plus Sandusky",
-    "price": 199,
-    "segment": "strip"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 115,
-    "segment": "port_clinton"
    }
   ],
-  "sampled_at": "2026-10-01T10:27:00Z",
+  "sampled_at": "2026-10-02T16:29:00Z",
   "source": "expedia",
-  "total_listed": 21,
+  "total_listed": 18,
   "vr_count": 0,
   "vr_median": null
  },
  "2026-10-03": {
   "comps": [
    {
-    "name": "South Beach Resort Hotel",
-    "price": 153,
-    "segment": "motel"
+    "name": "Cedar Point's Express Hotel",
+    "price": 239,
+    "segment": "cedar_point"
    },
    {
     "name": "Comfort Inn Sandusky",
     "price": 129,
-    "segment": "strip"
-   },
-   {
-    "name": "Cedar Point's Express Hotel",
-    "price": 229,
-    "segment": "cedar_point"
-   },
-   {
-    "name": "Anchor Bay Inn",
-    "price": 132,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Sleep Inn Sandusky",
-    "price": 139,
     "segment": "strip"
    },
    {
@@ -507,8 +363,18 @@
     "segment": "strip"
    },
    {
-    "name": "Tru by Hilton Sandusky",
-    "price": 219,
+    "name": "Sleep Inn Sandusky",
+    "price": 139,
+    "segment": "strip"
+   },
+   {
+    "name": "Anchor Bay Inn",
+    "price": 132,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Quality Inn & Suites Sandusky",
+    "price": 169,
     "segment": "strip"
    },
    {
@@ -522,29 +388,9 @@
     "segment": "strip"
    },
    {
-    "name": "Quality Inn & Suites Sandusky",
-    "price": 169,
-    "segment": "strip"
-   },
-   {
-    "name": "Our Guest Inn and Suites",
-    "price": 119,
-    "segment": "motel"
-   },
-   {
     "name": "South Shore Inn",
-    "price": 232,
+    "price": 210,
     "segment": "motel"
-   },
-   {
-    "name": "Sleep Inn & Suites Port Clinton",
-    "price": 169,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Port Clinton",
-    "price": 157,
-    "segment": "port_clinton"
    },
    {
     "name": "Holiday Inn Express & Suites Sandusky",
@@ -552,18 +398,28 @@
     "segment": "strip"
    },
    {
-    "name": "Best Western Port Clinton",
-    "price": 132,
+    "name": "Holiday Inn Express & Suites Port Clinton",
+    "price": 189,
     "segment": "port_clinton"
    },
    {
-    "name": "Cedar Stables Inn",
-    "price": 299,
+    "name": "Sleep Inn & Suites Port Clinton",
+    "price": 172,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "South Beach Resort Hotel",
+    "price": 153,
     "segment": "motel"
    },
    {
+    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "price": 157,
+    "segment": "port_clinton"
+   },
+   {
     "name": "Hampton Inn & Suites Sandusky",
-    "price": 215,
+    "price": 207,
     "segment": "strip"
    },
    {
@@ -572,42 +428,42 @@
     "segment": "strip"
    },
    {
+    "name": "Cedar Stables Inn",
+    "price": 299,
+    "segment": "motel"
+   },
+   {
+    "name": "Best Western Port Clinton",
+    "price": 132,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Our Guest Inn and Suites",
+    "price": 119,
+    "segment": "motel"
+   },
+   {
     "name": "Fairfield by Marriott Port Clinton",
-    "price": 249,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Port Clinton",
-    "price": 249,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Commodore Perry Inn",
-    "price": 159,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 150,
+    "price": 224,
     "segment": "port_clinton"
    }
   ],
-  "sampled_at": "2026-10-01T10:27:00Z",
+  "sampled_at": "2026-10-02T16:29:00Z",
   "source": "expedia",
-  "total_listed": 23,
+  "total_listed": 20,
   "vr_count": 0,
   "vr_median": null
  },
  "2026-10-04": {
   "comps": [
    {
-    "name": "Our Guest Inn and Suites",
-    "price": 75,
-    "segment": "motel"
-   },
-   {
     "name": "Fairfield by Marriott Inn & Suites Sandusky",
     "price": 98,
+    "segment": "strip"
+   },
+   {
+    "name": "Quality Inn & Suites Sandusky",
+    "price": 75,
     "segment": "strip"
    },
    {
@@ -616,28 +472,28 @@
     "segment": "motel"
    },
    {
-    "name": "Tru by Hilton Sandusky",
-    "price": 111,
+    "name": "Holiday Inn Express & Suites Sandusky",
+    "price": 119,
     "segment": "strip"
    },
    {
-    "name": "Quality Inn & Suites Sandusky",
-    "price": 71,
+    "name": "Tru by Hilton Sandusky",
+    "price": 119,
+    "segment": "strip"
+   },
+   {
+    "name": "La Quinta Inn by Wyndham Sandusky",
+    "price": 74,
     "segment": "strip"
    },
    {
     "name": "Sleep Inn & Suites Port Clinton",
-    "price": 72,
+    "price": 76,
     "segment": "port_clinton"
    },
    {
-    "name": "La Quinta Inn by Wyndham Sandusky",
-    "price": 69,
-    "segment": "strip"
-   },
-   {
     "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 89,
+    "price": 94,
     "segment": "strip"
    },
    {
@@ -651,28 +507,18 @@
     "segment": "strip"
    },
    {
-    "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 119,
+    "name": "Comfort Inn Sandusky",
+    "price": 99,
     "segment": "strip"
    },
    {
     "name": "Best Western Plus Sandusky",
-    "price": 75,
+    "price": 89,
     "segment": "strip"
    },
    {
-    "name": "Comfort Inn Sandusky",
-    "price": 94,
-    "segment": "strip"
-   },
-   {
-    "name": "Anchor Bay Inn",
-    "price": 97,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Hampton Inn & Suites Sandusky",
-    "price": 109,
+    "name": "Sleep Inn Sandusky",
+    "price": 89,
     "segment": "strip"
    },
    {
@@ -681,14 +527,19 @@
     "segment": "port_clinton"
    },
    {
-    "name": "Sleep Inn Sandusky",
-    "price": 85,
-    "segment": "strip"
+    "name": "Anchor Bay Inn",
+    "price": 97,
+    "segment": "port_clinton"
    },
    {
-    "name": "Fairfield by Marriott Port Clinton",
+    "name": "Holiday Inn Express & Suites Port Clinton",
     "price": 119,
     "segment": "port_clinton"
+   },
+   {
+    "name": "Hampton Inn & Suites Sandusky",
+    "price": 119,
+    "segment": "strip"
    },
    {
     "name": "Best Western Port Clinton",
@@ -696,43 +547,28 @@
     "segment": "port_clinton"
    },
    {
-    "name": "Holiday Inn Express & Suites Port Clinton",
+    "name": "Fairfield by Marriott Port Clinton",
     "price": 119,
     "segment": "port_clinton"
    },
    {
-    "name": "Commodore Perry Inn",
-    "price": 98,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 85,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "South Beach Resort Hotel",
-    "price": 116,
+    "name": "Our Guest Inn and Suites",
+    "price": 75,
     "segment": "motel"
    }
   ],
-  "sampled_at": "2026-10-01T10:27:00Z",
+  "sampled_at": "2026-10-02T16:29:00Z",
   "source": "expedia",
-  "total_listed": 23,
+  "total_listed": 20,
   "vr_count": 0,
   "vr_median": null
  },
  "2026-10-05": {
   "comps": [
    {
-    "name": "Our Guest Inn and Suites",
-    "price": 75,
-    "segment": "motel"
-   },
-   {
-    "name": "South Shore Inn",
-    "price": 89,
-    "segment": "motel"
+    "name": "Quality Inn & Suites Sandusky",
+    "price": 71,
+    "segment": "strip"
    },
    {
     "name": "Fairfield by Marriott Inn & Suites Sandusky",
@@ -740,28 +576,28 @@
     "segment": "strip"
    },
    {
-    "name": "Quality Inn & Suites Sandusky",
-    "price": 71,
+    "name": "Tru by Hilton Sandusky",
+    "price": 108,
     "segment": "strip"
    },
    {
-    "name": "Tru by Hilton Sandusky",
-    "price": 109,
+    "name": "South Shore Inn",
+    "price": 89,
+    "segment": "motel"
+   },
+   {
+    "name": "La Quinta Inn by Wyndham Sandusky",
+    "price": 68,
     "segment": "strip"
    },
    {
     "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 101,
+    "price": 119,
     "segment": "strip"
    },
    {
-    "name": "La Quinta Inn by Wyndham Sandusky",
-    "price": 67,
-    "segment": "strip"
-   },
-   {
-    "name": "Springhill Suites By Marriott Sandusky",
-    "price": 125,
+    "name": "Comfort Inn Sandusky",
+    "price": 94,
     "segment": "strip"
    },
    {
@@ -771,38 +607,18 @@
    },
    {
     "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 93,
+    "price": 95,
+    "segment": "strip"
+   },
+   {
+    "name": "Springhill Suites By Marriott Sandusky",
+    "price": 125,
     "segment": "strip"
    },
    {
     "name": "Cedar Stables Inn",
     "price": 129,
     "segment": "motel"
-   },
-   {
-    "name": "Best Western Plus Sandusky",
-    "price": 75,
-    "segment": "strip"
-   },
-   {
-    "name": "Comfort Inn Sandusky",
-    "price": 94,
-    "segment": "strip"
-   },
-   {
-    "name": "Anchor Bay Inn",
-    "price": 97,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Port Clinton",
-    "price": 93,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Port Clinton",
-    "price": 72,
-    "segment": "port_clinton"
    },
    {
     "name": "Sleep Inn Sandusky",
@@ -810,13 +626,33 @@
     "segment": "strip"
    },
    {
+    "name": "Best Western Plus Sandusky",
+    "price": 75,
+    "segment": "strip"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "price": 72,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Anchor Bay Inn",
+    "price": 97,
+    "segment": "port_clinton"
+   },
+   {
     "name": "Hampton Inn & Suites Sandusky",
     "price": 112,
     "segment": "strip"
    },
    {
+    "name": "Holiday Inn Express & Suites Port Clinton",
+    "price": 109,
+    "segment": "port_clinton"
+   },
+   {
     "name": "Best Western Port Clinton",
-    "price": 76,
+    "price": 71,
     "segment": "port_clinton"
    },
    {
@@ -825,39 +661,19 @@
     "segment": "port_clinton"
    },
    {
-    "name": "Commodore Perry Inn",
-    "price": 98,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "South Beach Resort Hotel",
-    "price": 121,
+    "name": "Our Guest Inn and Suites",
+    "price": 75,
     "segment": "motel"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 85,
-    "segment": "port_clinton"
    }
   ],
-  "sampled_at": "2026-10-01T10:27:00Z",
+  "sampled_at": "2026-10-02T16:29:00Z",
   "source": "expedia",
-  "total_listed": 23,
+  "total_listed": 20,
   "vr_count": 0,
   "vr_median": null
  },
  "2026-10-06": {
   "comps": [
-   {
-    "name": "Our Guest Inn and Suites",
-    "price": 75,
-    "segment": "motel"
-   },
-   {
-    "name": "South Shore Inn",
-    "price": 89,
-    "segment": "motel"
-   },
    {
     "name": "Quality Inn & Suites Sandusky",
     "price": 71,
@@ -866,6 +682,16 @@
    {
     "name": "Fairfield by Marriott Inn & Suites Sandusky",
     "price": 125,
+    "segment": "strip"
+   },
+   {
+    "name": "South Shore Inn",
+    "price": 89,
+    "segment": "motel"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Sandusky",
+    "price": 123,
     "segment": "strip"
    },
    {
@@ -879,24 +705,24 @@
     "segment": "strip"
    },
    {
+    "name": "Comfort Inn Sandusky",
+    "price": 94,
+    "segment": "strip"
+   },
+   {
     "name": "Cedar Stables Inn",
     "price": 124,
     "segment": "motel"
    },
    {
-    "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 123,
-    "segment": "strip"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 96,
-    "segment": "strip"
-   },
-   {
     "name": "Sleep Inn & Suites Port Clinton",
     "price": 75,
     "segment": "port_clinton"
+   },
+   {
+    "name": "Sleep Inn Sandusky",
+    "price": 81,
+    "segment": "strip"
    },
    {
     "name": "Springhill Suites By Marriott Sandusky",
@@ -909,13 +735,8 @@
     "segment": "strip"
    },
    {
-    "name": "Anchor Bay Inn",
-    "price": 97,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Comfort Inn Sandusky",
-    "price": 94,
+    "name": "Country Inn & Suites by Radisson, Sandusky",
+    "price": 98,
     "segment": "strip"
    },
    {
@@ -929,13 +750,13 @@
     "segment": "port_clinton"
    },
    {
-    "name": "Sleep Inn Sandusky",
-    "price": 81,
-    "segment": "strip"
+    "name": "Anchor Bay Inn",
+    "price": 97,
+    "segment": "port_clinton"
    },
    {
     "name": "Hampton Inn & Suites Sandusky",
-    "price": 112,
+    "price": 113,
     "segment": "strip"
    },
    {
@@ -949,39 +770,19 @@
     "segment": "port_clinton"
    },
    {
-    "name": "Commodore Perry Inn",
-    "price": 98,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 85,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "South Beach Resort Hotel",
-    "price": 116,
+    "name": "Our Guest Inn and Suites",
+    "price": 75,
     "segment": "motel"
    }
   ],
-  "sampled_at": "2026-10-01T10:27:00Z",
+  "sampled_at": "2026-10-02T16:29:00Z",
   "source": "expedia",
-  "total_listed": 23,
+  "total_listed": 20,
   "vr_count": 0,
   "vr_median": null
  },
  "2026-10-07": {
   "comps": [
-   {
-    "name": "Our Guest Inn and Suites",
-    "price": 75,
-    "segment": "motel"
-   },
-   {
-    "name": "South Shore Inn",
-    "price": 89,
-    "segment": "motel"
-   },
    {
     "name": "Quality Inn & Suites Sandusky",
     "price": 71,
@@ -993,13 +794,8 @@
     "segment": "strip"
    },
    {
-    "name": "Tru by Hilton Sandusky",
-    "price": 120,
-    "segment": "strip"
-   },
-   {
-    "name": "Cedar Stables Inn",
-    "price": 123,
+    "name": "South Shore Inn",
+    "price": 89,
     "segment": "motel"
    },
    {
@@ -1013,13 +809,28 @@
     "segment": "strip"
    },
    {
+    "name": "Tru by Hilton Sandusky",
+    "price": 118,
+    "segment": "strip"
+   },
+   {
+    "name": "Comfort Inn Sandusky",
+    "price": 94,
+    "segment": "strip"
+   },
+   {
     "name": "Sleep Inn & Suites Port Clinton",
     "price": 75,
     "segment": "port_clinton"
    },
    {
-    "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 98,
+    "name": "Cedar Stables Inn",
+    "price": 123,
+    "segment": "motel"
+   },
+   {
+    "name": "Sleep Inn Sandusky",
+    "price": 81,
     "segment": "strip"
    },
    {
@@ -1033,13 +844,8 @@
     "segment": "strip"
    },
    {
-    "name": "Anchor Bay Inn",
-    "price": 97,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Comfort Inn Sandusky",
-    "price": 94,
+    "name": "Country Inn & Suites by Radisson, Sandusky",
+    "price": 100,
     "segment": "strip"
    },
    {
@@ -1048,18 +854,18 @@
     "segment": "port_clinton"
    },
    {
-    "name": "Sleep Inn Sandusky",
-    "price": 81,
-    "segment": "strip"
-   },
-   {
     "name": "Country Inn & Suites by Radisson, Port Clinton",
     "price": 72,
     "segment": "port_clinton"
    },
    {
+    "name": "Anchor Bay Inn",
+    "price": 97,
+    "segment": "port_clinton"
+   },
+   {
     "name": "Hampton Inn & Suites Sandusky",
-    "price": 114,
+    "price": 116,
     "segment": "strip"
    },
    {
@@ -1073,24 +879,14 @@
     "segment": "port_clinton"
    },
    {
-    "name": "Commodore Perry Inn",
-    "price": 98,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 85,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "South Beach Resort Hotel",
-    "price": 121,
+    "name": "Our Guest Inn and Suites",
+    "price": 75,
     "segment": "motel"
    }
   ],
-  "sampled_at": "2026-10-01T10:27:00Z",
+  "sampled_at": "2026-10-02T16:29:00Z",
   "source": "expedia",
-  "total_listed": 23,
+  "total_listed": 20,
   "vr_count": 0,
   "vr_median": null
  },
@@ -1102,9 +898,14 @@
     "segment": "cedar_point"
    },
    {
-    "name": "South Beach Resort Hotel",
-    "price": 127,
-    "segment": "motel"
+    "name": "Fairfield by Marriott Inn & Suites Sandusky",
+    "price": 134,
+    "segment": "strip"
+   },
+   {
+    "name": "Quality Inn & Suites Sandusky",
+    "price": 85,
+    "segment": "strip"
    },
    {
     "name": "South Shore Inn",
@@ -1112,13 +913,23 @@
     "segment": "motel"
    },
    {
-    "name": "Quality Inn & Suites Sandusky",
-    "price": 80,
+    "name": "Best Western Plus Sandusky",
+    "price": 75,
     "segment": "strip"
    },
    {
-    "name": "Fairfield by Marriott Inn & Suites Sandusky",
-    "price": 134,
+    "name": "La Quinta Inn by Wyndham Sandusky",
+    "price": 74,
+    "segment": "strip"
+   },
+   {
+    "name": "Comfort Inn Sandusky",
+    "price": 94,
+    "segment": "strip"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Sandusky",
+    "price": 164,
     "segment": "strip"
    },
    {
@@ -1127,13 +938,305 @@
     "segment": "port_clinton"
    },
    {
-    "name": "La Quinta Inn by Wyndham Sandusky",
-    "price": 73,
+    "name": "Springhill Suites By Marriott Sandusky",
+    "price": 134,
     "segment": "strip"
    },
    {
     "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 96,
+    "price": 97,
+    "segment": "strip"
+   },
+   {
+    "name": "Sleep Inn Sandusky",
+    "price": 85,
+    "segment": "strip"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Port Clinton",
+    "price": 101,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Anchor Bay Inn",
+    "price": 97,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Cedar Stables Inn",
+    "price": 179,
+    "segment": "motel"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "price": 76,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Hampton Inn & Suites Sandusky",
+    "price": 116,
+    "segment": "strip"
+   },
+   {
+    "name": "Best Western Port Clinton",
+    "price": 76,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Fairfield by Marriott Port Clinton",
+    "price": 129,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Our Guest Inn and Suites",
+    "price": 75,
+    "segment": "motel"
+   }
+  ],
+  "sampled_at": "2026-10-02T16:29:00Z",
+  "source": "expedia",
+  "total_listed": 20,
+  "vr_count": 0,
+  "vr_median": null
+ },
+ "2026-10-09": {
+  "comps": [
+   {
+    "name": "Comfort Inn Sandusky",
+    "price": 127,
+    "segment": "strip"
+   },
+   {
+    "name": "Sleep Inn Sandusky",
+    "price": 116,
+    "segment": "strip"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Sandusky",
+    "price": 232,
+    "segment": "strip"
+   },
+   {
+    "name": "Quality Inn & Suites Sandusky",
+    "price": 151,
+    "segment": "strip"
+   },
+   {
+    "name": "Fairfield by Marriott Inn & Suites Sandusky",
+    "price": 238,
+    "segment": "strip"
+   },
+   {
+    "name": "Sleep Inn & Suites Port Clinton",
+    "price": 123,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Port Clinton",
+    "price": 144,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "South Shore Inn",
+    "price": 176,
+    "segment": "motel"
+   },
+   {
+    "name": "Springhill Suites By Marriott Sandusky",
+    "price": 215,
+    "segment": "strip"
+   },
+   {
+    "name": "Anchor Bay Inn",
+    "price": 132,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Best Western Plus Sandusky",
+    "price": 159,
+    "segment": "strip"
+   },
+   {
+    "name": "Tru by Hilton Sandusky",
+    "price": 237,
+    "segment": "strip"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "price": 111,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Sandusky",
+    "price": 161,
+    "segment": "strip"
+   },
+   {
+    "name": "Cedar Stables Inn",
+    "price": 239,
+    "segment": "motel"
+   },
+   {
+    "name": "La Quinta Inn by Wyndham Sandusky",
+    "price": 161,
+    "segment": "strip"
+   },
+   {
+    "name": "Best Western Port Clinton",
+    "price": 114,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Fairfield by Marriott Port Clinton",
+    "price": 189,
+    "segment": "port_clinton"
+   }
+  ],
+  "sampled_at": "2026-10-02T16:29:00Z",
+  "source": "expedia",
+  "total_listed": 18,
+  "vr_count": 0,
+  "vr_median": null
+ },
+ "2026-10-10": {
+  "comps": [
+   {
+    "name": "Cedar Point's Express Hotel",
+    "price": 259,
+    "segment": "cedar_point"
+   },
+   {
+    "name": "Comfort Inn Sandusky",
+    "price": 127,
+    "segment": "strip"
+   },
+   {
+    "name": "Quality Inn & Suites Sandusky",
+    "price": 151,
+    "segment": "strip"
+   },
+   {
+    "name": "Sleep Inn Sandusky",
+    "price": 125,
+    "segment": "strip"
+   },
+   {
+    "name": "Anchor Bay Inn",
+    "price": 132,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Sandusky",
+    "price": 271,
+    "segment": "strip"
+   },
+   {
+    "name": "South Shore Inn",
+    "price": 210,
+    "segment": "motel"
+   },
+   {
+    "name": "Fairfield by Marriott Inn & Suites Sandusky",
+    "price": 275,
+    "segment": "strip"
+   },
+   {
+    "name": "Cedar Stables Inn",
+    "price": 236,
+    "segment": "motel"
+   },
+   {
+    "name": "Sleep Inn & Suites Port Clinton",
+    "price": 147,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Port Clinton",
+    "price": 176,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Springhill Suites By Marriott Sandusky",
+    "price": 251,
+    "segment": "strip"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Sandusky",
+    "price": 170,
+    "segment": "strip"
+   },
+   {
+    "name": "Best Western Plus Sandusky",
+    "price": 159,
+    "segment": "strip"
+   },
+   {
+    "name": "La Quinta Inn by Wyndham Sandusky",
+    "price": 171,
+    "segment": "strip"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "price": 133,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Hampton Inn & Suites Sandusky",
+    "price": 205,
+    "segment": "strip"
+   },
+   {
+    "name": "Best Western Port Clinton",
+    "price": 142,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Fairfield by Marriott Port Clinton",
+    "price": 209,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Our Guest Inn and Suites",
+    "price": 119,
+    "segment": "motel"
+   },
+   {
+    "name": "South Beach Resort Hotel",
+    "price": 121,
+    "segment": "motel"
+   }
+  ],
+  "sampled_at": "2026-10-02T16:29:00Z",
+  "source": "expedia",
+  "total_listed": 21,
+  "vr_count": 0,
+  "vr_median": null
+ },
+ "2026-10-11": {
+  "comps": [
+   {
+    "name": "Fairfield by Marriott Inn & Suites Sandusky",
+    "price": 107,
+    "segment": "strip"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Sandusky",
+    "price": 115,
+    "segment": "strip"
+   },
+   {
+    "name": "Tru by Hilton Sandusky",
+    "price": 106,
+    "segment": "strip"
+   },
+   {
+    "name": "South Shore Inn",
+    "price": 89,
+    "segment": "motel"
+   },
+   {
+    "name": "Quality Inn & Suites Sandusky",
+    "price": 76,
     "segment": "strip"
    },
    {
@@ -1142,8 +1245,38 @@
     "segment": "strip"
    },
    {
+    "name": "Cedar Stables Inn",
+    "price": 123,
+    "segment": "motel"
+   },
+   {
     "name": "Springhill Suites By Marriott Sandusky",
-    "price": 134,
+    "price": 125,
+    "segment": "strip"
+   },
+   {
+    "name": "Sleep Inn & Suites Port Clinton",
+    "price": 75,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Hampton Inn & Suites Sandusky",
+    "price": 89,
+    "segment": "strip"
+   },
+   {
+    "name": "La Quinta Inn by Wyndham Sandusky",
+    "price": 74,
+    "segment": "strip"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Sandusky",
+    "price": 95,
+    "segment": "strip"
+   },
+   {
+    "name": "Sleep Inn Sandusky",
+    "price": 80,
     "segment": "strip"
    },
    {
@@ -1157,302 +1290,34 @@
     "segment": "port_clinton"
    },
    {
-    "name": "Sleep Inn Sandusky",
-    "price": 76,
-    "segment": "strip"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 164,
-    "segment": "strip"
-   },
-   {
-    "name": "Cedar Stables Inn",
-    "price": 179,
-    "segment": "motel"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Port Clinton",
-    "price": 76,
-    "segment": "port_clinton"
-   },
-   {
     "name": "Holiday Inn Express & Suites Port Clinton",
     "price": 101,
     "segment": "port_clinton"
    },
    {
-    "name": "Hampton Inn & Suites Sandusky",
-    "price": 115,
-    "segment": "strip"
+    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "price": 72,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Best Western Port Clinton",
+    "price": 76,
+    "segment": "port_clinton"
    },
    {
     "name": "Fairfield by Marriott Port Clinton",
-    "price": 116,
+    "price": 129,
     "segment": "port_clinton"
    },
    {
     "name": "Our Guest Inn and Suites",
     "price": 75,
     "segment": "motel"
-   },
-   {
-    "name": "Best Western Port Clinton",
-    "price": 76,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Commodore Perry Inn",
-    "price": 98,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 83,
-    "segment": "port_clinton"
    }
   ],
-  "sampled_at": "2026-10-01T10:27:00Z",
+  "sampled_at": "2026-10-02T16:29:00Z",
   "source": "expedia",
-  "total_listed": 23,
-  "vr_count": 0,
-  "vr_median": null
- },
- "2026-10-09": {
-  "comps": [
-   {
-    "name": "Cedar Point's Express Hotel",
-    "price": 229,
-    "segment": "cedar_point"
-   },
-   {
-    "name": "South Beach Resort Hotel",
-    "price": 116,
-    "segment": "motel"
-   },
-   {
-    "name": "Comfort Inn Sandusky",
-    "price": 127,
-    "segment": "strip"
-   },
-   {
-    "name": "Sleep Inn & Suites Port Clinton",
-    "price": 123,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Anchor Bay Inn",
-    "price": 132,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Sleep Inn Sandusky",
-    "price": 116,
-    "segment": "strip"
-   },
-   {
-    "name": "South Shore Inn",
-    "price": 176,
-    "segment": "motel"
-   },
-   {
-    "name": "Quality Inn & Suites Sandusky",
-    "price": 151,
-    "segment": "strip"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Port Clinton",
-    "price": 113,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Springhill Suites By Marriott Sandusky",
-    "price": 215,
-    "segment": "strip"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 232,
-    "segment": "strip"
-   },
-   {
-    "name": "Fairfield by Marriott Inn & Suites Sandusky",
-    "price": 238,
-    "segment": "strip"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Port Clinton",
-    "price": 161,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 161,
-    "segment": "strip"
-   },
-   {
-    "name": "Tru by Hilton Sandusky",
-    "price": 238,
-    "segment": "strip"
-   },
-   {
-    "name": "Fairfield by Marriott Port Clinton",
-    "price": 170,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Our Guest Inn and Suites",
-    "price": 119,
-    "segment": "motel"
-   },
-   {
-    "name": "Best Western Port Clinton",
-    "price": 114,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Best Western Plus Sandusky",
-    "price": 159,
-    "segment": "strip"
-   },
-   {
-    "name": "La Quinta Inn by Wyndham Sandusky",
-    "price": 165,
-    "segment": "strip"
-   },
-   {
-    "name": "Commodore Perry Inn",
-    "price": 122,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 104,
-    "segment": "port_clinton"
-   }
-  ],
-  "sampled_at": "2026-10-01T10:27:00Z",
-  "source": "expedia",
-  "total_listed": 22,
-  "vr_count": 0,
-  "vr_median": null
- },
- "2026-10-10": {
-  "comps": [
-   {
-    "name": "Cedar Point's Express Hotel",
-    "price": 249,
-    "segment": "cedar_point"
-   },
-   {
-    "name": "South Beach Resort Hotel",
-    "price": 121,
-    "segment": "motel"
-   },
-   {
-    "name": "Comfort Inn Sandusky",
-    "price": 127,
-    "segment": "strip"
-   },
-   {
-    "name": "Anchor Bay Inn",
-    "price": 132,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Quality Inn & Suites Sandusky",
-    "price": 151,
-    "segment": "strip"
-   },
-   {
-    "name": "Sleep Inn Sandusky",
-    "price": 125,
-    "segment": "strip"
-   },
-   {
-    "name": "South Shore Inn",
-    "price": 210,
-    "segment": "motel"
-   },
-   {
-    "name": "Sleep Inn & Suites Port Clinton",
-    "price": 147,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Cedar Stables Inn",
-    "price": 236,
-    "segment": "motel"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 251,
-    "segment": "strip"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Port Clinton",
-    "price": 133,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Springhill Suites By Marriott Sandusky",
-    "price": 251,
-    "segment": "strip"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 170,
-    "segment": "strip"
-   },
-   {
-    "name": "Our Guest Inn and Suites",
-    "price": 119,
-    "segment": "motel"
-   },
-   {
-    "name": "Fairfield by Marriott Inn & Suites Sandusky",
-    "price": 275,
-    "segment": "strip"
-   },
-   {
-    "name": "Best Western Plus Sandusky",
-    "price": 159,
-    "segment": "strip"
-   },
-   {
-    "name": "Fairfield by Marriott Port Clinton",
-    "price": 188,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "La Quinta Inn by Wyndham Sandusky",
-    "price": 171,
-    "segment": "strip"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Port Clinton",
-    "price": 199,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Best Western Port Clinton",
-    "price": 142,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Commodore Perry Inn",
-    "price": 159,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 131,
-    "segment": "port_clinton"
-   }
-  ],
-  "sampled_at": "2026-10-01T10:27:00Z",
-  "source": "expedia",
-  "total_listed": 22,
+  "total_listed": 20,
   "vr_count": 0,
   "vr_median": null
  },
@@ -1464,11 +1329,6 @@
     "segment": "cedar_point"
    },
    {
-    "name": "South Beach Resort Hotel",
-    "price": 121,
-    "segment": "motel"
-   },
-   {
     "name": "Comfort Inn Sandusky",
     "price": 127,
     "segment": "strip"
@@ -1479,14 +1339,9 @@
     "segment": "strip"
    },
    {
-    "name": "Anchor Bay Inn",
-    "price": 132,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Sleep Inn & Suites Port Clinton",
-    "price": 127,
-    "segment": "port_clinton"
+    "name": "Holiday Inn Express & Suites Sandusky",
+    "price": 232,
+    "segment": "strip"
    },
    {
     "name": "Sleep Inn Sandusky",
@@ -1494,24 +1349,9 @@
     "segment": "strip"
    },
    {
-    "name": "South Shore Inn",
-    "price": 199,
-    "segment": "motel"
-   },
-   {
-    "name": "La Quinta Inn by Wyndham Sandusky",
-    "price": 135,
+    "name": "Fairfield by Marriott Inn & Suites Sandusky",
+    "price": 238,
     "segment": "strip"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 232,
-    "segment": "strip"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Port Clinton",
-    "price": 118,
-    "segment": "port_clinton"
    },
    {
     "name": "Springhill Suites By Marriott Sandusky",
@@ -1519,33 +1359,23 @@
     "segment": "strip"
    },
    {
-    "name": "Fairfield by Marriott Port Clinton",
-    "price": 161,
+    "name": "Anchor Bay Inn",
+    "price": 132,
     "segment": "port_clinton"
    },
    {
-    "name": "Holiday Inn Express & Suites Port Clinton",
-    "price": 168,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Fairfield by Marriott Inn & Suites Sandusky",
-    "price": 238,
-    "segment": "strip"
-   },
-   {
-    "name": "Our Guest Inn and Suites",
-    "price": 124,
+    "name": "South Shore Inn",
+    "price": 199,
     "segment": "motel"
    },
    {
-    "name": "Best Western Port Clinton",
-    "price": 114,
+    "name": "Holiday Inn Express & Suites Port Clinton",
+    "price": 157,
     "segment": "port_clinton"
    },
    {
-    "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 190,
+    "name": "La Quinta Inn by Wyndham Sandusky",
+    "price": 135,
     "segment": "strip"
    },
    {
@@ -1554,24 +1384,44 @@
     "segment": "strip"
    },
    {
+    "name": "Sleep Inn & Suites Port Clinton",
+    "price": 137,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "price": 118,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Sandusky",
+    "price": 190,
+    "segment": "strip"
+   },
+   {
     "name": "Hampton Inn & Suites Sandusky",
     "price": 209,
     "segment": "strip"
    },
    {
-    "name": "Commodore Perry Inn",
-    "price": 122,
+    "name": "Best Western Port Clinton",
+    "price": 114,
     "segment": "port_clinton"
    },
    {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 450,
+    "name": "Fairfield by Marriott Port Clinton",
+    "price": 179,
     "segment": "port_clinton"
+   },
+   {
+    "name": "Our Guest Inn and Suites",
+    "price": 124,
+    "segment": "motel"
    }
   ],
-  "sampled_at": "2026-10-01T10:27:00Z",
+  "sampled_at": "2026-10-02T16:29:00Z",
   "source": "expedia",
-  "total_listed": 22,
+  "total_listed": 19,
   "vr_count": 0,
   "vr_median": null
  },
@@ -1583,38 +1433,8 @@
     "segment": "cedar_point"
    },
    {
-    "name": "South Beach Resort Hotel",
-    "price": 127,
-    "segment": "motel"
-   },
-   {
-    "name": "Anchor Bay Inn",
-    "price": 132,
-    "segment": "port_clinton"
-   },
-   {
     "name": "Comfort Inn Sandusky",
     "price": 144,
-    "segment": "strip"
-   },
-   {
-    "name": "South Shore Inn",
-    "price": 199,
-    "segment": "motel"
-   },
-   {
-    "name": "Sleep Inn & Suites Port Clinton",
-    "price": 132,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Cedar Stables Inn",
-    "price": 238,
-    "segment": "motel"
-   },
-   {
-    "name": "Quality Inn & Suites Sandusky",
-    "price": 152,
     "segment": "strip"
    },
    {
@@ -1623,12 +1443,32 @@
     "segment": "strip"
    },
    {
-    "name": "Our Guest Inn and Suites",
-    "price": 119,
+    "name": "Quality Inn & Suites Sandusky",
+    "price": 152,
+    "segment": "strip"
+   },
+   {
+    "name": "Anchor Bay Inn",
+    "price": 132,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "South Shore Inn",
+    "price": 199,
     "segment": "motel"
    },
    {
-    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "name": "Fairfield by Marriott Inn & Suites Sandusky",
+    "price": 265,
+    "segment": "strip"
+   },
+   {
+    "name": "Cedar Stables Inn",
+    "price": 238,
+    "segment": "motel"
+   },
+   {
+    "name": "Sleep Inn & Suites Port Clinton",
     "price": 132,
     "segment": "port_clinton"
    },
@@ -1638,8 +1478,8 @@
     "segment": "strip"
    },
    {
-    "name": "Fairfield by Marriott Port Clinton",
-    "price": 179,
+    "name": "Holiday Inn Express & Suites Port Clinton",
+    "price": 180,
     "segment": "port_clinton"
    },
    {
@@ -1648,13 +1488,8 @@
     "segment": "strip"
    },
    {
-    "name": "Fairfield by Marriott Inn & Suites Sandusky",
-    "price": 275,
-    "segment": "strip"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Port Clinton",
-    "price": 199,
+    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "price": 132,
     "segment": "port_clinton"
    },
    {
@@ -1663,29 +1498,34 @@
     "segment": "strip"
    },
    {
-    "name": "Best Western Port Clinton",
-    "price": 132,
-    "segment": "port_clinton"
-   },
-   {
     "name": "Best Western Plus Sandusky",
     "price": 201,
     "segment": "strip"
    },
    {
-    "name": "Commodore Perry Inn",
-    "price": 159,
+    "name": "Fairfield by Marriott Port Clinton",
+    "price": 199,
     "segment": "port_clinton"
    },
    {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 450,
+    "name": "Our Guest Inn and Suites",
+    "price": 119,
+    "segment": "motel"
+   },
+   {
+    "name": "Best Western Port Clinton",
+    "price": 132,
     "segment": "port_clinton"
+   },
+   {
+    "name": "South Beach Resort Hotel",
+    "price": 125,
+    "segment": "motel"
    }
   ],
-  "sampled_at": "2026-10-01T10:27:00Z",
+  "sampled_at": "2026-10-02T16:29:00Z",
   "source": "expedia",
-  "total_listed": 21,
+  "total_listed": 19,
   "vr_count": 0,
   "vr_median": null
  },
@@ -1697,14 +1537,9 @@
     "segment": "cedar_point"
    },
    {
-    "name": "South Beach Resort Hotel",
-    "price": 125,
-    "segment": "motel"
-   },
-   {
-    "name": "Sleep Inn & Suites Port Clinton",
-    "price": 95,
-    "segment": "port_clinton"
+    "name": "Comfort Inn Sandusky",
+    "price": 119,
+    "segment": "strip"
    },
    {
     "name": "Quality Inn & Suites Sandusky",
@@ -1712,8 +1547,18 @@
     "segment": "strip"
    },
    {
-    "name": "Comfort Inn Sandusky",
-    "price": 119,
+    "name": "Sleep Inn & Suites Port Clinton",
+    "price": 95,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "South Shore Inn",
+    "price": 188,
+    "segment": "motel"
+   },
+   {
+    "name": "Springhill Suites By Marriott Sandusky",
+    "price": 206,
     "segment": "strip"
    },
    {
@@ -1722,19 +1567,93 @@
     "segment": "strip"
    },
    {
+    "name": "Sleep Inn Sandusky",
+    "price": 110,
+    "segment": "strip"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Sandusky",
+    "price": 261,
+    "segment": "strip"
+   },
+   {
     "name": "Anchor Bay Inn",
     "price": 132,
     "segment": "port_clinton"
    },
    {
-    "name": "South Shore Inn",
-    "price": 176,
+    "name": "Cedar Stables Inn",
+    "price": 229,
     "segment": "motel"
    },
    {
     "name": "Country Inn & Suites by Radisson, Port Clinton",
     "price": 101,
     "segment": "port_clinton"
+   },
+   {
+    "name": "La Quinta Inn by Wyndham Sandusky",
+    "price": 152,
+    "segment": "strip"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Port Clinton",
+    "price": 180,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Sandusky",
+    "price": 179,
+    "segment": "strip"
+   },
+   {
+    "name": "Best Western Port Clinton",
+    "price": 104,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Fairfield by Marriott Port Clinton",
+    "price": 189,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "Hampton Inn & Suites Sandusky",
+    "price": 234,
+    "segment": "strip"
+   },
+   {
+    "name": "Our Guest Inn and Suites",
+    "price": 119,
+    "segment": "motel"
+   }
+  ],
+  "sampled_at": "2026-10-02T16:29:00Z",
+  "source": "expedia",
+  "total_listed": 19,
+  "vr_count": 0,
+  "vr_median": null
+ },
+ "2026-10-24": {
+  "comps": [
+   {
+    "name": "Cedar Point's Express Hotel",
+    "price": 239,
+    "segment": "cedar_point"
+   },
+   {
+    "name": "Comfort Inn Sandusky",
+    "price": 135,
+    "segment": "strip"
+   },
+   {
+    "name": "South Shore Inn",
+    "price": 165,
+    "segment": "motel"
+   },
+   {
+    "name": "Quality Inn & Suites Sandusky",
+    "price": 144,
+    "segment": "strip"
    },
    {
     "name": "Sleep Inn Sandusky",
@@ -1747,78 +1666,9 @@
     "segment": "strip"
    },
    {
-    "name": "Cedar Stables Inn",
-    "price": 229,
-    "segment": "motel"
-   },
-   {
-    "name": "Our Guest Inn and Suites",
-    "price": 119,
-    "segment": "motel"
-   },
-   {
-    "name": "Best Western Port Clinton",
-    "price": 104,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Fairfield by Marriott Port Clinton",
-    "price": 170,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "La Quinta Inn by Wyndham Sandusky",
-    "price": 152,
-    "segment": "strip"
-   },
-   {
     "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 261,
+    "price": 280,
     "segment": "strip"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 179,
-    "segment": "strip"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Port Clinton",
-    "price": 218,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Commodore Perry Inn",
-    "price": 122,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 450,
-    "segment": "port_clinton"
-   }
-  ],
-  "sampled_at": "2026-10-01T10:27:00Z",
-  "source": "expedia",
-  "total_listed": 21,
-  "vr_count": 0,
-  "vr_median": null
- },
- "2026-10-24": {
-  "comps": [
-   {
-    "name": "Cedar Point's Express Hotel",
-    "price": 239,
-    "segment": "cedar_point"
-   },
-   {
-    "name": "South Beach Resort Hotel",
-    "price": 121,
-    "segment": "motel"
-   },
-   {
-    "name": "South Shore Inn",
-    "price": 165,
-    "segment": "motel"
    },
    {
     "name": "Sleep Inn & Suites Port Clinton",
@@ -1831,34 +1681,14 @@
     "segment": "port_clinton"
    },
    {
-    "name": "Comfort Inn Sandusky",
-    "price": 135,
-    "segment": "strip"
-   },
-   {
-    "name": "Sleep Inn Sandusky",
-    "price": 110,
-    "segment": "strip"
-   },
-   {
-    "name": "Springhill Suites By Marriott Sandusky",
-    "price": 206,
-    "segment": "strip"
-   },
-   {
-    "name": "Quality Inn & Suites Sandusky",
-    "price": 144,
-    "segment": "strip"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Port Clinton",
-    "price": 116,
+    "name": "Holiday Inn Express & Suites Port Clinton",
+    "price": 180,
     "segment": "port_clinton"
    },
    {
-    "name": "Our Guest Inn and Suites",
-    "price": 119,
-    "segment": "motel"
+    "name": "Fairfield by Marriott Inn & Suites Sandusky",
+    "price": 300,
+    "segment": "strip"
    },
    {
     "name": "Best Western Plus Sandusky",
@@ -1866,19 +1696,14 @@
     "segment": "strip"
    },
    {
-    "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 280,
-    "segment": "strip"
-   },
-   {
-    "name": "Fairfield by Marriott Port Clinton",
-    "price": 188,
-    "segment": "port_clinton"
-   },
-   {
     "name": "La Quinta Inn by Wyndham Sandusky",
     "price": 169,
     "segment": "strip"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "price": 116,
+    "segment": "port_clinton"
    },
    {
     "name": "Cedar Stables Inn",
@@ -1891,9 +1716,9 @@
     "segment": "strip"
    },
    {
-    "name": "Fairfield by Marriott Inn & Suites Sandusky",
-    "price": 300,
-    "segment": "strip"
+    "name": "Our Guest Inn and Suites",
+    "price": 119,
+    "segment": "motel"
    },
    {
     "name": "Best Western Port Clinton",
@@ -1901,33 +1726,28 @@
     "segment": "port_clinton"
    },
    {
-    "name": "Holiday Inn Express & Suites Port Clinton",
-    "price": 238,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Commodore Perry Inn",
-    "price": 159,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 450,
+    "name": "Fairfield by Marriott Port Clinton",
+    "price": 239,
     "segment": "port_clinton"
    }
   ],
-  "sampled_at": "2026-10-01T10:27:00Z",
+  "sampled_at": "2026-10-02T16:29:00Z",
   "source": "expedia",
-  "total_listed": 22,
+  "total_listed": 19,
   "vr_count": 0,
   "vr_median": null
  },
  "2026-10-30": {
   "comps": [
    {
-    "name": "South Beach Resort Hotel",
-    "price": 159,
-    "segment": "motel"
+    "name": "Quality Inn & Suites Sandusky",
+    "price": 101,
+    "segment": "strip"
+   },
+   {
+    "name": "Holiday Inn Express & Suites Sandusky",
+    "price": 188,
+    "segment": "strip"
    },
    {
     "name": "South Shore Inn",
@@ -1935,23 +1755,13 @@
     "segment": "motel"
    },
    {
-    "name": "Quality Inn & Suites Sandusky",
-    "price": 101,
+    "name": "Comfort Inn Sandusky",
+    "price": 135,
     "segment": "strip"
    },
    {
     "name": "Sleep Inn & Suites Port Clinton",
     "price": 95,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Sandusky",
-    "price": 175,
-    "segment": "strip"
-   },
-   {
-    "name": "Holiday Inn Express & Suites Port Clinton",
-    "price": 123,
     "segment": "port_clinton"
    },
    {
@@ -1965,53 +1775,8 @@
     "segment": "motel"
    },
    {
-    "name": "Best Western Plus Sandusky",
-    "price": 108,
-    "segment": "strip"
-   },
-   {
-    "name": "Anchor Bay Inn",
-    "price": 132,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Comfort Inn Sandusky",
-    "price": 135,
-    "segment": "strip"
-   },
-   {
-    "name": "Tru by Hilton Sandusky",
-    "price": 192,
-    "segment": "strip"
-   },
-   {
-    "name": "Fairfield by Marriott Port Clinton",
-    "price": 134,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Port Clinton",
-    "price": 105,
-    "segment": "port_clinton"
-   },
-   {
-    "name": "Country Inn & Suites by Radisson, Sandusky",
-    "price": 152,
-    "segment": "strip"
-   },
-   {
-    "name": "Springhill Suites By Marriott Sandusky",
-    "price": 233,
-    "segment": "strip"
-   },
-   {
-    "name": "La Quinta Inn by Wyndham Sandusky",
-    "price": 135,
-    "segment": "strip"
-   },
-   {
-    "name": "Best Western Port Clinton",
-    "price": 95,
+    "name": "Holiday Inn Express & Suites Port Clinton",
+    "price": 127,
     "segment": "port_clinton"
    },
    {
@@ -2020,9 +1785,34 @@
     "segment": "strip"
    },
    {
-    "name": "Our Guest Inn and Suites",
-    "price": 119,
-    "segment": "motel"
+    "name": "Best Western Plus Sandusky",
+    "price": 108,
+    "segment": "strip"
+   },
+   {
+    "name": "Springhill Suites By Marriott Sandusky",
+    "price": 233,
+    "segment": "strip"
+   },
+   {
+    "name": "Anchor Bay Inn",
+    "price": 132,
+    "segment": "port_clinton"
+   },
+   {
+    "name": "La Quinta Inn by Wyndham Sandusky",
+    "price": 135,
+    "segment": "strip"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Sandusky",
+    "price": 152,
+    "segment": "strip"
+   },
+   {
+    "name": "Country Inn & Suites by Radisson, Port Clinton",
+    "price": 105,
+    "segment": "port_clinton"
    },
    {
     "name": "Hampton Inn & Suites Sandusky",
@@ -2030,19 +1820,29 @@
     "segment": "strip"
    },
    {
-    "name": "Commodore Perry Inn",
-    "price": 122,
+    "name": "Fairfield by Marriott Port Clinton",
+    "price": 149,
     "segment": "port_clinton"
    },
    {
-    "name": "Quality Inn Port Clinton Waterfront",
-    "price": 522,
+    "name": "South Beach Resort Hotel",
+    "price": 159,
+    "segment": "motel"
+   },
+   {
+    "name": "Best Western Port Clinton",
+    "price": 95,
     "segment": "port_clinton"
+   },
+   {
+    "name": "Our Guest Inn and Suites",
+    "price": 119,
+    "segment": "motel"
    }
   ],
-  "sampled_at": "2026-10-01T10:27:00Z",
+  "sampled_at": "2026-10-02T16:29:00Z",
   "source": "expedia",
-  "total_listed": 23,
+  "total_listed": 20,
   "vr_count": 0,
   "vr_median": null
  },
