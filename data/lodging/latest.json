@@ -1,32 +1,39 @@
 {
-  "generated_at_et": "2026-10-05 18:35:50 EDT",
+  "generated_at_et": "2026-10-06 07:29:15 EDT",
   "property": "The Cedar (Bay View Lodging)",
-  "night": "2026-10-05",
+  "night": "2026-10-06",
   "capacity": 12,
   "revenue_basis": "occupancy basis: guest total (incl. fees & tax) \u00f7 nights; owner stays = $0",
   "tonight": {
-    "date": "2026-10-05",
-    "dow": "Mon",
-    "occupied": 0,
+    "date": "2026-10-06",
+    "dow": "Tue",
+    "occupied": 1,
     "capacity": 12,
-    "occupancy_pct": 0,
-    "revenue": 0.0,
-    "adr": 0.0,
-    "by_channel": {}
+    "occupancy_pct": 8,
+    "revenue": 122.68,
+    "adr": 122.68,
+    "by_channel": {
+      "Direct (website)": {
+        "rooms": 1,
+        "revenue": 122.68
+      }
+    }
   },
-  "arrivals_today": [],
+  "arrivals_today": [
+    {
+      "room": 8,
+      "room_name": "Fisherman's Lodge",
+      "channel": "Direct (website)",
+      "nights": 2,
+      "guests": 2,
+      "arrival": "2026-10-06",
+      "departure": "2026-10-08",
+      "total": 245.36,
+      "per_night": 122.68
+    }
+  ],
   "departures_tomorrow": [],
   "next_7_nights": [
-    {
-      "date": "2026-10-05",
-      "dow": "Mon",
-      "occupied": 0,
-      "capacity": 12,
-      "occupancy_pct": 0,
-      "revenue": 0.0,
-      "adr": 0.0,
-      "by_channel": {}
-    },
     {
       "date": "2026-10-06",
       "dow": "Tue",
@@ -114,6 +121,16 @@
       "revenue": 0.0,
       "adr": 0.0,
       "by_channel": {}
+    },
+    {
+      "date": "2026-10-12",
+      "dow": "Mon",
+      "occupied": 0,
+      "capacity": 12,
+      "occupancy_pct": 0,
+      "revenue": 0.0,
+      "adr": 0.0,
+      "by_channel": {}
     }
   ],
   "next_7_totals": {
@@ -124,19 +141,19 @@
   },
   "month_to_date": {
     "month": "2026-10",
-    "through": "2026-10-05",
-    "room_nights": 8,
-    "capacity": 60,
-    "occupancy_pct": 13,
-    "revenue": 1268.01,
+    "through": "2026-10-06",
+    "room_nights": 9,
+    "capacity": 72,
+    "occupancy_pct": 12,
+    "revenue": 1390.69,
     "by_channel": {
       "Airbnb": {
         "room_nights": 4,
         "revenue": 585.97
       },
       "Direct (website)": {
-        "room_nights": 4,
-        "revenue": 682.04
+        "room_nights": 5,
+        "revenue": 804.72
       }
     }
   },
