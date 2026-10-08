@@ -1573,3 +1573,19 @@
 - 2027-01-02 room 3: $129 → $109 — comp median $83 x0.9 = $75 · occ 0% x0.85 · 87d out x0.9 · = $109
 - 2027-01-02 room 5: $129 → $109 — comp median $83 x0.9 = $75 · occ 0% x0.85 · 87d out x0.9 · = $109
 - 2027-01-02 room 6: $129 → $109 — comp median $83 x0.9 = $75 · occ 0% x0.85 · 87d out x0.9 · = $109
+
+### 2026-10-08T10:27:40.351958Z — Applied to Hostaway (2026-10-08): 14 nights
+- 2026-10-09 room 1: $129 → $119 — comp median $159 x0.9 = $143 · occ 22% x0.85 · 1d out, house empty x0.9 · Cedar Point HalloWeekends Fri (Columbus Day wknd) x1.12 · = $119
+- 2026-10-09 room 2: $129 → $119 — comp median $159 x0.9 = $143 · occ 22% x0.85 · 1d out, house empty x0.9 · Cedar Point HalloWeekends Fri (Columbus Day wknd) x1.12 · = $119
+- 2026-10-09 room 3: $129 → $119 — comp median $159 x0.9 = $143 · occ 22% x0.85 · 1d out, house empty x0.9 · Cedar Point HalloWeekends Fri (Columbus Day wknd) x1.12 · = $119
+- 2026-10-09 room 5: $129 → $119 — comp median $159 x0.9 = $143 · occ 22% x0.85 · 1d out, house empty x0.9 · Cedar Point HalloWeekends Fri (Columbus Day wknd) x1.12 · = $119
+- 2026-10-09 room 6: $129 → $119 — comp median $159 x0.9 = $143 · occ 22% x0.85 · 1d out, house empty x0.9 · Cedar Point HalloWeekends Fri (Columbus Day wknd) x1.12 · = $119
+- 2026-10-09 room 8: $139 → $129 — comp median $159 x0.9 = $143 · occ 22% x0.85 · 1d out, house empty x0.9 · Cedar Point HalloWeekends Fri (Columbus Day wknd) x1.12 · room 8 +$10 · = $129
+- 2026-10-09 room 9: $139 → $129 — comp median $159 x0.9 = $143 · occ 22% x0.85 · 1d out, house empty x0.9 · Cedar Point HalloWeekends Fri (Columbus Day wknd) x1.12 · room 9 +$10 · = $129
+- 2026-10-10 room 1: $179 → $169 — comp median $168 x0.9 = $151 · occ 30% x0.93 · 2d out, house empty x0.9 · nice Sat 77° x1.05 · Cedar Point HalloWeekends Sat (Columbus Day wknd) x1.25 · = $169
+- 2026-10-10 room 2: $179 → $169 — comp median $168 x0.9 = $151 · occ 30% x0.93 · 2d out, house empty x0.9 · nice Sat 77° x1.05 · Cedar Point HalloWeekends Sat (Columbus Day wknd) x1.25 · = $169
+- 2026-10-10 room 3: $179 → $169 — comp median $168 x0.9 = $151 · occ 30% x0.93 · 2d out, house empty x0.9 · nice Sat 77° x1.05 · Cedar Point HalloWeekends Sat (Columbus Day wknd) x1.25 · = $169
+- 2026-10-10 room 5: $179 → $169 — comp median $168 x0.9 = $151 · occ 30% x0.93 · 2d out, house empty x0.9 · nice Sat 77° x1.05 · Cedar Point HalloWeekends Sat (Columbus Day wknd) x1.25 · = $169
+- 2026-10-10 room 6: $179 → $169 — comp median $168 x0.9 = $151 · occ 30% x0.93 · 2d out, house empty x0.9 · nice Sat 77° x1.05 · Cedar Point HalloWeekends Sat (Columbus Day wknd) x1.25 · = $169
+- 2026-10-10 room 7: $189 → $179 — comp median $168 x0.9 = $151 · occ 30% x0.93 · 2d out, house empty x0.9 · nice Sat 77° x1.05 · Cedar Point HalloWeekends Sat (Columbus Day wknd) x1.25 · room 7 +$10 · = $179
+- 2026-10-10 room 8: $189 → $179 — comp median $168 x0.9 = $151 · occ 30% x0.93 · 2d out, house empty x0.9 · nice Sat 77° x1.05 · Cedar Point HalloWeekends Sat (Columbus Day wknd) x1.25 · room 8 +$10 · = $179
