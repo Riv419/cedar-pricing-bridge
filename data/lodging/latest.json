@@ -1,77 +1,77 @@
 {
-  "generated_at_et": "2026-10-08 17:17:00 EDT",
+  "generated_at_et": "2026-10-09 07:29:41 EDT",
   "property": "The Cedar (Bay View Lodging)",
-  "night": "2026-10-08",
+  "night": "2026-10-09",
   "capacity": 12,
   "revenue_basis": "occupancy basis: guest total (incl. fees & tax) \u00f7 nights; owner stays = $0",
   "tonight": {
-    "date": "2026-10-08",
-    "dow": "Thu",
+    "date": "2026-10-09",
+    "dow": "Fri",
     "occupied": 2,
     "capacity": 12,
     "occupancy_pct": 17,
-    "revenue": 230.35,
-    "adr": 115.18,
+    "revenue": 240.53,
+    "adr": 120.26,
     "by_channel": {
+      "Airbnb": {
+        "rooms": 1,
+        "revenue": 109.86
+      },
       "Direct (website)": {
-        "rooms": 2,
-        "revenue": 230.35
+        "rooms": 1,
+        "revenue": 130.67
       }
     }
   },
   "arrivals_today": [
     {
-      "room": 3,
-      "room_name": "Stargazer's Retreat",
+      "room": 7,
+      "room_name": "Captain's Room",
       "channel": "Direct (website)",
       "nights": 1,
-      "guests": 1,
-      "arrival": "2026-10-08",
-      "departure": "2026-10-09",
-      "total": 122.68,
-      "per_night": 122.68
+      "guests": 2,
+      "arrival": "2026-10-09",
+      "departure": "2026-10-10",
+      "total": 130.67,
+      "per_night": 130.67
+    },
+    {
+      "room": 12,
+      "room_name": "Writer's Room",
+      "channel": "Airbnb",
+      "nights": 1,
+      "guests": 2,
+      "arrival": "2026-10-09",
+      "departure": "2026-10-10",
+      "total": 109.86,
+      "per_night": 109.86
     }
   ],
   "departures_tomorrow": [
     {
-      "room": 3,
-      "room_name": "Stargazer's Retreat",
+      "room": 7,
+      "room_name": "Captain's Room",
       "channel": "Direct (website)",
       "nights": 1,
-      "guests": 1,
-      "arrival": "2026-10-08",
-      "departure": "2026-10-09",
-      "total": 122.68,
-      "per_night": 122.68
+      "guests": 2,
+      "arrival": "2026-10-09",
+      "departure": "2026-10-10",
+      "total": 130.67,
+      "per_night": 130.67
     },
     {
-      "room": 8,
-      "room_name": "Fisherman's Lodge",
-      "channel": "Direct (website)",
-      "nights": 3,
+      "room": 12,
+      "room_name": "Writer's Room",
+      "channel": "Airbnb",
+      "nights": 1,
       "guests": 2,
-      "arrival": "2026-10-06",
-      "departure": "2026-10-09",
-      "total": 323.02,
-      "per_night": 107.67
+      "arrival": "2026-10-09",
+      "departure": "2026-10-10",
+      "total": 109.86,
+      "per_night": 109.86
     }
   ],
   "next_7_nights": [
-    {
-      "date": "2026-10-08",
-      "dow": "Thu",
-      "occupied": 2,
-      "capacity": 12,
-      "occupancy_pct": 17,
-      "revenue": 230.35,
-      "adr": 115.18,
-      "by_channel": {
-        "Direct (website)": {
-          "rooms": 2,
-          "revenue": 230.35
-        }
-      }
-    },
     {
       "date": "2026-10-09",
       "dow": "Fri",
@@ -149,29 +149,39 @@
       "revenue": 0.0,
       "adr": 0.0,
       "by_channel": {}
+    },
+    {
+      "date": "2026-10-15",
+      "dow": "Thu",
+      "occupied": 0,
+      "capacity": 12,
+      "occupancy_pct": 0,
+      "revenue": 0.0,
+      "adr": 0.0,
+      "by_channel": {}
     }
   ],
   "next_7_totals": {
-    "room_nights": 7,
+    "room_nights": 5,
     "capacity": 84,
-    "occupancy_pct": 8,
-    "revenue": 996.48
+    "occupancy_pct": 6,
+    "revenue": 766.13
   },
   "month_to_date": {
     "month": "2026-10",
-    "through": "2026-10-08",
-    "room_nights": 12,
-    "capacity": 96,
-    "occupancy_pct": 12,
-    "revenue": 1713.7,
+    "through": "2026-10-09",
+    "room_nights": 14,
+    "capacity": 108,
+    "occupancy_pct": 13,
+    "revenue": 1954.23,
     "by_channel": {
       "Airbnb": {
-        "room_nights": 4,
-        "revenue": 585.97
+        "room_nights": 5,
+        "revenue": 695.83
       },
       "Direct (website)": {
-        "room_nights": 8,
-        "revenue": 1127.73
+        "room_nights": 9,
+        "revenue": 1258.4
       }
     }
   },
