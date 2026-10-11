@@ -1,27 +1,31 @@
-# Cedar pricing — Sat Oct 10, 2026
+# Cedar pricing — Sun Oct 11, 2026
 
-_Ingested 16 sampled dates from expedia._
-_Events: 13 from today's search._
-Occupancy: next 7 nights **7%** · next 30 **7%** · floor $109 / ceiling $289 · max move $20/day · target 90% of comp median
+_No new competitor sample today; using stored samples where still fresh._
+_Events: using the list from 2026-10-10 (no new search today)._
+Occupancy: next 7 nights **14%** · next 30 **15%** · floor $109 / ceiling $289 · max move $20/day · target 90% of comp median
 
-## 36 price changes across 4 nights
+## 29 price changes across 5 nights
 
-**Fri Oct 16** — comp $169 · occ 10% (1/10) · Chance Rain Showers 64°, rain 39% · Breakers Express $249 · 🎟 Cedar Point HalloWeekends Fri (medium)
-- Rooms 1-3, 5-6, 11-12: $129 → **$139** ▲
-- Rooms 7-8: $139 → **$149** ▲
+**Fri Oct 23** — comp $152 · occ 30% (3/10) · Breakers Express $239 · 🎟 Cedar Point HalloWeekends Fri (medium)
+- Rooms 1-3, 5-6: $129 → **$139** ▲
+- Rooms 8-9: $139 → **$149** ▲
 
-**Sat Oct 17** — comp $186 · occ 10% (1/10) · Breakers Express $249 · 🎟 Sandusky Witches Walk + HalloWeekends Sat (high)
-- Rooms 1-3, 5-6, 11: $169 → **$179** ▲
-- Rooms 7-9: $179 → **$189** ▲
+**Sat Oct 24** — comp $175 · occ 30% (3/10) · Breakers Express $239 · 🎟 Cedar Point HalloWeekends Sat (high)
+- Rooms 1-3, 5-6: $169 → **$179** ▲
+- Rooms 8-9: $179 → **$189** ▲
 
-**Sat Oct 24** — comp $175 · occ 20% (2/10) · Breakers Express $239 · 🎟 Cedar Point HalloWeekends Sat (high)
-- Rooms 1-3, 5-6, 11: $159 → **$169** ▲
-- Rooms 8-9: $169 → **$179** ▲
+**Fri Oct 30** — comp $132 · occ 30% (3/10) · 🎟 Cedar Point HalloWeekends Fri (medium)
+- Rooms 1-3, 5-6: $109 → **$119** ▲
+- Rooms 7-8: $119 → **$129** ▲
 
-**Thu Oct 29** — comp $93 (est.) · occ 0% (0/10)
-- Rooms 1-3, 5-9, 11-12: $129 → **$109** ▼
+**Sat Oct 31** — comp $143 · occ 30% (3/10) · 🎟 Halloween + HalloWeekends Sat (high)
+- Rooms 1-3, 5-6: $139 → **$149** ▲
+- Rooms 7-8: $149 → **$159** ▲
 
-_Skipped 50 nights with no competitor data: Sun Nov 1 … Thu Jan 7_
+**Sat Nov 7** — comp $128 · occ 30% (3/10)
+- Room 9: $109 → **$119** ▲
+
+_Skipped 51 nights with no competitor data: Sun Nov 1 … Fri Jan 8_
 
 ---
-**Applying automatically** (fresh competitor sample for 16 nights). Undo a day: run *3 - Revert prices* with date 2026-10-10.
+**Not applied — no fresh competitor sample today (0 usable nights, need 5) — skipped, prices left as they were.** To push them anyway, reply **approve** (or **approve except rooms 3,5**, **approve except Sun Oct 11**).
