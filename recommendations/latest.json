@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-11T16:38:53.432595Z",
- "run_date": "2026-10-11",
+ "generated_at_utc": "2026-10-12T20:17:43.826573Z",
+ "run_date": "2026-10-12",
  "horizon_days": 90,
  "floor": 109,
  "ceiling": 289,
@@ -17,9 +17,9 @@
   "Events: using the list from 2026-10-10 (no new search today)."
  ],
  "counts": {
-  "changes": 29,
-  "unchanged_open_nights": 321,
-  "dates_skipped_no_comps": 51
+  "changes": 36,
+  "unchanged_open_nights": 263,
+  "dates_skipped_no_comps": 52
  },
  "skipped_dates": {
   "2026-11-01": "no fresh competitor sample within window",
@@ -72,40 +72,10 @@
   "2027-01-05": "no fresh competitor sample within window",
   "2027-01-06": "no fresh competitor sample within window",
   "2027-01-07": "no fresh competitor sample within window",
-  "2027-01-08": "no fresh competitor sample within window"
+  "2027-01-08": "no fresh competitor sample within window",
+  "2027-01-09": "no fresh competitor sample within window"
  },
  "date_info": {
-  "2026-10-11": {
-   "ref": 97,
-   "comp": {
-    "kind": "direct",
-    "sample_date": "2026-10-11",
-    "n": 23,
-    "segments": {
-     "strip": 99,
-     "motel": 106.0,
-     "port_clinton": 93.0
-    },
-    "vr_median": null,
-    "sampled_at": "2026-10-10T10:24:00Z",
-    "source": "expedia"
-   },
-   "occ": {
-    "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
-   },
-   "wx": {
-    "high": 65,
-    "rain_prob": 52,
-    "short": "Chance Rain Showers"
-   },
-   "event": {
-    "name": "Cedar Point HalloWeekends Sun (Columbus Day wknd)",
-    "impact": "medium",
-    "factor": 1.12
-   }
-  },
   "2026-10-12": {
    "ref": 93.5,
    "comp": {
@@ -123,11 +93,11 @@
    },
    "occ": {
     "booked": 2,
-    "capacity": 10,
-    "rate": 0.2
+    "capacity": 8,
+    "rate": 0.25
    },
    "wx": {
-    "high": 77,
+    "high": 78,
     "rain_prob": 16,
     "short": "Mostly Sunny"
    },
@@ -150,13 +120,13 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 8,
+    "rate": 0.125
    },
    "wx": {
-    "high": 80,
-    "rain_prob": 19,
-    "short": "Slight Chance Rain Showers then Slight Chance Showers And Thunderstorms"
+    "high": 82,
+    "rain_prob": 42,
+    "short": "Sunny"
    },
    "event": null
   },
@@ -177,13 +147,13 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 8,
+    "rate": 0.125
    },
    "wx": {
-    "high": 69,
-    "rain_prob": 33,
-    "short": "Chance Rain Showers"
+    "high": 70,
+    "rain_prob": 71,
+    "short": "Showers And Thunderstorms Likely"
    },
    "event": null
   },
@@ -205,13 +175,13 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 8,
+    "rate": 0.125
    },
    "wx": {
-    "high": 68,
-    "rain_prob": 55,
-    "short": "Chance Rain Showers"
+    "high": 66,
+    "rain_prob": 77,
+    "short": "Mostly Cloudy then Chance Rain Showers"
    },
    "event": null
   },
@@ -233,13 +203,13 @@
    },
    "occ": {
     "booked": 2,
-    "capacity": 10,
-    "rate": 0.2
+    "capacity": 8,
+    "rate": 0.25
    },
    "wx": {
-    "high": 65,
-    "rain_prob": 42,
-    "short": "Chance Rain Showers"
+    "high": 64,
+    "rain_prob": 58,
+    "short": "Rain Showers Likely"
    },
    "event": {
     "name": "Cedar Point HalloWeekends Fri",
@@ -265,13 +235,13 @@
    },
    "occ": {
     "booked": 2,
-    "capacity": 10,
-    "rate": 0.2
+    "capacity": 8,
+    "rate": 0.25
    },
    "wx": {
     "high": 55,
-    "rain_prob": 25,
-    "short": "Chance Rain Showers"
+    "rain_prob": 4,
+    "short": "Mostly Sunny"
    },
    "event": {
     "name": "Sandusky Witches Walk + HalloWeekends Sat",
@@ -296,10 +266,14 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
-   "wx": null,
+   "wx": {
+    "high": 62,
+    "rain_prob": 4,
+    "short": "Sunny"
+   },
    "event": {
     "name": "Cedar Point HalloWeekends Sun",
     "impact": "medium",
@@ -323,8 +297,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -346,8 +320,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -369,8 +343,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -392,8 +366,8 @@
    },
    "occ": {
     "booked": 2,
-    "capacity": 10,
-    "rate": 0.2
+    "capacity": 9,
+    "rate": 0.2222222222222222
    },
    "wx": null,
    "event": null
@@ -416,8 +390,8 @@
    },
    "occ": {
     "booked": 3,
-    "capacity": 10,
-    "rate": 0.3
+    "capacity": 9,
+    "rate": 0.3333333333333333
    },
    "wx": null,
    "event": {
@@ -444,8 +418,8 @@
    },
    "occ": {
     "booked": 3,
-    "capacity": 10,
-    "rate": 0.3
+    "capacity": 9,
+    "rate": 0.3333333333333333
    },
    "wx": null,
    "event": {
@@ -471,8 +445,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": {
@@ -498,8 +472,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -521,8 +495,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -544,8 +518,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -567,8 +541,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -590,8 +564,8 @@
    },
    "occ": {
     "booked": 3,
-    "capacity": 10,
-    "rate": 0.3
+    "capacity": 9,
+    "rate": 0.3333333333333333
    },
    "wx": null,
    "event": {
@@ -617,8 +591,8 @@
    },
    "occ": {
     "booked": 3,
-    "capacity": 10,
-    "rate": 0.3
+    "capacity": 9,
+    "rate": 0.3333333333333333
    },
    "wx": null,
    "event": {
@@ -635,8 +609,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": {
@@ -653,8 +627,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -667,8 +641,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -681,8 +655,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -695,8 +669,8 @@
    },
    "occ": {
     "booked": 3,
-    "capacity": 10,
-    "rate": 0.3
+    "capacity": 9,
+    "rate": 0.3333333333333333
    },
    "wx": null,
    "event": null
@@ -718,8 +692,8 @@
    },
    "occ": {
     "booked": 3,
-    "capacity": 10,
-    "rate": 0.3
+    "capacity": 9,
+    "rate": 0.3333333333333333
    },
    "wx": null,
    "event": null
@@ -741,8 +715,8 @@
    },
    "occ": {
     "booked": 3,
-    "capacity": 10,
-    "rate": 0.3
+    "capacity": 9,
+    "rate": 0.3333333333333333
    },
    "wx": null,
    "event": null
@@ -755,7 +729,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -769,7 +743,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -783,7 +757,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -797,7 +771,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -811,7 +785,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -834,7 +808,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -857,8 +831,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -871,7 +845,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -885,7 +859,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -899,7 +873,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -913,7 +887,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -927,7 +901,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -950,7 +924,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -973,7 +947,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -987,7 +961,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1001,7 +975,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1015,8 +989,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -1029,7 +1003,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1043,7 +1017,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1066,7 +1040,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1093,7 +1067,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1111,7 +1085,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1125,7 +1099,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1139,7 +1113,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1153,7 +1127,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1167,7 +1141,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1190,7 +1164,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1213,7 +1187,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1227,7 +1201,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1241,7 +1215,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1255,7 +1229,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1269,7 +1243,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1283,7 +1257,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1306,7 +1280,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1329,7 +1303,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1343,7 +1317,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1357,7 +1331,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1371,7 +1345,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1385,7 +1359,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1399,7 +1373,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1422,7 +1396,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1445,7 +1419,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1459,7 +1433,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1473,7 +1447,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1487,7 +1461,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1501,8 +1475,8 @@
    },
    "occ": {
     "booked": 1,
-    "capacity": 10,
-    "rate": 0.1
+    "capacity": 9,
+    "rate": 0.1111111111111111
    },
    "wx": null,
    "event": null
@@ -1515,7 +1489,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1538,7 +1512,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1565,7 +1539,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1583,7 +1557,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1601,7 +1575,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1615,7 +1589,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1629,7 +1603,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1643,7 +1617,7 @@
    },
    "occ": {
     "booked": 0,
-    "capacity": 10,
+    "capacity": 9,
     "rate": 0.0
    },
    "wx": null,
@@ -1778,10 +1752,204 @@
    },
    "wx": null,
    "event": null
+  },
+  "2027-01-09": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 10,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
   }
  },
  "recommendations": [
   {
+   "date": "2026-10-16",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 139,
+   "recommended": 159,
+   "delta": 20,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $159",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-16",
+   "listing_id": 488705,
+   "room": 2,
+   "name": "Movie Room",
+   "current": 139,
+   "recommended": 159,
+   "delta": 20,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $159",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-16",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 139,
+   "recommended": 159,
+   "delta": 20,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $159",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-16",
+   "listing_id": 488713,
+   "room": 5,
+   "name": "Artist's Studio",
+   "current": 139,
+   "recommended": 159,
+   "delta": 20,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $159",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-16",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 149,
+   "recommended": 169,
+   "delta": 20,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 7 +$10 \u00b7 = $169",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-16",
+   "listing_id": 488741,
+   "room": 12,
+   "name": "Writer's Room",
+   "current": 139,
+   "recommended": 159,
+   "delta": 20,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $159",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 179,
+   "recommended": 189,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 5d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $189",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 5
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488705,
+   "room": 2,
+   "name": "Movie Room",
+   "current": 179,
+   "recommended": 189,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 5d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $189",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 5
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 179,
+   "recommended": 189,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 5d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $189",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 5
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488713,
+   "room": 5,
+   "name": "Artist's Studio",
+   "current": 179,
+   "recommended": 189,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 5d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $189",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 5
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 189,
+   "recommended": 199,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 5d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 room 7 +$10 \u00b7 = $199",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 5
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488731,
+   "room": 9,
+   "name": "Brewmaster's Room",
+   "current": 189,
+   "recommended": 199,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 5d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 room 9 +$10 \u00b7 = $199",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 5
+  },
+  {
    "date": "2026-10-23",
    "listing_id": 488699,
    "room": 1,
@@ -1789,12 +1957,12 @@
    "current": 129,
    "recommended": 139,
    "delta": 10,
-   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 30% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
    "comp_ref": 151.5,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-23",
-   "occupancy": 0.3,
-   "days_out": 12
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
   },
   {
    "date": "2026-10-23",
@@ -1804,12 +1972,12 @@
    "current": 129,
    "recommended": 139,
    "delta": 10,
-   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 30% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
    "comp_ref": 151.5,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-23",
-   "occupancy": 0.3,
-   "days_out": 12
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
   },
   {
    "date": "2026-10-23",
@@ -1819,12 +1987,12 @@
    "current": 129,
    "recommended": 139,
    "delta": 10,
-   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 30% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
    "comp_ref": 151.5,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-23",
-   "occupancy": 0.3,
-   "days_out": 12
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
   },
   {
    "date": "2026-10-23",
@@ -1834,12 +2002,12 @@
    "current": 129,
    "recommended": 139,
    "delta": 10,
-   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 30% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
    "comp_ref": 151.5,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-23",
-   "occupancy": 0.3,
-   "days_out": 12
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
   },
   {
    "date": "2026-10-23",
@@ -1849,27 +2017,12 @@
    "current": 129,
    "recommended": 139,
    "delta": 10,
-   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 30% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
    "comp_ref": 151.5,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-23",
-   "occupancy": 0.3,
-   "days_out": 12
-  },
-  {
-   "date": "2026-10-23",
-   "listing_id": 488729,
-   "room": 8,
-   "name": "Fisherman's Lodge",
-   "current": 139,
-   "recommended": 149,
-   "delta": 10,
-   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 30% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 8 +$10 \u00b7 = $149",
-   "comp_ref": 151.5,
-   "comp_kind": "direct",
-   "comp_sample_date": "2026-10-23",
-   "occupancy": 0.3,
-   "days_out": 12
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
   },
   {
    "date": "2026-10-23",
@@ -1879,12 +2032,12 @@
    "current": 139,
    "recommended": 149,
    "delta": 10,
-   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 30% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 9 +$10 \u00b7 = $149",
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 9 +$10 \u00b7 = $149",
    "comp_ref": 151.5,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-23",
-   "occupancy": 0.3,
-   "days_out": 12
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
   },
   {
    "date": "2026-10-24",
@@ -1894,12 +2047,12 @@
    "current": 169,
    "recommended": 179,
    "delta": 10,
-   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 30% x0.93 \u00b7 13d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
    "comp_ref": 175.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-24",
-   "occupancy": 0.3,
-   "days_out": 13
+   "occupancy": 0.3333333333333333,
+   "days_out": 12
   },
   {
    "date": "2026-10-24",
@@ -1909,12 +2062,12 @@
    "current": 169,
    "recommended": 179,
    "delta": 10,
-   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 30% x0.93 \u00b7 13d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
    "comp_ref": 175.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-24",
-   "occupancy": 0.3,
-   "days_out": 13
+   "occupancy": 0.3333333333333333,
+   "days_out": 12
   },
   {
    "date": "2026-10-24",
@@ -1924,12 +2077,12 @@
    "current": 169,
    "recommended": 179,
    "delta": 10,
-   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 30% x0.93 \u00b7 13d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
    "comp_ref": 175.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-24",
-   "occupancy": 0.3,
-   "days_out": 13
+   "occupancy": 0.3333333333333333,
+   "days_out": 12
   },
   {
    "date": "2026-10-24",
@@ -1939,12 +2092,12 @@
    "current": 169,
    "recommended": 179,
    "delta": 10,
-   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 30% x0.93 \u00b7 13d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
    "comp_ref": 175.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-24",
-   "occupancy": 0.3,
-   "days_out": 13
+   "occupancy": 0.3333333333333333,
+   "days_out": 12
   },
   {
    "date": "2026-10-24",
@@ -1954,27 +2107,12 @@
    "current": 169,
    "recommended": 179,
    "delta": 10,
-   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 30% x0.93 \u00b7 13d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
    "comp_ref": 175.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-24",
-   "occupancy": 0.3,
-   "days_out": 13
-  },
-  {
-   "date": "2026-10-24",
-   "listing_id": 488729,
-   "room": 8,
-   "name": "Fisherman's Lodge",
-   "current": 179,
-   "recommended": 189,
-   "delta": 10,
-   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 30% x0.93 \u00b7 13d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 room 8 +$10 \u00b7 = $189",
-   "comp_ref": 175.0,
-   "comp_kind": "direct",
-   "comp_sample_date": "2026-10-24",
-   "occupancy": 0.3,
-   "days_out": 13
+   "occupancy": 0.3333333333333333,
+   "days_out": 12
   },
   {
    "date": "2026-10-24",
@@ -1984,12 +2122,12 @@
    "current": 179,
    "recommended": 189,
    "delta": 10,
-   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 30% x0.93 \u00b7 13d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 room 9 +$10 \u00b7 = $189",
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 12d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 room 9 +$10 \u00b7 = $189",
    "comp_ref": 175.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-24",
-   "occupancy": 0.3,
-   "days_out": 13
+   "occupancy": 0.3333333333333333,
+   "days_out": 12
   },
   {
    "date": "2026-10-30",
@@ -1999,12 +2137,12 @@
    "current": 109,
    "recommended": 119,
    "delta": 10,
-   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 30% x0.93 \u00b7 19d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
    "comp_ref": 132.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-30",
-   "occupancy": 0.3,
-   "days_out": 19
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
   },
   {
    "date": "2026-10-30",
@@ -2014,12 +2152,12 @@
    "current": 109,
    "recommended": 119,
    "delta": 10,
-   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 30% x0.93 \u00b7 19d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
    "comp_ref": 132.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-30",
-   "occupancy": 0.3,
-   "days_out": 19
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
   },
   {
    "date": "2026-10-30",
@@ -2029,12 +2167,12 @@
    "current": 109,
    "recommended": 119,
    "delta": 10,
-   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 30% x0.93 \u00b7 19d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
    "comp_ref": 132.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-30",
-   "occupancy": 0.3,
-   "days_out": 19
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
   },
   {
    "date": "2026-10-30",
@@ -2044,12 +2182,12 @@
    "current": 109,
    "recommended": 119,
    "delta": 10,
-   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 30% x0.93 \u00b7 19d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
    "comp_ref": 132.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-30",
-   "occupancy": 0.3,
-   "days_out": 19
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
   },
   {
    "date": "2026-10-30",
@@ -2059,12 +2197,12 @@
    "current": 109,
    "recommended": 119,
    "delta": 10,
-   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 30% x0.93 \u00b7 19d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
    "comp_ref": 132.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-30",
-   "occupancy": 0.3,
-   "days_out": 19
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
   },
   {
    "date": "2026-10-30",
@@ -2074,27 +2212,12 @@
    "current": 119,
    "recommended": 129,
    "delta": 10,
-   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 30% x0.93 \u00b7 19d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 7 +$10 \u00b7 = $129",
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 7 +$10 \u00b7 = $129",
    "comp_ref": 132.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-30",
-   "occupancy": 0.3,
-   "days_out": 19
-  },
-  {
-   "date": "2026-10-30",
-   "listing_id": 488729,
-   "room": 8,
-   "name": "Fisherman's Lodge",
-   "current": 119,
-   "recommended": 129,
-   "delta": 10,
-   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 30% x0.93 \u00b7 19d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 8 +$10 \u00b7 = $129",
-   "comp_ref": 132.0,
-   "comp_kind": "direct",
-   "comp_sample_date": "2026-10-30",
-   "occupancy": 0.3,
-   "days_out": 19
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
   },
   {
    "date": "2026-10-31",
@@ -2104,12 +2227,12 @@
    "current": 139,
    "recommended": 149,
    "delta": 10,
-   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 30% x0.93 \u00b7 20d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 19d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
    "comp_ref": 143.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-31",
-   "occupancy": 0.3,
-   "days_out": 20
+   "occupancy": 0.3333333333333333,
+   "days_out": 19
   },
   {
    "date": "2026-10-31",
@@ -2119,12 +2242,12 @@
    "current": 139,
    "recommended": 149,
    "delta": 10,
-   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 30% x0.93 \u00b7 20d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 19d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
    "comp_ref": 143.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-31",
-   "occupancy": 0.3,
-   "days_out": 20
+   "occupancy": 0.3333333333333333,
+   "days_out": 19
   },
   {
    "date": "2026-10-31",
@@ -2134,12 +2257,12 @@
    "current": 139,
    "recommended": 149,
    "delta": 10,
-   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 30% x0.93 \u00b7 20d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 19d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
    "comp_ref": 143.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-31",
-   "occupancy": 0.3,
-   "days_out": 20
+   "occupancy": 0.3333333333333333,
+   "days_out": 19
   },
   {
    "date": "2026-10-31",
@@ -2149,12 +2272,12 @@
    "current": 139,
    "recommended": 149,
    "delta": 10,
-   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 30% x0.93 \u00b7 20d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 19d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
    "comp_ref": 143.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-31",
-   "occupancy": 0.3,
-   "days_out": 20
+   "occupancy": 0.3333333333333333,
+   "days_out": 19
   },
   {
    "date": "2026-10-31",
@@ -2164,12 +2287,12 @@
    "current": 139,
    "recommended": 149,
    "delta": 10,
-   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 30% x0.93 \u00b7 20d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 19d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
    "comp_ref": 143.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-31",
-   "occupancy": 0.3,
-   "days_out": 20
+   "occupancy": 0.3333333333333333,
+   "days_out": 19
   },
   {
    "date": "2026-10-31",
@@ -2179,42 +2302,12 @@
    "current": 149,
    "recommended": 159,
    "delta": 10,
-   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 30% x0.93 \u00b7 20d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 room 7 +$10 \u00b7 = $159",
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 19d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 room 7 +$10 \u00b7 = $159",
    "comp_ref": 143.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-10-31",
-   "occupancy": 0.3,
-   "days_out": 20
-  },
-  {
-   "date": "2026-10-31",
-   "listing_id": 488729,
-   "room": 8,
-   "name": "Fisherman's Lodge",
-   "current": 149,
-   "recommended": 159,
-   "delta": 10,
-   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 30% x0.93 \u00b7 20d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 room 8 +$10 \u00b7 = $159",
-   "comp_ref": 143.0,
-   "comp_kind": "direct",
-   "comp_sample_date": "2026-10-31",
-   "occupancy": 0.3,
-   "days_out": 20
-  },
-  {
-   "date": "2026-11-07",
-   "listing_id": 488731,
-   "room": 9,
-   "name": "Brewmaster's Room",
-   "current": 109,
-   "recommended": 119,
-   "delta": 10,
-   "reason": "comp median $128 x0.9 = $115 \u00b7 occ 30% x0.93 \u00b7 27d out x1.0 \u00b7 room 9 +$10 \u00b7 = $119",
-   "comp_ref": 128.0,
-   "comp_kind": "direct",
-   "comp_sample_date": "2026-11-07",
-   "occupancy": 0.3,
-   "days_out": 27
+   "occupancy": 0.3333333333333333,
+   "days_out": 19
   }
  ],
  "status": "recommendations"
