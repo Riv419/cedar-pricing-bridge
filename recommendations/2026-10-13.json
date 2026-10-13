@@ -1,0 +1,2306 @@
+{
+ "generated_at_utc": "2026-10-13T18:18:21.343204Z",
+ "run_date": "2026-10-13",
+ "horizon_days": 90,
+ "floor": 109,
+ "ceiling": 289,
+ "comp_position": 0.9,
+ "max_daily_move": 20,
+ "auto_apply": {
+  "eligible": false,
+  "reason": "no fresh competitor sample today (0 usable nights, need 5) \u2014 skipped, prices left as they were"
+ },
+ "fresh_comp_dates": 0,
+ "events_on_calendar": 16,
+ "notes": [
+  "No new competitor sample today; using stored samples where still fresh.",
+  "Events: using the list from 2026-10-10 (no new search today)."
+ ],
+ "counts": {
+  "changes": 36,
+  "unchanged_open_nights": 257,
+  "dates_skipped_no_comps": 53
+ },
+ "skipped_dates": {
+  "2026-11-01": "no fresh competitor sample within window",
+  "2026-11-02": "no fresh competitor sample within window",
+  "2026-11-03": "no fresh competitor sample within window",
+  "2026-11-04": "no fresh competitor sample within window",
+  "2026-11-05": "no fresh competitor sample within window",
+  "2026-11-08": "no fresh competitor sample within window",
+  "2026-11-09": "no fresh competitor sample within window",
+  "2026-11-10": "no fresh competitor sample within window",
+  "2026-11-11": "no fresh competitor sample within window",
+  "2026-11-12": "no fresh competitor sample within window",
+  "2026-11-15": "no fresh competitor sample within window",
+  "2026-11-16": "no fresh competitor sample within window",
+  "2026-11-17": "no fresh competitor sample within window",
+  "2026-11-18": "no fresh competitor sample within window",
+  "2026-11-19": "no fresh competitor sample within window",
+  "2026-11-22": "no fresh competitor sample within window",
+  "2026-11-23": "no fresh competitor sample within window",
+  "2026-11-24": "no fresh competitor sample within window",
+  "2026-11-25": "no fresh competitor sample within window",
+  "2026-11-26": "no fresh competitor sample within window",
+  "2026-11-29": "no fresh competitor sample within window",
+  "2026-11-30": "no fresh competitor sample within window",
+  "2026-12-01": "no fresh competitor sample within window",
+  "2026-12-02": "no fresh competitor sample within window",
+  "2026-12-03": "no fresh competitor sample within window",
+  "2026-12-06": "no fresh competitor sample within window",
+  "2026-12-07": "no fresh competitor sample within window",
+  "2026-12-08": "no fresh competitor sample within window",
+  "2026-12-09": "no fresh competitor sample within window",
+  "2026-12-10": "no fresh competitor sample within window",
+  "2026-12-13": "no fresh competitor sample within window",
+  "2026-12-14": "no fresh competitor sample within window",
+  "2026-12-15": "no fresh competitor sample within window",
+  "2026-12-16": "no fresh competitor sample within window",
+  "2026-12-17": "no fresh competitor sample within window",
+  "2026-12-20": "no fresh competitor sample within window",
+  "2026-12-21": "no fresh competitor sample within window",
+  "2026-12-22": "no fresh competitor sample within window",
+  "2026-12-23": "no fresh competitor sample within window",
+  "2026-12-24": "no fresh competitor sample within window",
+  "2026-12-27": "no fresh competitor sample within window",
+  "2026-12-28": "no fresh competitor sample within window",
+  "2026-12-29": "no fresh competitor sample within window",
+  "2026-12-30": "no fresh competitor sample within window",
+  "2026-12-31": "no fresh competitor sample within window",
+  "2027-01-03": "no fresh competitor sample within window",
+  "2027-01-04": "no fresh competitor sample within window",
+  "2027-01-05": "no fresh competitor sample within window",
+  "2027-01-06": "no fresh competitor sample within window",
+  "2027-01-07": "no fresh competitor sample within window",
+  "2027-01-08": "no fresh competitor sample within window",
+  "2027-01-09": "no fresh competitor sample within window",
+  "2027-01-10": "no fresh competitor sample within window"
+ },
+ "date_info": {
+  "2026-10-13": {
+   "ref": 91.5,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-10-13",
+    "n": 22,
+    "segments": {
+     "strip": 94,
+     "motel": 106.0,
+     "port_clinton": 85
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 8,
+    "rate": 0.125
+   },
+   "wx": {
+    "high": 82,
+    "rain_prob": 73,
+    "short": "Sunny"
+   },
+   "event": null
+  },
+  "2026-10-14": {
+   "ref": 91.5,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-10-14",
+    "n": 22,
+    "segments": {
+     "strip": 94,
+     "motel": 109.0,
+     "port_clinton": 85
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 8,
+    "rate": 0.125
+   },
+   "wx": {
+    "high": 69,
+    "rain_prob": 70,
+    "short": "Showers And Thunderstorms Likely"
+   },
+   "event": null
+  },
+  "2026-10-15": {
+   "ref": 98.5,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-10-15",
+    "n": 24,
+    "segments": {
+     "strip": 94,
+     "motel": 114.0,
+     "port_clinton": 97.5,
+     "cedar_point": 159
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 8,
+    "rate": 0.125
+   },
+   "wx": {
+    "high": 67,
+    "rain_prob": 96,
+    "short": "Mostly Cloudy then Chance Rain Showers"
+   },
+   "event": null
+  },
+  "2026-10-16": {
+   "ref": 169,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-10-16",
+    "n": 21,
+    "segments": {
+     "strip": 183,
+     "cedar_point": 249,
+     "port_clinton": 127.0,
+     "motel": 142
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 2,
+    "capacity": 8,
+    "rate": 0.25
+   },
+   "wx": {
+    "high": 62,
+    "rain_prob": 93,
+    "short": "Rain Showers"
+   },
+   "event": {
+    "name": "Cedar Point HalloWeekends Fri",
+    "impact": "medium",
+    "factor": 1.12
+   }
+  },
+  "2026-10-17": {
+   "ref": 186.0,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-10-17",
+    "n": 20,
+    "segments": {
+     "strip": 199.0,
+     "cedar_point": 249,
+     "port_clinton": 145.5,
+     "motel": 149
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 2,
+    "capacity": 8,
+    "rate": 0.25
+   },
+   "wx": {
+    "high": 54,
+    "rain_prob": 3,
+    "short": "Sunny"
+   },
+   "event": {
+    "name": "Sandusky Witches Walk + HalloWeekends Sat",
+    "impact": "high",
+    "factor": 1.25
+   }
+  },
+  "2026-10-18": {
+   "ref": 89,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-10-18",
+    "n": 23,
+    "segments": {
+     "strip": 84,
+     "motel": 109.0,
+     "port_clinton": 97.5
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": {
+    "high": 63,
+    "rain_prob": 1,
+    "short": "Sunny"
+   },
+   "event": {
+    "name": "Cedar Point HalloWeekends Sun",
+    "impact": "medium",
+    "factor": 1.12
+   }
+  },
+  "2026-10-19": {
+   "ref": 93,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-10-19",
+    "n": 23,
+    "segments": {
+     "strip": 85,
+     "motel": 106.5,
+     "port_clinton": 95.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": {
+    "high": 67,
+    "rain_prob": 9,
+    "short": "Mostly Sunny"
+   },
+   "event": null
+  },
+  "2026-10-20": {
+   "ref": 93,
+   "comp": {
+    "kind": "interpolated",
+    "sample_date": "2026-10-19",
+    "n": 23,
+    "segments": {
+     "strip": 85,
+     "motel": 106.5,
+     "port_clinton": 95.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-10-21": {
+   "ref": 93,
+   "comp": {
+    "kind": "interpolated",
+    "sample_date": "2026-10-19",
+    "n": 23,
+    "segments": {
+     "strip": 85,
+     "motel": 106.5,
+     "port_clinton": 95.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-10-22": {
+   "ref": 93,
+   "comp": {
+    "kind": "interpolated",
+    "sample_date": "2026-10-19",
+    "n": 23,
+    "segments": {
+     "strip": 85,
+     "motel": 106.5,
+     "port_clinton": 95.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 2,
+    "capacity": 9,
+    "rate": 0.2222222222222222
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-10-23": {
+   "ref": 151.5,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-10-23",
+    "n": 22,
+    "segments": {
+     "strip": 189,
+     "cedar_point": 239,
+     "port_clinton": 127.0,
+     "motel": 180.5
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 3,
+    "capacity": 9,
+    "rate": 0.3333333333333333
+   },
+   "wx": null,
+   "event": {
+    "name": "Cedar Point HalloWeekends Fri",
+    "impact": "medium",
+    "factor": 1.12
+   }
+  },
+  "2026-10-24": {
+   "ref": 175.0,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-10-24",
+    "n": 22,
+    "segments": {
+     "strip": 180,
+     "cedar_point": 239,
+     "port_clinton": 146.0,
+     "motel": 170.5
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 3,
+    "capacity": 9,
+    "rate": 0.3333333333333333
+   },
+   "wx": null,
+   "event": {
+    "name": "Cedar Point HalloWeekends Sat",
+    "impact": "high",
+    "factor": 1.25
+   }
+  },
+  "2026-10-25": {
+   "ref": 93,
+   "comp": {
+    "kind": "interpolated",
+    "sample_date": "2026-10-19",
+    "n": 23,
+    "segments": {
+     "strip": 85,
+     "motel": 106.5,
+     "port_clinton": 95.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": {
+    "name": "Cedar Point HalloWeekends Sun",
+    "impact": "medium",
+    "factor": 1.12
+   }
+  },
+  "2026-10-26": {
+   "ref": 93,
+   "comp": {
+    "kind": "interpolated",
+    "sample_date": "2026-10-19",
+    "n": 23,
+    "segments": {
+     "strip": 85,
+     "motel": 106.5,
+     "port_clinton": 95.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-10-27": {
+   "ref": 93,
+   "comp": {
+    "kind": "interpolated",
+    "sample_date": "2026-10-19",
+    "n": 23,
+    "segments": {
+     "strip": 85,
+     "motel": 106.5,
+     "port_clinton": 95.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-10-28": {
+   "ref": 93,
+   "comp": {
+    "kind": "interpolated",
+    "sample_date": "2026-10-19",
+    "n": 23,
+    "segments": {
+     "strip": 85,
+     "motel": 106.5,
+     "port_clinton": 95.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-10-29": {
+   "ref": 93,
+   "comp": {
+    "kind": "interpolated",
+    "sample_date": "2026-10-19",
+    "n": 23,
+    "segments": {
+     "strip": 85,
+     "motel": 106.5,
+     "port_clinton": 95.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-10-30": {
+   "ref": 132.0,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-10-30",
+    "n": 22,
+    "segments": {
+     "strip": 161,
+     "motel": 159.5,
+     "port_clinton": 127
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 3,
+    "capacity": 9,
+    "rate": 0.3333333333333333
+   },
+   "wx": null,
+   "event": {
+    "name": "Cedar Point HalloWeekends Fri",
+    "impact": "medium",
+    "factor": 1.12
+   }
+  },
+  "2026-10-31": {
+   "ref": 143.0,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-10-31",
+    "n": 22,
+    "segments": {
+     "strip": 170,
+     "motel": 148.0,
+     "port_clinton": 127
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 3,
+    "capacity": 9,
+    "rate": 0.3333333333333333
+   },
+   "wx": null,
+   "event": {
+    "name": "Halloween + HalloWeekends Sat",
+    "impact": "high",
+    "factor": 1.25
+   }
+  },
+  "2026-11-01": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": {
+    "name": "HalloWeekends closing Sun",
+    "impact": "medium",
+    "factor": 1.12
+   }
+  },
+  "2026-11-02": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-03": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-04": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-05": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 3,
+    "capacity": 9,
+    "rate": 0.3333333333333333
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-06": {
+   "ref": 125.0,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-11-06",
+    "n": 20,
+    "segments": {
+     "strip": 125.0,
+     "motel": 143,
+     "port_clinton": 114
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 3,
+    "capacity": 9,
+    "rate": 0.3333333333333333
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-07": {
+   "ref": 128.0,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-11-07",
+    "n": 20,
+    "segments": {
+     "strip": 128.0,
+     "motel": 143,
+     "port_clinton": 110
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-10T10:24:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 3,
+    "capacity": 9,
+    "rate": 0.3333333333333333
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-08": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-09": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-10": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-11": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-12": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-13": {
+   "ref": 99,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-11-13",
+    "n": 9,
+    "segments": {
+     "strip": 100.5,
+     "motel": 125,
+     "port_clinton": 81.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-14": {
+   "ref": 93.5,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-11-14",
+    "n": 10,
+    "segments": {
+     "strip": 104.5,
+     "port_clinton": 81.0,
+     "motel": 109.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-15": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-16": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-17": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-18": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-19": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-20": {
+   "ref": 112.0,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-11-20",
+    "n": 10,
+    "segments": {
+     "strip": 112.0,
+     "motel": 109.5,
+     "port_clinton": 96.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-21": {
+   "ref": 112.0,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-11-21",
+    "n": 10,
+    "segments": {
+     "strip": 112.0,
+     "motel": 109.5,
+     "port_clinton": 98.5
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-22": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-23": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-24": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-25": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-26": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-27": {
+   "ref": 103.0,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-11-27",
+    "n": 20,
+    "segments": {
+     "motel": 109.5,
+     "strip": 103,
+     "port_clinton": 103
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-30T10:41:02Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": {
+    "name": "Thanksgiving weekend",
+    "impact": "medium",
+    "factor": 1.12
+   }
+  },
+  "2026-11-28": {
+   "ref": 103,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-11-28",
+    "n": 11,
+    "segments": {
+     "strip": 100.5,
+     "motel": 125,
+     "port_clinton": 83.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": {
+    "name": "Thanksgiving weekend",
+    "impact": "medium",
+    "factor": 1.12
+   }
+  },
+  "2026-11-29": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-11-30": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-01": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-02": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-03": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-04": {
+   "ref": 113,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-12-04",
+    "n": 9,
+    "segments": {
+     "strip": 113,
+     "motel": 124,
+     "port_clinton": 103
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-05": {
+   "ref": 108.0,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-12-05",
+    "n": 10,
+    "segments": {
+     "strip": 113,
+     "motel": 142,
+     "port_clinton": 83.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-06": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-07": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-08": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-09": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-10": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-11": {
+   "ref": 98.0,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-12-11",
+    "n": 10,
+    "segments": {
+     "strip": 98.0,
+     "motel": 109.5,
+     "port_clinton": 101.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-12": {
+   "ref": 114.5,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-12-12",
+    "n": 10,
+    "segments": {
+     "strip": 113,
+     "motel": 125,
+     "port_clinton": 107.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-13": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-14": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-15": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-16": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-17": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-18": {
+   "ref": 106,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-12-18",
+    "n": 9,
+    "segments": {
+     "strip": 113,
+     "motel": 109.5,
+     "port_clinton": 83.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-19": {
+   "ref": 109.5,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-12-19",
+    "n": 10,
+    "segments": {
+     "strip": 113,
+     "motel": 124,
+     "port_clinton": 83.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-20": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-21": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-22": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-23": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 9,
+    "rate": 0.1111111111111111
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-24": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-25": {
+   "ref": 95,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-12-25",
+    "n": 9,
+    "segments": {
+     "strip": 95,
+     "motel": 98.5,
+     "port_clinton": 85.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": {
+    "name": "Christmas weekend",
+    "impact": "medium",
+    "factor": 1.12
+   }
+  },
+  "2026-12-26": {
+   "ref": 83,
+   "comp": {
+    "kind": "direct",
+    "sample_date": "2026-12-26",
+    "n": 9,
+    "segments": {
+     "strip": 82.5,
+     "motel": 121,
+     "port_clinton": 85.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": {
+    "name": "Christmas weekend",
+    "impact": "medium",
+    "factor": 1.12
+   }
+  },
+  "2026-12-27": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": {
+    "name": "Christmas weekend",
+    "impact": "medium",
+    "factor": 1.12
+   }
+  },
+  "2026-12-28": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-29": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-30": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2026-12-31": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 9,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-01-01": {
+   "ref": 83,
+   "comp": {
+    "kind": "interpolated",
+    "sample_date": "2026-12-26",
+    "n": 9,
+    "segments": {
+     "strip": 82.5,
+     "motel": 121,
+     "port_clinton": 85.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 10,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-01-02": {
+   "ref": 83,
+   "comp": {
+    "kind": "interpolated",
+    "sample_date": "2026-12-26",
+    "n": 9,
+    "segments": {
+     "strip": 82.5,
+     "motel": 121,
+     "port_clinton": 85.0
+    },
+    "vr_median": null,
+    "sampled_at": "2026-09-29T10:38:49Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 10,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-01-03": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 10,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-01-04": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 10,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-01-05": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 10,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-01-06": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 10,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-01-07": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 10,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-01-08": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 10,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-01-09": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 10,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-01-10": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 0,
+    "capacity": 10,
+    "rate": 0.0
+   },
+   "wx": null,
+   "event": null
+  }
+ },
+ "recommendations": [
+  {
+   "date": "2026-10-16",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 139,
+   "recommended": 149,
+   "delta": 10,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 3d out x1.0 \u00b7 rain 93% x0.95 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $149",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 3
+  },
+  {
+   "date": "2026-10-16",
+   "listing_id": 488705,
+   "room": 2,
+   "name": "Movie Room",
+   "current": 139,
+   "recommended": 149,
+   "delta": 10,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 3d out x1.0 \u00b7 rain 93% x0.95 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $149",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 3
+  },
+  {
+   "date": "2026-10-16",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 139,
+   "recommended": 149,
+   "delta": 10,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 3d out x1.0 \u00b7 rain 93% x0.95 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $149",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 3
+  },
+  {
+   "date": "2026-10-16",
+   "listing_id": 488713,
+   "room": 5,
+   "name": "Artist's Studio",
+   "current": 139,
+   "recommended": 149,
+   "delta": 10,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 3d out x1.0 \u00b7 rain 93% x0.95 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $149",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 3
+  },
+  {
+   "date": "2026-10-16",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 149,
+   "recommended": 159,
+   "delta": 10,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 3d out x1.0 \u00b7 rain 93% x0.95 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 7 +$10 \u00b7 = $159",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 3
+  },
+  {
+   "date": "2026-10-16",
+   "listing_id": 488741,
+   "room": 12,
+   "name": "Writer's Room",
+   "current": 139,
+   "recommended": 149,
+   "delta": 10,
+   "reason": "comp median $169 x0.9 = $152 \u00b7 occ 25% x0.93 \u00b7 3d out x1.0 \u00b7 rain 93% x0.95 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $149",
+   "comp_ref": 169,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-16",
+   "occupancy": 0.25,
+   "days_out": 3
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 179,
+   "recommended": 189,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $189",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488705,
+   "room": 2,
+   "name": "Movie Room",
+   "current": 179,
+   "recommended": 189,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $189",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 179,
+   "recommended": 189,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $189",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488713,
+   "room": 5,
+   "name": "Artist's Studio",
+   "current": 179,
+   "recommended": 189,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $189",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 189,
+   "recommended": 199,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 room 7 +$10 \u00b7 = $199",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488731,
+   "room": 9,
+   "name": "Brewmaster's Room",
+   "current": 189,
+   "recommended": 199,
+   "delta": 10,
+   "reason": "comp median $186 x0.9 = $167 \u00b7 occ 25% x0.93 \u00b7 4d out x1.0 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 room 9 +$10 \u00b7 = $199",
+   "comp_ref": 186.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.25,
+   "days_out": 4
+  },
+  {
+   "date": "2026-10-23",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 129,
+   "recommended": 139,
+   "delta": 10,
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 10d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
+   "comp_ref": 151.5,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-23",
+   "occupancy": 0.3333333333333333,
+   "days_out": 10
+  },
+  {
+   "date": "2026-10-23",
+   "listing_id": 488705,
+   "room": 2,
+   "name": "Movie Room",
+   "current": 129,
+   "recommended": 139,
+   "delta": 10,
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 10d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
+   "comp_ref": 151.5,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-23",
+   "occupancy": 0.3333333333333333,
+   "days_out": 10
+  },
+  {
+   "date": "2026-10-23",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 139,
+   "delta": 10,
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 10d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
+   "comp_ref": 151.5,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-23",
+   "occupancy": 0.3333333333333333,
+   "days_out": 10
+  },
+  {
+   "date": "2026-10-23",
+   "listing_id": 488713,
+   "room": 5,
+   "name": "Artist's Studio",
+   "current": 129,
+   "recommended": 139,
+   "delta": 10,
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 10d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
+   "comp_ref": 151.5,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-23",
+   "occupancy": 0.3333333333333333,
+   "days_out": 10
+  },
+  {
+   "date": "2026-10-23",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 129,
+   "recommended": 139,
+   "delta": 10,
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 10d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $139",
+   "comp_ref": 151.5,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-23",
+   "occupancy": 0.3333333333333333,
+   "days_out": 10
+  },
+  {
+   "date": "2026-10-23",
+   "listing_id": 488731,
+   "room": 9,
+   "name": "Brewmaster's Room",
+   "current": 139,
+   "recommended": 149,
+   "delta": 10,
+   "reason": "comp median $152 x0.9 = $136 \u00b7 occ 33% x0.93 \u00b7 10d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 9 +$10 \u00b7 = $149",
+   "comp_ref": 151.5,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-23",
+   "occupancy": 0.3333333333333333,
+   "days_out": 10
+  },
+  {
+   "date": "2026-10-24",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 169,
+   "recommended": 179,
+   "delta": 10,
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
+   "comp_ref": 175.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-24",
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
+  },
+  {
+   "date": "2026-10-24",
+   "listing_id": 488705,
+   "room": 2,
+   "name": "Movie Room",
+   "current": 169,
+   "recommended": 179,
+   "delta": 10,
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
+   "comp_ref": 175.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-24",
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
+  },
+  {
+   "date": "2026-10-24",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 169,
+   "recommended": 179,
+   "delta": 10,
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
+   "comp_ref": 175.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-24",
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
+  },
+  {
+   "date": "2026-10-24",
+   "listing_id": 488713,
+   "room": 5,
+   "name": "Artist's Studio",
+   "current": 169,
+   "recommended": 179,
+   "delta": 10,
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
+   "comp_ref": 175.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-24",
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
+  },
+  {
+   "date": "2026-10-24",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 169,
+   "recommended": 179,
+   "delta": 10,
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $179",
+   "comp_ref": 175.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-24",
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
+  },
+  {
+   "date": "2026-10-24",
+   "listing_id": 488731,
+   "room": 9,
+   "name": "Brewmaster's Room",
+   "current": 179,
+   "recommended": 189,
+   "delta": 10,
+   "reason": "comp median $175 x0.9 = $158 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 room 9 +$10 \u00b7 = $189",
+   "comp_ref": 175.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-24",
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
+  },
+  {
+   "date": "2026-10-30",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 17d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
+   "comp_ref": 132.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.3333333333333333,
+   "days_out": 17
+  },
+  {
+   "date": "2026-10-30",
+   "listing_id": 488705,
+   "room": 2,
+   "name": "Movie Room",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 17d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
+   "comp_ref": 132.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.3333333333333333,
+   "days_out": 17
+  },
+  {
+   "date": "2026-10-30",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 17d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
+   "comp_ref": 132.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.3333333333333333,
+   "days_out": 17
+  },
+  {
+   "date": "2026-10-30",
+   "listing_id": 488713,
+   "room": 5,
+   "name": "Artist's Studio",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 17d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
+   "comp_ref": 132.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.3333333333333333,
+   "days_out": 17
+  },
+  {
+   "date": "2026-10-30",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 17d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $119",
+   "comp_ref": 132.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.3333333333333333,
+   "days_out": 17
+  },
+  {
+   "date": "2026-10-30",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 119,
+   "recommended": 129,
+   "delta": 10,
+   "reason": "comp median $132 x0.9 = $119 \u00b7 occ 33% x0.93 \u00b7 17d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 7 +$10 \u00b7 = $129",
+   "comp_ref": 132.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.3333333333333333,
+   "days_out": 17
+  },
+  {
+   "date": "2026-10-31",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 139,
+   "recommended": 149,
+   "delta": 10,
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
+   "comp_ref": 143.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-31",
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
+  },
+  {
+   "date": "2026-10-31",
+   "listing_id": 488705,
+   "room": 2,
+   "name": "Movie Room",
+   "current": 139,
+   "recommended": 149,
+   "delta": 10,
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
+   "comp_ref": 143.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-31",
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
+  },
+  {
+   "date": "2026-10-31",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 139,
+   "recommended": 149,
+   "delta": 10,
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
+   "comp_ref": 143.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-31",
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
+  },
+  {
+   "date": "2026-10-31",
+   "listing_id": 488713,
+   "room": 5,
+   "name": "Artist's Studio",
+   "current": 139,
+   "recommended": 149,
+   "delta": 10,
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
+   "comp_ref": 143.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-31",
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
+  },
+  {
+   "date": "2026-10-31",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 139,
+   "recommended": 149,
+   "delta": 10,
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $149",
+   "comp_ref": 143.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-31",
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
+  },
+  {
+   "date": "2026-10-31",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 149,
+   "recommended": 159,
+   "delta": 10,
+   "reason": "comp median $143 x0.9 = $129 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 room 7 +$10 \u00b7 = $159",
+   "comp_ref": 143.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-31",
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
+  }
+ ],
+ "status": "recommendations"
+}
