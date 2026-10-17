@@ -1,5 +1,5 @@
 {
-  "generated_at_et": "2026-10-17 04:46:47 EDT",
+  "generated_at_et": "2026-10-17 14:27:30 EDT",
   "property": "The Cedar (Bay View Lodging)",
   "night": "2026-10-17",
   "capacity": 12,
@@ -7,19 +7,19 @@
   "tonight": {
     "date": "2026-10-17",
     "dow": "Sat",
-    "occupied": 3,
+    "occupied": 5,
     "capacity": 12,
-    "occupancy_pct": 25,
-    "revenue": 285.04,
-    "adr": 95.01,
+    "occupancy_pct": 42,
+    "revenue": 575.76,
+    "adr": 115.15,
     "by_channel": {
       "Airbnb": {
-        "rooms": 1,
-        "revenue": 209.08
+        "rooms": 2,
+        "revenue": 466.13
       },
       "Direct (manual)": {
-        "rooms": 2,
-        "revenue": 75.96
+        "rooms": 3,
+        "revenue": 109.63
       }
     }
   },
@@ -36,6 +36,28 @@
       "per_night": 36.67
     },
     {
+      "room": 6,
+      "room_name": "Traveler's Den",
+      "channel": "Direct (manual)",
+      "nights": 15,
+      "guests": 1,
+      "arrival": "2026-10-17",
+      "departure": "2026-11-01",
+      "total": 505.01,
+      "per_night": 33.67
+    },
+    {
+      "room": 9,
+      "room_name": "Brewmaster's Room",
+      "channel": "Airbnb",
+      "nights": 1,
+      "guests": 1,
+      "arrival": "2026-10-17",
+      "departure": "2026-10-18",
+      "total": 257.05,
+      "per_night": 257.05
+    },
+    {
       "room": 12,
       "room_name": "Writer's Room",
       "channel": "Airbnb",
@@ -48,6 +70,17 @@
     }
   ],
   "departures_tomorrow": [
+    {
+      "room": 9,
+      "room_name": "Brewmaster's Room",
+      "channel": "Airbnb",
+      "nights": 1,
+      "guests": 1,
+      "arrival": "2026-10-17",
+      "departure": "2026-10-18",
+      "total": 257.05,
+      "per_night": 257.05
+    },
     {
       "room": 12,
       "room_name": "Writer's Room",
@@ -64,94 +97,94 @@
     {
       "date": "2026-10-17",
       "dow": "Sat",
-      "occupied": 3,
+      "occupied": 5,
       "capacity": 12,
-      "occupancy_pct": 25,
-      "revenue": 285.04,
-      "adr": 95.01,
+      "occupancy_pct": 42,
+      "revenue": 575.76,
+      "adr": 115.15,
       "by_channel": {
         "Airbnb": {
-          "rooms": 1,
-          "revenue": 209.08
+          "rooms": 2,
+          "revenue": 466.13
         },
         "Direct (manual)": {
-          "rooms": 2,
-          "revenue": 75.96
+          "rooms": 3,
+          "revenue": 109.63
         }
       }
     },
     {
       "date": "2026-10-18",
       "dow": "Sun",
-      "occupied": 3,
+      "occupied": 4,
       "capacity": 12,
-      "occupancy_pct": 25,
-      "revenue": 111.44,
-      "adr": 37.15,
+      "occupancy_pct": 33,
+      "revenue": 145.11,
+      "adr": 36.28,
       "by_channel": {
         "Direct (manual)": {
-          "rooms": 3,
-          "revenue": 111.44
+          "rooms": 4,
+          "revenue": 145.11
         }
       }
     },
     {
       "date": "2026-10-19",
       "dow": "Mon",
-      "occupied": 3,
+      "occupied": 4,
       "capacity": 12,
-      "occupancy_pct": 25,
-      "revenue": 111.44,
-      "adr": 37.15,
+      "occupancy_pct": 33,
+      "revenue": 145.11,
+      "adr": 36.28,
       "by_channel": {
         "Direct (manual)": {
-          "rooms": 3,
-          "revenue": 111.44
+          "rooms": 4,
+          "revenue": 145.11
         }
       }
     },
     {
       "date": "2026-10-20",
       "dow": "Tue",
-      "occupied": 3,
+      "occupied": 4,
       "capacity": 12,
-      "occupancy_pct": 25,
-      "revenue": 111.44,
-      "adr": 37.15,
+      "occupancy_pct": 33,
+      "revenue": 145.11,
+      "adr": 36.28,
       "by_channel": {
         "Direct (manual)": {
-          "rooms": 3,
-          "revenue": 111.44
+          "rooms": 4,
+          "revenue": 145.11
         }
       }
     },
     {
       "date": "2026-10-21",
       "dow": "Wed",
-      "occupied": 3,
+      "occupied": 4,
       "capacity": 12,
-      "occupancy_pct": 25,
-      "revenue": 111.44,
-      "adr": 37.15,
+      "occupancy_pct": 33,
+      "revenue": 145.11,
+      "adr": 36.28,
       "by_channel": {
         "Direct (manual)": {
-          "rooms": 3,
-          "revenue": 111.44
+          "rooms": 4,
+          "revenue": 145.11
         }
       }
     },
     {
       "date": "2026-10-22",
       "dow": "Thu",
-      "occupied": 4,
+      "occupied": 5,
       "capacity": 12,
-      "occupancy_pct": 33,
-      "revenue": 263.18,
-      "adr": 65.8,
+      "occupancy_pct": 42,
+      "revenue": 296.85,
+      "adr": 59.37,
       "by_channel": {
         "Direct (manual)": {
-          "rooms": 3,
-          "revenue": 111.44
+          "rooms": 4,
+          "revenue": 145.11
         },
         "Direct (website)": {
           "rooms": 1,
@@ -162,19 +195,19 @@
     {
       "date": "2026-10-23",
       "dow": "Fri",
-      "occupied": 6,
+      "occupied": 7,
       "capacity": 12,
-      "occupancy_pct": 50,
-      "revenue": 419.38,
-      "adr": 69.9,
+      "occupancy_pct": 58,
+      "revenue": 453.05,
+      "adr": 64.72,
       "by_channel": {
         "Airbnb": {
           "rooms": 1,
           "revenue": 120.72
         },
         "Direct (manual)": {
-          "rooms": 4,
-          "revenue": 146.92
+          "rooms": 5,
+          "revenue": 180.59
         },
         "Direct (website)": {
           "rooms": 1,
@@ -184,26 +217,26 @@
     }
   ],
   "next_7_totals": {
-    "room_nights": 25,
+    "room_nights": 33,
     "capacity": 84,
-    "occupancy_pct": 30,
-    "revenue": 1413.36
+    "occupancy_pct": 39,
+    "revenue": 1906.1
   },
   "month_to_date": {
     "month": "2026-10",
     "through": "2026-10-17",
-    "room_nights": 31,
+    "room_nights": 33,
     "capacity": 204,
-    "occupancy_pct": 15,
-    "revenue": 3774.6,
+    "occupancy_pct": 16,
+    "revenue": 4065.32,
     "by_channel": {
       "Airbnb": {
-        "room_nights": 11,
-        "revenue": 1757.68
+        "room_nights": 12,
+        "revenue": 2014.73
       },
       "Direct (manual)": {
-        "room_nights": 8,
-        "revenue": 311.7
+        "room_nights": 9,
+        "revenue": 345.37
       },
       "Direct (website)": {
         "room_nights": 12,
