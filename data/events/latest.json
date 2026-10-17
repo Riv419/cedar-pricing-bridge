@@ -1,12 +1,7 @@
 {
- "as_of": "2026-10-16",
+ "as_of": "2026-10-17",
  "source": "claude web search",
  "events": [
-  {
-   "date": "2026-10-16",
-   "name": "Cedar Point HalloWeekends Fri",
-   "impact": "medium"
-  },
   {
    "date": "2026-10-17",
    "name": "Sandusky Witches Walk + HalloWeekends Sat",
@@ -57,6 +52,11 @@
    "start": "2026-12-25",
    "end": "2026-12-27",
    "name": "Christmas weekend",
+   "impact": "medium"
+  },
+  {
+   "date": "2026-12-31",
+   "name": "New Year's Eve (Port Clinton Walleye Drop)",
    "impact": "medium"
   }
  ]

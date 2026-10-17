@@ -1,0 +1,453 @@
+{
+ "applied_at_utc": "2026-10-17T10:30:09.466686Z",
+ "rec_date": "2026-10-17",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-10-17",
+   "listing_id": 488705,
+   "room": 2,
+   "name": "Movie Room",
+   "current": 189,
+   "recommended": 209,
+   "delta": 20,
+   "reason": "comp median $233 x0.9 = $210 \u00b7 occ 33% x0.93 \u00b7 0d out, house empty x0.9 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $219 \u00b7 capped to $20/day \u2192 $209",
+   "comp_ref": 233,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.3333333333333333,
+   "days_out": 0
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 189,
+   "recommended": 209,
+   "delta": 20,
+   "reason": "comp median $233 x0.9 = $210 \u00b7 occ 33% x0.93 \u00b7 0d out, house empty x0.9 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $219 \u00b7 capped to $20/day \u2192 $209",
+   "comp_ref": 233,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.3333333333333333,
+   "days_out": 0
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488713,
+   "room": 5,
+   "name": "Artist's Studio",
+   "current": 189,
+   "recommended": 209,
+   "delta": 20,
+   "reason": "comp median $233 x0.9 = $210 \u00b7 occ 33% x0.93 \u00b7 0d out, house empty x0.9 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $219 \u00b7 capped to $20/day \u2192 $209",
+   "comp_ref": 233,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.3333333333333333,
+   "days_out": 0
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 189,
+   "recommended": 209,
+   "delta": 20,
+   "reason": "comp median $233 x0.9 = $210 \u00b7 occ 33% x0.93 \u00b7 0d out, house empty x0.9 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 = $219 \u00b7 capped to $20/day \u2192 $209",
+   "comp_ref": 233,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.3333333333333333,
+   "days_out": 0
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 199,
+   "recommended": 219,
+   "delta": 20,
+   "reason": "comp median $233 x0.9 = $210 \u00b7 occ 33% x0.93 \u00b7 0d out, house empty x0.9 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 room 7 +$10 \u00b7 = $229 \u00b7 capped to $20/day \u2192 $219",
+   "comp_ref": 233,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.3333333333333333,
+   "days_out": 0
+  },
+  {
+   "date": "2026-10-17",
+   "listing_id": 488731,
+   "room": 9,
+   "name": "Brewmaster's Room",
+   "current": 199,
+   "recommended": 219,
+   "delta": 20,
+   "reason": "comp median $233 x0.9 = $210 \u00b7 occ 33% x0.93 \u00b7 0d out, house empty x0.9 \u00b7 Sandusky Witches Walk + HalloWeekends Sat x1.25 \u00b7 room 9 +$10 \u00b7 = $229 \u00b7 capped to $20/day \u2192 $219",
+   "comp_ref": 233,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-17",
+   "occupancy": 0.3333333333333333,
+   "days_out": 0
+  },
+  {
+   "date": "2026-10-23",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 149,
+   "delta": 20,
+   "reason": "comp median $189 x0.9 = $170 \u00b7 occ 67% x1.0 \u00b7 6d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $189 \u00b7 capped to $20/day \u2192 $149",
+   "comp_ref": 189,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-23",
+   "occupancy": 0.6666666666666666,
+   "days_out": 6
+  },
+  {
+   "date": "2026-10-23",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 129,
+   "recommended": 149,
+   "delta": 20,
+   "reason": "comp median $189 x0.9 = $170 \u00b7 occ 67% x1.0 \u00b7 6d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $189 \u00b7 capped to $20/day \u2192 $149",
+   "comp_ref": 189,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-23",
+   "occupancy": 0.6666666666666666,
+   "days_out": 6
+  },
+  {
+   "date": "2026-10-23",
+   "listing_id": 488731,
+   "room": 9,
+   "name": "Brewmaster's Room",
+   "current": 139,
+   "recommended": 159,
+   "delta": 20,
+   "reason": "comp median $189 x0.9 = $170 \u00b7 occ 67% x1.0 \u00b7 6d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 9 +$10 \u00b7 = $199 \u00b7 capped to $20/day \u2192 $159",
+   "comp_ref": 189,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-23",
+   "occupancy": 0.6666666666666666,
+   "days_out": 6
+  },
+  {
+   "date": "2026-10-24",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 199,
+   "recommended": 219,
+   "delta": 20,
+   "reason": "comp median $208 x0.9 = $187 \u00b7 occ 67% x1.0 \u00b7 7d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $229 \u00b7 capped to $20/day \u2192 $219",
+   "comp_ref": 208,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-24",
+   "occupancy": 0.6666666666666666,
+   "days_out": 7
+  },
+  {
+   "date": "2026-10-24",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 199,
+   "recommended": 219,
+   "delta": 20,
+   "reason": "comp median $208 x0.9 = $187 \u00b7 occ 67% x1.0 \u00b7 7d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $229 \u00b7 capped to $20/day \u2192 $219",
+   "comp_ref": 208,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-24",
+   "occupancy": 0.6666666666666666,
+   "days_out": 7
+  },
+  {
+   "date": "2026-10-24",
+   "listing_id": 488731,
+   "room": 9,
+   "name": "Brewmaster's Room",
+   "current": 209,
+   "recommended": 229,
+   "delta": 20,
+   "reason": "comp median $208 x0.9 = $187 \u00b7 occ 67% x1.0 \u00b7 7d out x1.0 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 room 9 +$10 \u00b7 = $239 \u00b7 capped to $20/day \u2192 $229",
+   "comp_ref": 208,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-24",
+   "occupancy": 0.6666666666666666,
+   "days_out": 7
+  },
+  {
+   "date": "2026-10-30",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 129,
+   "recommended": 149,
+   "delta": 20,
+   "reason": "comp median $141 x0.9 = $127 \u00b7 occ 78% x1.08 \u00b7 13d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $149",
+   "comp_ref": 141,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.7777777777777778,
+   "days_out": 13
+  },
+  {
+   "date": "2026-10-30",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 139,
+   "recommended": 159,
+   "delta": 20,
+   "reason": "comp median $141 x0.9 = $127 \u00b7 occ 78% x1.08 \u00b7 13d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 7 +$10 \u00b7 = $159",
+   "comp_ref": 141,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.7777777777777778,
+   "days_out": 13
+  },
+  {
+   "date": "2026-10-31",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 149,
+   "recommended": 169,
+   "delta": 20,
+   "reason": "comp median $154 x0.9 = $139 \u00b7 occ 78% x1.08 \u00b7 14d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 = $189 \u00b7 capped to $20/day \u2192 $169",
+   "comp_ref": 154,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-31",
+   "occupancy": 0.7777777777777778,
+   "days_out": 14
+  },
+  {
+   "date": "2026-10-31",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 159,
+   "recommended": 179,
+   "delta": 20,
+   "reason": "comp median $154 x0.9 = $139 \u00b7 occ 78% x1.08 \u00b7 14d out x1.0 \u00b7 Halloween + HalloWeekends Sat x1.25 \u00b7 room 7 +$10 \u00b7 = $199 \u00b7 capped to $20/day \u2192 $179",
+   "comp_ref": 154,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-31",
+   "occupancy": 0.7777777777777778,
+   "days_out": 14
+  },
+  {
+   "date": "2026-11-05",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $92 x0.9 = $83 \u00b7 occ 67% x1.0 \u00b7 19d out x1.0 \u00b7 = $109",
+   "comp_ref": 92.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-10-26",
+   "occupancy": 0.6666666666666666,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-05",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $92 x0.9 = $83 \u00b7 occ 67% x1.0 \u00b7 19d out x1.0 \u00b7 = $109",
+   "comp_ref": 92.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-10-26",
+   "occupancy": 0.6666666666666666,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-05",
+   "listing_id": 488741,
+   "room": 12,
+   "name": "Writer's Room",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $92 x0.9 = $83 \u00b7 occ 67% x1.0 \u00b7 19d out x1.0 \u00b7 = $109",
+   "comp_ref": 92.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-10-26",
+   "occupancy": 0.6666666666666666,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 109,
+   "recommended": 129,
+   "delta": 20,
+   "reason": "comp median $139 x0.9 = $125 \u00b7 occ 67% x1.0 \u00b7 21d out x1.0 \u00b7 = $129",
+   "comp_ref": 139,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.6666666666666666,
+   "days_out": 21
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 109,
+   "recommended": 129,
+   "delta": 20,
+   "reason": "comp median $139 x0.9 = $125 \u00b7 occ 67% x1.0 \u00b7 21d out x1.0 \u00b7 = $129",
+   "comp_ref": 139,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.6666666666666666,
+   "days_out": 21
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488741,
+   "room": 12,
+   "name": "Writer's Room",
+   "current": 109,
+   "recommended": 129,
+   "delta": 20,
+   "reason": "comp median $139 x0.9 = $125 \u00b7 occ 67% x1.0 \u00b7 21d out x1.0 \u00b7 = $129",
+   "comp_ref": 139,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.6666666666666666,
+   "days_out": 21
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488705:2026-10-17": {
+   "expected": 209,
+   "got": 209,
+   "ok": true
+  },
+  "488709:2026-10-17": {
+   "expected": 209,
+   "got": 209,
+   "ok": true
+  },
+  "488709:2026-10-23": {
+   "expected": 149,
+   "got": 149,
+   "ok": true
+  },
+  "488709:2026-10-24": {
+   "expected": 219,
+   "got": 219,
+   "ok": true
+  },
+  "488713:2026-10-17": {
+   "expected": 209,
+   "got": 209,
+   "ok": true
+  },
+  "488715:2026-10-17": {
+   "expected": 209,
+   "got": 209,
+   "ok": true
+  },
+  "488715:2026-10-23": {
+   "expected": 149,
+   "got": 149,
+   "ok": true
+  },
+  "488715:2026-10-24": {
+   "expected": 219,
+   "got": 219,
+   "ok": true
+  },
+  "488715:2026-10-30": {
+   "expected": 149,
+   "got": 149,
+   "ok": true
+  },
+  "488715:2026-10-31": {
+   "expected": 169,
+   "got": 169,
+   "ok": true
+  },
+  "488715:2026-11-05": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488715:2026-11-07": {
+   "expected": 129,
+   "got": 129,
+   "ok": true
+  },
+  "488727:2026-10-17": {
+   "expected": 219,
+   "got": 219,
+   "ok": true
+  },
+  "488727:2026-10-30": {
+   "expected": 159,
+   "got": 159,
+   "ok": true
+  },
+  "488727:2026-10-31": {
+   "expected": 179,
+   "got": 179,
+   "ok": true
+  },
+  "488731:2026-10-17": {
+   "expected": 219,
+   "got": 219,
+   "ok": true
+  },
+  "488731:2026-10-23": {
+   "expected": 159,
+   "got": 159,
+   "ok": true
+  },
+  "488731:2026-10-24": {
+   "expected": 229,
+   "got": 229,
+   "ok": true
+  },
+  "488699:2026-11-05": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488699:2026-11-07": {
+   "expected": 129,
+   "got": 129,
+   "ok": true
+  },
+  "488741:2026-11-05": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488741:2026-11-07": {
+   "expected": 129,
+   "got": 129,
+   "ok": true
+  }
+ }
+}
