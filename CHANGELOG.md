@@ -1883,3 +1883,15 @@
 - 2026-11-07 room 1: $109 → $129 — comp median $139 x0.9 = $125 · occ 67% x1.0 · 21d out x1.0 · = $129
 - 2026-11-07 room 6: $109 → $129 — comp median $139 x0.9 = $125 · occ 67% x1.0 · 21d out x1.0 · = $129
 - 2026-11-07 room 12: $109 → $129 — comp median $139 x0.9 = $125 · occ 67% x1.0 · 21d out x1.0 · = $129
+
+### 2026-10-18T10:27:57.494850Z — Applied to Hostaway (2026-10-18): 10 nights
+- 2026-10-23 room 3: $149 → $169 — comp median $179 x0.9 = $161 · occ 78% x1.08 · 5d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · = $189 · capped to $20/day → $169
+- 2026-10-23 room 9: $159 → $179 — comp median $179 x0.9 = $161 · occ 78% x1.08 · 5d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · room 9 +$10 · = $199 · capped to $20/day → $179
+- 2026-10-24 room 3: $219 → $239 — comp median $199 x0.9 = $179 · occ 78% x1.08 · 6d out x1.0 · Cedar Point HalloWeekends Sat x1.25 · = $239
+- 2026-10-24 room 9: $229 → $249 — comp median $199 x0.9 = $179 · occ 78% x1.08 · 6d out x1.0 · Cedar Point HalloWeekends Sat x1.25 · room 9 +$10 · = $249
+- 2026-10-30 room 7: $159 → $149 — comp median $133 x0.9 = $120 · occ 89% x1.08 · 12d out x1.0 · Cedar Point HalloWeekends Fri x1.12 · room 7 +$10 · = $149
+- 2026-10-31 room 7: $179 → $189 — comp median $145 x0.9 = $130 · occ 89% x1.08 · 13d out x1.0 · Halloween + HalloWeekends Sat x1.25 · room 7 +$10 · = $189
+- 2026-11-06 room 1: $109 → $119 — comp median $125 x0.9 = $112 · occ 78% x1.08 · 19d out x1.0 · = $119
+- 2026-11-06 room 6: $109 → $119 — comp median $125 x0.9 = $112 · occ 78% x1.08 · 19d out x1.0 · = $119
+- 2026-11-07 room 1: $129 → $119 — comp median $124 x0.9 = $112 · occ 78% x1.08 · 20d out x1.0 · = $119
+- 2026-11-07 room 6: $129 → $119 — comp median $124 x0.9 = $112 · occ 78% x1.08 · 20d out x1.0 · = $119
