@@ -1,0 +1,133 @@
+{
+ "applied_at_utc": "2026-10-20T10:29:34.628954Z",
+ "rec_date": "2026-10-20",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-10-23",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 189,
+   "recommended": 199,
+   "delta": 10,
+   "reason": "comp median $184 x0.9 = $166 \u00b7 occ 89% x1.08 \u00b7 3d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $199",
+   "comp_ref": 184.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-23",
+   "occupancy": 0.8888888888888888,
+   "days_out": 3
+  },
+  {
+   "date": "2026-11-08",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $97 x0.9 = $87 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 = $109",
+   "comp_ref": 97,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-10-29",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-08",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $97 x0.9 = $87 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 = $109",
+   "comp_ref": 97,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-10-29",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-08",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $97 x0.9 = $87 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 room 7 +$10 \u00b7 = $109",
+   "comp_ref": 97,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-10-29",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-08",
+   "listing_id": 488731,
+   "room": 9,
+   "name": "Brewmaster's Room",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $97 x0.9 = $87 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 room 9 +$10 \u00b7 = $109",
+   "comp_ref": 97,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-10-29",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-08",
+   "listing_id": 488737,
+   "room": 11,
+   "name": "Garden Room",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $97 x0.9 = $87 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 = $109",
+   "comp_ref": 97,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-10-29",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488709:2026-10-23": {
+   "expected": 199,
+   "got": 199,
+   "ok": true
+  },
+  "488699:2026-11-08": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488715:2026-11-08": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488727:2026-11-08": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488731:2026-11-08": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488737:2026-11-08": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  }
+ }
+}
