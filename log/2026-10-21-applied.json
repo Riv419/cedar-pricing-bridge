@@ -1,0 +1,53 @@
+{
+ "applied_at_utc": "2026-10-21T10:31:48.476282Z",
+ "rec_date": "2026-10-21",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-10-23",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 199,
+   "recommended": 219,
+   "delta": 20,
+   "reason": "comp median $189 x0.9 = $170 \u00b7 occ 89% x1.08 \u00b7 2d out, house full x1.05 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 = $219",
+   "comp_ref": 189,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-23",
+   "occupancy": 0.8888888888888888,
+   "days_out": 2
+  },
+  {
+   "date": "2026-10-30",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 159,
+   "recommended": 149,
+   "delta": -10,
+   "reason": "comp median $133 x0.9 = $120 \u00b7 occ 89% x1.08 \u00b7 9d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 7 +$10 \u00b7 = $149",
+   "comp_ref": 133,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.8888888888888888,
+   "days_out": 9
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488709:2026-10-23": {
+   "expected": 219,
+   "got": 219,
+   "ok": true
+  },
+  "488727:2026-10-30": {
+   "expected": 149,
+   "got": 149,
+   "ok": true
+  }
+ }
+}
