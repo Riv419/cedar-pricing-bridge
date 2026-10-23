@@ -1,40 +1,40 @@
 {
- "as_of": "2026-10-22",
+ "as_of": "2026-10-23",
  "forecast": {
-  "2026-10-22": {
-   "high": 64,
-   "rain_prob": 1,
-   "short": "Areas Of Fog then Mostly Sunny"
-  },
   "2026-10-23": {
-   "high": 64,
-   "rain_prob": 8,
-   "short": "Mostly Sunny"
+   "high": 62,
+   "rain_prob": 6,
+   "short": "Patchy Fog then Mostly Sunny"
   },
   "2026-10-24": {
-   "high": 64,
+   "high": 63,
+   "rain_prob": 0,
+   "short": "Patchy Fog then Sunny"
+  },
+  "2026-10-25": {
+   "high": 68,
    "rain_prob": 0,
    "short": "Sunny"
   },
-  "2026-10-25": {
-   "high": 69,
+  "2026-10-26": {
+   "high": 65,
    "rain_prob": 0,
    "short": "Mostly Sunny"
   },
-  "2026-10-26": {
-   "high": 67,
-   "rain_prob": 1,
-   "short": "Mostly Sunny"
-  },
   "2026-10-27": {
-   "high": 64,
-   "rain_prob": 8,
+   "high": 61,
+   "rain_prob": 2,
    "short": "Partly Sunny"
   },
   "2026-10-28": {
-   "high": 62,
-   "rain_prob": 10,
+   "high": 64,
+   "rain_prob": 3,
    "short": "Partly Sunny"
+  },
+  "2026-10-29": {
+   "high": 68,
+   "rain_prob": 9,
+   "short": "Mostly Sunny"
   }
  }
 }
