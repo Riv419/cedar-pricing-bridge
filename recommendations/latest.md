@@ -1,30 +1,24 @@
-# Cedar pricing — Fri Oct 23, 2026
+# Cedar pricing — Sat Oct 24, 2026
 
-_Ingested 16 sampled dates from expedia._
+_Ingested 17 sampled dates from expedia._
 _Events: 9 from today's search._
-Occupancy: next 7 nights **78%** · next 30 **60%** · floor $109 / ceiling $289 · max move $20/day · target 90% of comp median
+Occupancy: next 7 nights **76%** · next 30 **59%** · floor $109 / ceiling $289 · max move $20/day · target 90% of comp median
 
-## 19 price changes across 6 nights
+## 9 price changes across 4 nights
 
-**Sat Oct 24** — comp $219 · occ 89% (8/9) · Patchy Fog then Sunny 63° · Breakers Express $259 · 🎟 Cedar Point HalloWeekends Sat (high)
-- Room 3: $269 → **$279** ▲
+**Sat Oct 24** — comp $212 · occ 89% (8/9) · Sunny 64° · 🎟 Cedar Point HalloWeekends Sat (high)
+- Room 3: $279 → **$269** ▼
 
-**Sat Oct 31** — comp $152 · occ 89% (8/9) · 🎟 Halloween + HalloWeekends Sat (high)
-- Room 7: $199 → **$189** ▼
+**Fri Oct 30** — comp $134 · occ 89% (8/9) · Mostly Sunny 66°, rain 10% · 🎟 Cedar Point HalloWeekends Fri (medium)
+- Room 7: $149 → **$159** ▲
 
 **Sat Nov 7** — comp $139 · occ 78% (7/9)
-- Rooms 1, 6: $109 → **$129** ▲
+- Rooms 1, 6: $129 → **$139** ▲
 
-**Mon Nov 9** — comp $91 (est.) · occ 44% (4/9)
+**Thu Nov 12** — comp $96 (est.) · occ 44% (4/9)
 - Rooms 1, 6-7, 9, 11: $129 → **$109** ▼
 
-**Tue Nov 10** — comp $91 (est.) · occ 44% (4/9)
-- Rooms 1, 6-7, 9, 11: $129 → **$109** ▼
-
-**Wed Nov 11** — comp $91 (est.) · occ 44% (4/9)
-- Rooms 1, 6-7, 9, 11: $129 → **$109** ▼
-
-_Skipped 62 nights with no competitor data: Thu Nov 12 … Wed Jan 20_
+_Skipped 62 nights with no competitor data: Sun Nov 15 … Thu Jan 21_
 
 ---
-**Applying automatically** (fresh competitor sample for 16 nights). Undo a day: run *3 - Revert prices* with date 2026-10-23.
+**Applying automatically** (fresh competitor sample for 17 nights). Undo a day: run *3 - Revert prices* with date 2026-10-24.

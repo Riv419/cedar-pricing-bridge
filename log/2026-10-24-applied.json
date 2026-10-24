@@ -1,0 +1,193 @@
+{
+ "applied_at_utc": "2026-10-24T10:28:12.272284Z",
+ "rec_date": "2026-10-24",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-10-24",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 279,
+   "recommended": 269,
+   "delta": -10,
+   "reason": "comp median $212 x0.9 = $191 \u00b7 occ 89% x1.08 \u00b7 0d out, house full x1.05 \u00b7 Cedar Point HalloWeekends Sat x1.25 \u00b7 = $269",
+   "comp_ref": 212.5,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-24",
+   "occupancy": 0.8888888888888888,
+   "days_out": 0
+  },
+  {
+   "date": "2026-10-30",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 149,
+   "recommended": 159,
+   "delta": 10,
+   "reason": "comp median $134 x0.9 = $121 \u00b7 occ 89% x1.08 \u00b7 6d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 7 +$10 \u00b7 = $159",
+   "comp_ref": 134,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.8888888888888888,
+   "days_out": 6
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 129,
+   "recommended": 139,
+   "delta": 10,
+   "reason": "comp median $139 x0.9 = $125 \u00b7 occ 78% x1.08 \u00b7 14d out x1.0 \u00b7 = $139",
+   "comp_ref": 139,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.7777777777777778,
+   "days_out": 14
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 129,
+   "recommended": 139,
+   "delta": 10,
+   "reason": "comp median $139 x0.9 = $125 \u00b7 occ 78% x1.08 \u00b7 14d out x1.0 \u00b7 = $139",
+   "comp_ref": 139,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.7777777777777778,
+   "days_out": 14
+  },
+  {
+   "date": "2026-11-12",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $96 x0.9 = $87 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 = $109",
+   "comp_ref": 96.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-02",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-12",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $96 x0.9 = $87 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 = $109",
+   "comp_ref": 96.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-02",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-12",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $96 x0.9 = $87 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 room 7 +$10 \u00b7 = $109",
+   "comp_ref": 96.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-02",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-12",
+   "listing_id": 488731,
+   "room": 9,
+   "name": "Brewmaster's Room",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $96 x0.9 = $87 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 room 9 +$10 \u00b7 = $109",
+   "comp_ref": 96.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-02",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-12",
+   "listing_id": 488737,
+   "room": 11,
+   "name": "Garden Room",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $96 x0.9 = $87 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 = $109",
+   "comp_ref": 96.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-02",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488709:2026-10-24": {
+   "expected": 269,
+   "got": 269,
+   "ok": true
+  },
+  "488727:2026-10-30": {
+   "expected": 159,
+   "got": 159,
+   "ok": true
+  },
+  "488727:2026-11-12": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488699:2026-11-07": {
+   "expected": 139,
+   "got": 139,
+   "ok": true
+  },
+  "488699:2026-11-12": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488715:2026-11-07": {
+   "expected": 139,
+   "got": 139,
+   "ok": true
+  },
+  "488715:2026-11-12": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488731:2026-11-12": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488737:2026-11-12": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  }
+ }
+}

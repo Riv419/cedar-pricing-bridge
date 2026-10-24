@@ -1,12 +1,7 @@
 {
- "as_of": "2026-10-23",
+ "as_of": "2026-10-24",
  "source": "claude web search",
  "events": [
-  {
-   "date": "2026-10-23",
-   "name": "Cedar Point HalloWeekends Fri",
-   "impact": "medium"
-  },
   {
    "date": "2026-10-24",
    "name": "Cedar Point HalloWeekends Sat",
@@ -48,6 +43,12 @@
    "date": "2026-12-31",
    "name": "New Year's Eve (Port Clinton Walleye Drop)",
    "impact": "medium"
+  },
+  {
+   "start": "2027-01-16",
+   "end": "2027-01-17",
+   "name": "MLK holiday weekend",
+   "impact": "low"
   }
  ]
 }
