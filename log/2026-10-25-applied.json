@@ -1,0 +1,93 @@
+{
+ "applied_at_utc": "2026-10-25T10:28:00.151854Z",
+ "rec_date": "2026-10-25",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-10-30",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 159,
+   "recommended": 149,
+   "delta": -10,
+   "reason": "comp median $133 x0.9 = $120 \u00b7 occ 89% x1.08 \u00b7 5d out x1.0 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 7 +$10 \u00b7 = $149",
+   "comp_ref": 133,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.8888888888888888,
+   "days_out": 5
+  },
+  {
+   "date": "2026-11-05",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 149,
+   "recommended": 129,
+   "delta": -20,
+   "reason": "comp median $96 x0.9 = $86 \u00b7 occ 67% x1.0 \u00b7 11d out x1.0 \u00b7 room 7 +$10 \u00b7 = $109 \u00b7 capped to $20/day \u2192 $129",
+   "comp_ref": 96.0,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-03",
+   "occupancy": 0.6666666666666666,
+   "days_out": 11
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 139,
+   "recommended": 129,
+   "delta": -10,
+   "reason": "comp median $138 x0.9 = $124 \u00b7 occ 78% x1.08 \u00b7 13d out x1.0 \u00b7 = $129",
+   "comp_ref": 138,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.7777777777777778,
+   "days_out": 13
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 139,
+   "recommended": 129,
+   "delta": -10,
+   "reason": "comp median $138 x0.9 = $124 \u00b7 occ 78% x1.08 \u00b7 13d out x1.0 \u00b7 = $129",
+   "comp_ref": 138,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.7777777777777778,
+   "days_out": 13
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488727:2026-10-30": {
+   "expected": 149,
+   "got": 149,
+   "ok": true
+  },
+  "488727:2026-11-05": {
+   "expected": 129,
+   "got": 129,
+   "ok": true
+  },
+  "488699:2026-11-07": {
+   "expected": 129,
+   "got": 129,
+   "ok": true
+  },
+  "488715:2026-11-07": {
+   "expected": 129,
+   "got": 129,
+   "ok": true
+  }
+ }
+}
