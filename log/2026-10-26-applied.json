@@ -1,0 +1,33 @@
+{
+ "applied_at_utc": "2026-10-26T10:32:14.574210Z",
+ "rec_date": "2026-10-26",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-11-05",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $95 x0.9 = $86 \u00b7 occ 67% x1.0 \u00b7 10d out x1.0 \u00b7 room 7 +$10 \u00b7 = $109",
+   "comp_ref": 95.0,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-04",
+   "occupancy": 0.6666666666666666,
+   "days_out": 10
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488727:2026-11-05": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  }
+ }
+}
