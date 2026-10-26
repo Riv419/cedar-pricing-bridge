@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-26T10:31:25.675588Z",
+ "generated_at_utc": "2026-10-26T12:29:38.869475Z",
  "run_date": "2026-10-26",
  "horizon_days": 90,
  "floor": 109,
@@ -7,18 +7,18 @@
  "comp_position": 0.9,
  "max_daily_move": 20,
  "auto_apply": {
-  "eligible": true,
-  "reason": "fresh competitor sample for 17 nights"
+  "eligible": false,
+  "reason": "nothing to change"
  },
- "fresh_comp_dates": 17,
+ "fresh_comp_dates": 16,
  "events_on_calendar": 11,
  "notes": [
-  "Ingested 17 sampled dates from expedia.",
+  "Ingested 16 sampled dates from expedia.",
   "Events: 7 from today's search."
  ],
  "counts": {
-  "changes": 1,
-  "unchanged_open_nights": 111,
+  "changes": 0,
+  "unchanged_open_nights": 112,
   "dates_skipped_no_comps": 64
  },
  "skipped_dates": {
@@ -100,7 +100,7 @@
      "port_clinton": 102.0
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -127,7 +127,7 @@
      "port_clinton": 106
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -154,7 +154,7 @@
      "port_clinton": 106
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -181,7 +181,7 @@
      "port_clinton": 106
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -203,12 +203,12 @@
     "sample_date": "2026-10-30",
     "n": 21,
     "segments": {
-     "strip": 150.0,
+     "strip": 156.0,
      "motel": 155.0,
      "port_clinton": 129
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -234,12 +234,12 @@
     "sample_date": "2026-10-31",
     "n": 21,
     "segments": {
-     "strip": 167.0,
+     "strip": 162.5,
      "motel": 163.5,
      "port_clinton": 131
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -270,7 +270,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -301,7 +301,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -324,7 +324,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -347,7 +347,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -370,7 +370,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -393,7 +393,7 @@
      "port_clinton": 114
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -416,7 +416,7 @@
      "port_clinton": 114
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -439,7 +439,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -462,7 +462,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -485,7 +485,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -508,7 +508,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -531,7 +531,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -554,7 +554,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -577,7 +577,7 @@
      "port_clinton": 105
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -670,7 +670,7 @@
      "port_clinton": 107.0
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -682,18 +682,18 @@
    "event": null
   },
   "2026-11-21": {
-   "ref": 121.5,
+   "ref": 114,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-21",
-    "n": 20,
+    "n": 19,
     "segments": {
      "strip": 113,
      "motel": 179,
-     "port_clinton": 131.0
+     "port_clinton": 129
     },
     "vr_median": null,
-    "sampled_at": "2026-10-26T10:29:25Z",
+    "sampled_at": "2026-10-26T12:27:37Z",
     "source": "expedia"
    },
    "occ": {
@@ -1655,22 +1655,6 @@
    "event": null
   }
  },
- "recommendations": [
-  {
-   "date": "2026-11-05",
-   "listing_id": 488727,
-   "room": 7,
-   "name": "Captain's Room",
-   "current": 129,
-   "recommended": 109,
-   "delta": -20,
-   "reason": "comp median $95 x0.9 = $86 \u00b7 occ 67% x1.0 \u00b7 10d out x1.0 \u00b7 room 7 +$10 \u00b7 = $109",
-   "comp_ref": 95.0,
-   "comp_kind": "interpolated",
-   "comp_sample_date": "2026-11-04",
-   "occupancy": 0.6666666666666666,
-   "days_out": 10
-  }
- ],
- "status": "recommendations"
+ "recommendations": [],
+ "status": "no_changes"
 }
