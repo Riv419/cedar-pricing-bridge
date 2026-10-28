@@ -1,0 +1,53 @@
+{
+ "applied_at_utc": "2026-10-28T10:30:51.040416Z",
+ "rec_date": "2026-10-28",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-10-30",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 159,
+   "recommended": 169,
+   "delta": 10,
+   "reason": "comp median $139 x0.9 = $125 \u00b7 occ 89% x1.08 \u00b7 2d out, house full x1.05 \u00b7 Cedar Point HalloWeekends Fri x1.12 \u00b7 room 7 +$10 \u00b7 = $169",
+   "comp_ref": 139,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-10-30",
+   "occupancy": 0.8888888888888888,
+   "days_out": 2
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 119,
+   "recommended": 129,
+   "delta": 10,
+   "reason": "comp median $129 x0.9 = $116 \u00b7 occ 88% x1.08 \u00b7 10d out x1.0 \u00b7 = $129",
+   "comp_ref": 129,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.875,
+   "days_out": 10
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488727:2026-10-30": {
+   "expected": 169,
+   "got": 169,
+   "ok": true
+  },
+  "488715:2026-11-07": {
+   "expected": 129,
+   "got": 129,
+   "ok": true
+  }
+ }
+}
