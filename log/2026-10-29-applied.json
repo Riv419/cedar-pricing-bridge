@@ -1,0 +1,33 @@
+{
+ "applied_at_utc": "2026-10-29T10:34:16.436226Z",
+ "rec_date": "2026-10-29",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-11-07",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 129,
+   "recommended": 119,
+   "delta": -10,
+   "reason": "comp median $128 x0.9 = $115 \u00b7 occ 88% x1.08 \u00b7 9d out x1.0 \u00b7 = $119",
+   "comp_ref": 128,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.875,
+   "days_out": 9
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488715:2026-11-07": {
+   "expected": 119,
+   "got": 119,
+   "ok": true
+  }
+ }
+}
