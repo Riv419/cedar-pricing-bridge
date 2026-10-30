@@ -1,42 +1,69 @@
 {
-  "generated_at_et": "2026-10-29 17:05:27 EDT",
+  "generated_at_et": "2026-10-30 07:00:12 EDT",
   "property": "The Cedar (Bay View Lodging)",
-  "night": "2026-10-29",
+  "night": "2026-10-30",
   "capacity": 12,
   "revenue_basis": "occupancy basis: guest total (incl. fees & tax) \u00f7 nights; owner stays = $0",
   "tonight": {
-    "date": "2026-10-29",
-    "dow": "Thu",
-    "occupied": 6,
+    "date": "2026-10-30",
+    "dow": "Fri",
+    "occupied": 9,
     "capacity": 12,
-    "occupancy_pct": 50,
-    "revenue": 214.97,
-    "adr": 35.83,
+    "occupancy_pct": 75,
+    "revenue": 657.2,
+    "adr": 73.02,
     "by_channel": {
+      "Airbnb": {
+        "rooms": 2,
+        "revenue": 282.97
+      },
       "Direct (manual)": {
         "rooms": 6,
         "revenue": 214.97
+      },
+      "Direct (website)": {
+        "rooms": 1,
+        "revenue": 159.26
       }
     }
   },
-  "arrivals_today": [],
+  "arrivals_today": [
+    {
+      "room": 7,
+      "room_name": "Captain's Room",
+      "channel": "Direct (website)",
+      "nights": 4,
+      "guests": 2,
+      "arrival": "2026-10-30",
+      "departure": "2026-11-03",
+      "total": 637.04,
+      "per_night": 159.26
+    },
+    {
+      "room": 9,
+      "room_name": "Brewmaster's Room",
+      "channel": "Airbnb",
+      "nights": 2,
+      "guests": 3,
+      "arrival": "2026-10-30",
+      "departure": "2026-11-01",
+      "total": 324.5,
+      "per_night": 162.25
+    },
+    {
+      "room": 12,
+      "room_name": "Writer's Room",
+      "channel": "Airbnb",
+      "nights": 2,
+      "guests": 2,
+      "arrival": "2026-10-30",
+      "departure": "2026-11-01",
+      "total": 241.44,
+      "per_night": 120.72
+    }
+  ],
   "departures_tomorrow": [],
   "next_7_nights": [
-    {
-      "date": "2026-10-29",
-      "dow": "Thu",
-      "occupied": 6,
-      "capacity": 12,
-      "occupancy_pct": 50,
-      "revenue": 214.97,
-      "adr": 35.83,
-      "by_channel": {
-        "Direct (manual)": {
-          "rooms": 6,
-          "revenue": 214.97
-        }
-      }
-    },
     {
       "date": "2026-10-30",
       "dow": "Fri",
@@ -150,33 +177,52 @@
           "revenue": 181.05
         }
       }
+    },
+    {
+      "date": "2026-11-05",
+      "dow": "Thu",
+      "occupied": 6,
+      "capacity": 12,
+      "occupancy_pct": 50,
+      "revenue": 309.98,
+      "adr": 51.66,
+      "by_channel": {
+        "Direct (manual)": {
+          "rooms": 5,
+          "revenue": 181.05
+        },
+        "Direct (website)": {
+          "rooms": 1,
+          "revenue": 128.93
+        }
+      }
     }
   ],
   "next_7_totals": {
     "room_nights": 46,
     "capacity": 84,
     "occupancy_pct": 55,
-    "revenue": 2572.09
+    "revenue": 2667.1
   },
   "month_to_date": {
     "month": "2026-10",
-    "through": "2026-10-29",
-    "room_nights": 106,
-    "capacity": 348,
-    "occupancy_pct": 30,
-    "revenue": 8725.36,
+    "through": "2026-10-30",
+    "room_nights": 115,
+    "capacity": 360,
+    "occupancy_pct": 32,
+    "revenue": 9382.56,
     "by_channel": {
       "Airbnb": {
-        "room_nights": 15,
-        "revenue": 2542.01
+        "room_nights": 17,
+        "revenue": 2824.98
       },
       "Direct (manual)": {
-        "room_nights": 69,
-        "revenue": 3011.69
+        "room_nights": 75,
+        "revenue": 3226.66
       },
       "Direct (website)": {
-        "room_nights": 22,
-        "revenue": 3171.66
+        "room_nights": 23,
+        "revenue": 3330.92
       }
     }
   },
