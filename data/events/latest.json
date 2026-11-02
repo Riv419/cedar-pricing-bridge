@@ -1,12 +1,7 @@
 {
- "as_of": "2026-11-01",
+ "as_of": "2026-11-02",
  "source": "claude web search",
  "events": [
-  {
-   "date": "2026-11-01",
-   "name": "HalloWeekends closing Sun",
-   "impact": "medium"
-  },
   {
    "start": "2026-11-27",
    "end": "2026-11-28",

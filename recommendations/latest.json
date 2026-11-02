@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-01T10:27:23.784259Z",
- "run_date": "2026-11-01",
+ "generated_at_utc": "2026-11-02T10:28:47.316377Z",
+ "run_date": "2026-11-02",
  "horizon_days": 90,
  "floor": 109,
  "ceiling": 289,
@@ -8,17 +8,17 @@
  "max_daily_move": 20,
  "auto_apply": {
   "eligible": true,
-  "reason": "fresh competitor sample for 15 nights"
+  "reason": "fresh competitor sample for 16 nights"
  },
- "fresh_comp_dates": 15,
- "events_on_calendar": 9,
+ "fresh_comp_dates": 16,
+ "events_on_calendar": 8,
  "notes": [
-  "Ingested 15 sampled dates from expedia.",
-  "Events: 5 from today's search."
+  "Ingested 16 sampled dates from expedia.",
+  "Events: 4 from today's search."
  ],
  "counts": {
   "changes": 13,
-  "unchanged_open_nights": 269,
+  "unchanged_open_nights": 274,
   "dates_skipped_no_comps": 50
  },
  "skipped_dates": {
@@ -74,19 +74,19 @@
   "2027-01-28": "no fresh competitor sample within window"
  },
  "date_info": {
-  "2026-11-01": {
-   "ref": 94.5,
+  "2026-11-02": {
+   "ref": 102.5,
    "comp": {
     "kind": "direct",
-    "sample_date": "2026-11-01",
+    "sample_date": "2026-11-02",
     "n": 20,
     "segments": {
-     "strip": 94.5,
-     "port_clinton": 106,
-     "motel": 89
+     "port_clinton": 124,
+     "strip": 102.5,
+     "motel": 80
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -96,55 +96,24 @@
    },
    "wx": {
     "high": 67,
-    "rain_prob": 13,
-    "short": "Mostly Cloudy"
-   },
-   "event": {
-    "name": "HalloWeekends closing Sun",
-    "impact": "medium",
-    "factor": 1.12
-   }
-  },
-  "2026-11-02": {
-   "ref": 100.0,
-   "comp": {
-    "kind": "direct",
-    "sample_date": "2026-11-02",
-    "n": 20,
-    "segments": {
-     "strip": 95.5,
-     "port_clinton": 106,
-     "motel": 99
-    },
-    "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
-    "source": "expedia"
-   },
-   "occ": {
-    "booked": 6,
-    "capacity": 10,
-    "rate": 0.6
-   },
-   "wx": {
-    "high": 66,
     "rain_prob": 15,
-    "short": "Partly Sunny then Slight Chance Light Rain"
+    "short": "Mostly Cloudy"
    },
    "event": null
   },
   "2026-11-03": {
-   "ref": 100.0,
+   "ref": 89.0,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-03",
-    "n": 20,
+    "n": 18,
     "segments": {
-     "strip": 95.5,
-     "port_clinton": 114,
-     "motel": 99
+     "port_clinton": 104.0,
+     "strip": 95.0,
+     "motel": 84.5
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -153,25 +122,25 @@
     "rate": 0.5
    },
    "wx": {
-    "high": 73,
-    "rain_prob": 7,
-    "short": "Partly Sunny"
+    "high": 74,
+    "rain_prob": 4,
+    "short": "Mostly Sunny"
    },
    "event": null
   },
   "2026-11-04": {
-   "ref": 97.5,
+   "ref": 89.0,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-04",
-    "n": 20,
+    "n": 18,
     "segments": {
-     "strip": 91.0,
-     "port_clinton": 106,
-     "motel": 99
+     "port_clinton": 104.0,
+     "strip": 95.5,
+     "motel": 84.5
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -180,25 +149,25 @@
     "rate": 0.5
    },
    "wx": {
-    "high": 71,
-    "rain_prob": 63,
-    "short": "Light Rain Likely"
+    "high": 72,
+    "rain_prob": 80,
+    "short": "Light Rain"
    },
    "event": null
   },
   "2026-11-05": {
-   "ref": 94.0,
+   "ref": 87.0,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-05",
-    "n": 20,
+    "n": 18,
     "segments": {
+     "port_clinton": 87.5,
      "strip": 87.5,
-     "port_clinton": 105,
-     "motel": 99
+     "motel": 84.5
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -208,24 +177,24 @@
    },
    "wx": {
     "high": 66,
-    "rain_prob": 63,
-    "short": "Light Rain Likely"
+    "rain_prob": 37,
+    "short": "Chance Light Rain then Mostly Sunny"
    },
    "event": null
   },
   "2026-11-06": {
-   "ref": 123,
+   "ref": 115.0,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-06",
-    "n": 19,
+    "n": 16,
     "segments": {
-     "strip": 123,
-     "port_clinton": 114,
-     "motel": 129
+     "port_clinton": 95.5,
+     "strip": 121.5,
+     "motel": 98.0
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -234,25 +203,25 @@
     "rate": 0.7
    },
    "wx": {
-    "high": 62,
-    "rain_prob": 30,
+    "high": 59,
+    "rain_prob": 29,
     "short": "Chance Light Rain"
    },
    "event": null
   },
   "2026-11-07": {
-   "ref": 129,
+   "ref": 123,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-07",
-    "n": 19,
+    "n": 17,
     "segments": {
-     "strip": 137,
-     "motel": 159,
-     "port_clinton": 114
+     "port_clinton": 97.0,
+     "motel": 111.5,
+     "strip": 146
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -261,25 +230,25 @@
     "rate": 0.7
    },
    "wx": {
-    "high": 58,
-    "rain_prob": 16,
-    "short": "Slight Chance Light Rain"
+    "high": 57,
+    "rain_prob": 10,
+    "short": "Mostly Cloudy"
    },
    "event": null
   },
   "2026-11-08": {
-   "ref": 91.0,
+   "ref": 89,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-08",
-    "n": 20,
+    "n": 19,
     "segments": {
-     "strip": 83.0,
-     "port_clinton": 105,
-     "motel": 99
+     "port_clinton": 85.0,
+     "strip": 88.5,
+     "motel": 89
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -287,22 +256,26 @@
     "capacity": 10,
     "rate": 0.4
    },
-   "wx": null,
+   "wx": {
+    "high": 56,
+    "rain_prob": 13,
+    "short": "Partly Sunny"
+   },
    "event": null
   },
   "2026-11-09": {
-   "ref": 96,
+   "ref": 83.0,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-09",
-    "n": 19,
+    "n": 18,
     "segments": {
-     "strip": 86,
-     "port_clinton": 105,
-     "motel": 96
+     "port_clinton": 83.5,
+     "strip": 83.0,
+     "motel": 84.5
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -314,18 +287,18 @@
    "event": null
   },
   "2026-11-10": {
-   "ref": 93.0,
+   "ref": 83.0,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-10",
-    "n": 20,
+    "n": 18,
     "segments": {
-     "strip": 83.5,
-     "port_clinton": 105,
-     "motel": 99
+     "port_clinton": 83.5,
+     "strip": 83.0,
+     "motel": 84.5
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -337,18 +310,18 @@
    "event": null
   },
   "2026-11-11": {
-   "ref": 93.0,
+   "ref": 92.0,
    "comp": {
-    "kind": "interpolated",
-    "sample_date": "2026-11-10",
-    "n": 20,
+    "kind": "direct",
+    "sample_date": "2026-11-11",
+    "n": 18,
     "segments": {
-     "strip": 83.5,
-     "port_clinton": 105,
-     "motel": 99
+     "port_clinton": 83.0,
+     "strip": 101,
+     "motel": 89
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -360,18 +333,18 @@
    "event": null
   },
   "2026-11-12": {
-   "ref": 93.0,
+   "ref": 92.0,
    "comp": {
     "kind": "interpolated",
-    "sample_date": "2026-11-10",
-    "n": 20,
+    "sample_date": "2026-11-11",
+    "n": 18,
     "segments": {
-     "strip": 83.5,
-     "port_clinton": 105,
-     "motel": 99
+     "port_clinton": 83.0,
+     "strip": 101,
+     "motel": 89
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -383,18 +356,18 @@
    "event": null
   },
   "2026-11-13": {
-   "ref": 113.0,
+   "ref": 107.5,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-13",
-    "n": 20,
+    "n": 18,
     "segments": {
-     "strip": 116.0,
-     "port_clinton": 105,
-     "motel": 129
+     "port_clinton": 88.5,
+     "motel": 98.0,
+     "strip": 116.0
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -406,18 +379,18 @@
    "event": null
   },
   "2026-11-14": {
-   "ref": 113.0,
+   "ref": 107.5,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-14",
-    "n": 20,
+    "n": 18,
     "segments": {
-     "strip": 116.0,
-     "port_clinton": 105,
-     "motel": 159
+     "port_clinton": 88.0,
+     "motel": 111.5,
+     "strip": 116.0
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -429,18 +402,18 @@
    "event": null
   },
   "2026-11-15": {
-   "ref": 93.0,
+   "ref": 92.0,
    "comp": {
     "kind": "interpolated",
-    "sample_date": "2026-11-10",
-    "n": 20,
+    "sample_date": "2026-11-11",
+    "n": 18,
     "segments": {
-     "strip": 83.5,
-     "port_clinton": 105,
-     "motel": 99
+     "port_clinton": 83.0,
+     "strip": 101,
+     "motel": 89
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -452,18 +425,18 @@
    "event": null
   },
   "2026-11-16": {
-   "ref": 93.0,
+   "ref": 92.0,
    "comp": {
     "kind": "interpolated",
-    "sample_date": "2026-11-10",
-    "n": 20,
+    "sample_date": "2026-11-11",
+    "n": 18,
     "segments": {
-     "strip": 83.5,
-     "port_clinton": 105,
-     "motel": 99
+     "port_clinton": 83.0,
+     "strip": 101,
+     "motel": 89
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -475,18 +448,18 @@
    "event": null
   },
   "2026-11-17": {
-   "ref": 93.0,
+   "ref": 92.0,
    "comp": {
     "kind": "interpolated",
-    "sample_date": "2026-11-10",
-    "n": 20,
+    "sample_date": "2026-11-11",
+    "n": 18,
     "segments": {
-     "strip": 83.5,
-     "port_clinton": 105,
-     "motel": 99
+     "port_clinton": 83.0,
+     "strip": 101,
+     "motel": 89
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -498,18 +471,18 @@
    "event": null
   },
   "2026-11-18": {
-   "ref": 93.0,
+   "ref": 92.0,
    "comp": {
     "kind": "interpolated",
-    "sample_date": "2026-11-10",
-    "n": 20,
+    "sample_date": "2026-11-11",
+    "n": 18,
     "segments": {
-     "strip": 83.5,
-     "port_clinton": 105,
-     "motel": 99
+     "port_clinton": 83.0,
+     "strip": 101,
+     "motel": 89
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -521,18 +494,18 @@
    "event": null
   },
   "2026-11-19": {
-   "ref": 93.0,
+   "ref": 92.0,
    "comp": {
     "kind": "interpolated",
-    "sample_date": "2026-11-10",
-    "n": 20,
+    "sample_date": "2026-11-11",
+    "n": 18,
     "segments": {
-     "strip": 83.5,
-     "port_clinton": 105,
-     "motel": 99
+     "port_clinton": 83.0,
+     "strip": 101,
+     "motel": 89
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -544,18 +517,18 @@
    "event": null
   },
   "2026-11-20": {
-   "ref": 114,
+   "ref": 112.0,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-20",
-    "n": 21,
+    "n": 18,
     "segments": {
-     "strip": 113.5,
-     "port_clinton": 100.5,
-     "motel": 129
+     "port_clinton": 93.5,
+     "strip": 112.0,
+     "motel": 98.0
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -567,18 +540,18 @@
    "event": null
   },
   "2026-11-21": {
-   "ref": 115.0,
+   "ref": 113.5,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-21",
-    "n": 20,
+    "n": 18,
     "segments": {
+     "port_clinton": 93.5,
      "strip": 113,
-     "port_clinton": 117.0,
-     "motel": 159
+     "motel": 133
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -660,18 +633,18 @@
    "event": null
   },
   "2026-11-27": {
-   "ref": 105.0,
+   "ref": 103.5,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-27",
-    "n": 20,
+    "n": 18,
     "segments": {
-     "strip": 104.0,
-     "port_clinton": 105,
-     "motel": 129
+     "port_clinton": 87.0,
+     "strip": 103.5,
+     "motel": 98.0
     },
     "vr_median": null,
-    "sampled_at": "2026-11-01T10:26:08Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -687,18 +660,18 @@
    }
   },
   "2026-11-28": {
-   "ref": 111.5,
+   "ref": 110,
    "comp": {
     "kind": "direct",
     "sample_date": "2026-11-28",
-    "n": 20,
+    "n": 19,
     "segments": {
-     "port_clinton": 110,
+     "port_clinton": 89.5,
      "motel": 133,
      "strip": 108.0
     },
     "vr_median": null,
-    "sampled_at": "2026-10-31T10:33:00Z",
+    "sampled_at": "2026-11-02T10:27:29Z",
     "source": "expedia"
    },
    "occ": {
@@ -1757,6 +1730,29 @@
    },
    "wx": null,
    "event": null
+  },
+  "2027-01-30": {
+   "ref": 121.5,
+   "comp": {
+    "kind": "interpolated",
+    "sample_date": "2027-01-23",
+    "n": 18,
+    "segments": {
+     "strip": 137,
+     "motel": 129.0,
+     "port_clinton": 84
+    },
+    "vr_median": null,
+    "sampled_at": "2026-10-31T10:33:00Z",
+    "source": "expedia"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 10,
+    "rate": 0.1
+   },
+   "wx": null,
+   "event": null
   }
  },
  "recommendations": [
@@ -1765,63 +1761,63 @@
    "listing_id": 488729,
    "room": 8,
    "name": "Fisherman's Lodge",
-   "current": 109,
-   "recommended": 119,
-   "delta": 10,
-   "reason": "comp median $123 x0.9 = $111 \u00b7 occ 70% x1.0 \u00b7 5d out x1.0 \u00b7 room 8 +$10 \u00b7 = $119",
-   "comp_ref": 123,
+   "current": 119,
+   "recommended": 109,
+   "delta": -10,
+   "reason": "comp median $115 x0.9 = $104 \u00b7 occ 70% x1.0 \u00b7 4d out x1.0 \u00b7 room 8 +$10 \u00b7 = $109",
+   "comp_ref": 115.0,
    "comp_kind": "direct",
    "comp_sample_date": "2026-11-06",
    "occupancy": 0.7,
-   "days_out": 5
+   "days_out": 4
   },
   {
    "date": "2026-11-07",
    "listing_id": 488699,
    "room": 1,
    "name": "Vinyl Lounge",
-   "current": 109,
-   "recommended": 119,
-   "delta": 10,
-   "reason": "comp median $129 x0.9 = $116 \u00b7 occ 70% x1.0 \u00b7 6d out x1.0 \u00b7 = $119",
-   "comp_ref": 129,
+   "current": 119,
+   "recommended": 109,
+   "delta": -10,
+   "reason": "comp median $123 x0.9 = $111 \u00b7 occ 70% x1.0 \u00b7 5d out x1.0 \u00b7 = $109",
+   "comp_ref": 123,
    "comp_kind": "direct",
    "comp_sample_date": "2026-11-07",
    "occupancy": 0.7,
-   "days_out": 6
+   "days_out": 5
   },
   {
    "date": "2026-11-07",
    "listing_id": 488715,
    "room": 6,
    "name": "Traveler's Den",
-   "current": 109,
-   "recommended": 119,
-   "delta": 10,
-   "reason": "comp median $129 x0.9 = $116 \u00b7 occ 70% x1.0 \u00b7 6d out x1.0 \u00b7 = $119",
-   "comp_ref": 129,
+   "current": 119,
+   "recommended": 109,
+   "delta": -10,
+   "reason": "comp median $123 x0.9 = $111 \u00b7 occ 70% x1.0 \u00b7 5d out x1.0 \u00b7 = $109",
+   "comp_ref": 123,
    "comp_kind": "direct",
    "comp_sample_date": "2026-11-07",
    "occupancy": 0.7,
-   "days_out": 6
+   "days_out": 5
   },
   {
    "date": "2026-11-07",
    "listing_id": 488729,
    "room": 8,
    "name": "Fisherman's Lodge",
-   "current": 119,
-   "recommended": 129,
-   "delta": 10,
-   "reason": "comp median $129 x0.9 = $116 \u00b7 occ 70% x1.0 \u00b7 6d out x1.0 \u00b7 room 8 +$10 \u00b7 = $129",
-   "comp_ref": 129,
+   "current": 129,
+   "recommended": 119,
+   "delta": -10,
+   "reason": "comp median $123 x0.9 = $111 \u00b7 occ 70% x1.0 \u00b7 5d out x1.0 \u00b7 room 8 +$10 \u00b7 = $119",
+   "comp_ref": 123,
    "comp_kind": "direct",
    "comp_sample_date": "2026-11-07",
    "occupancy": 0.7,
-   "days_out": 6
+   "days_out": 5
   },
   {
-   "date": "2027-01-29",
+   "date": "2027-01-30",
    "listing_id": 488699,
    "room": 1,
    "name": "Vinyl Lounge",
@@ -1836,7 +1832,7 @@
    "days_out": 89
   },
   {
-   "date": "2027-01-29",
+   "date": "2027-01-30",
    "listing_id": 488705,
    "room": 2,
    "name": "Movie Room",
@@ -1851,7 +1847,7 @@
    "days_out": 89
   },
   {
-   "date": "2027-01-29",
+   "date": "2027-01-30",
    "listing_id": 488709,
    "room": 3,
    "name": "Stargazer's Retreat",
@@ -1866,7 +1862,7 @@
    "days_out": 89
   },
   {
-   "date": "2027-01-29",
+   "date": "2027-01-30",
    "listing_id": 488713,
    "room": 5,
    "name": "Artist's Studio",
@@ -1881,7 +1877,7 @@
    "days_out": 89
   },
   {
-   "date": "2027-01-29",
+   "date": "2027-01-30",
    "listing_id": 488715,
    "room": 6,
    "name": "Traveler's Den",
@@ -1896,7 +1892,7 @@
    "days_out": 89
   },
   {
-   "date": "2027-01-29",
+   "date": "2027-01-30",
    "listing_id": 488727,
    "room": 7,
    "name": "Captain's Room",
@@ -1911,7 +1907,7 @@
    "days_out": 89
   },
   {
-   "date": "2027-01-29",
+   "date": "2027-01-30",
    "listing_id": 488729,
    "room": 8,
    "name": "Fisherman's Lodge",
@@ -1926,7 +1922,7 @@
    "days_out": 89
   },
   {
-   "date": "2027-01-29",
+   "date": "2027-01-30",
    "listing_id": 488731,
    "room": 9,
    "name": "Brewmaster's Room",
@@ -1941,7 +1937,7 @@
    "days_out": 89
   },
   {
-   "date": "2027-01-29",
+   "date": "2027-01-30",
    "listing_id": 488737,
    "room": 11,
    "name": "Garden Room",
