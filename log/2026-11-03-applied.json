@@ -1,0 +1,193 @@
+{
+ "applied_at_utc": "2026-11-03T10:31:11.298555Z",
+ "rec_date": "2026-11-03",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-11-06",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $123 x0.9 = $111 \u00b7 occ 78% x1.08 \u00b7 3d out x1.0 \u00b7 = $119",
+   "comp_ref": 123,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-06",
+   "occupancy": 0.7777777777777778,
+   "days_out": 3
+  },
+  {
+   "date": "2026-11-06",
+   "listing_id": 488729,
+   "room": 8,
+   "name": "Fisherman's Lodge",
+   "current": 109,
+   "recommended": 129,
+   "delta": 20,
+   "reason": "comp median $123 x0.9 = $111 \u00b7 occ 78% x1.08 \u00b7 3d out x1.0 \u00b7 room 8 +$10 \u00b7 = $129",
+   "comp_ref": 123,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-06",
+   "occupancy": 0.7777777777777778,
+   "days_out": 3
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $123 x0.9 = $111 \u00b7 occ 78% x1.08 \u00b7 4d out x1.0 \u00b7 = $119",
+   "comp_ref": 123,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.7777777777777778,
+   "days_out": 4
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488729,
+   "room": 8,
+   "name": "Fisherman's Lodge",
+   "current": 119,
+   "recommended": 129,
+   "delta": 10,
+   "reason": "comp median $123 x0.9 = $111 \u00b7 occ 78% x1.08 \u00b7 4d out x1.0 \u00b7 room 8 +$10 \u00b7 = $129",
+   "comp_ref": 123,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.7777777777777778,
+   "days_out": 4
+  },
+  {
+   "date": "2026-11-22",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $86 x0.9 = $77 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 = $109",
+   "comp_ref": 86.0,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-22",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $86 x0.9 = $77 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 room 7 +$10 \u00b7 = $109",
+   "comp_ref": 86.0,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-22",
+   "listing_id": 488729,
+   "room": 8,
+   "name": "Fisherman's Lodge",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $86 x0.9 = $77 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 room 8 +$10 \u00b7 = $109",
+   "comp_ref": 86.0,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-22",
+   "listing_id": 488731,
+   "room": 9,
+   "name": "Brewmaster's Room",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $86 x0.9 = $77 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 room 9 +$10 \u00b7 = $109",
+   "comp_ref": 86.0,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  },
+  {
+   "date": "2026-11-22",
+   "listing_id": 488737,
+   "room": 11,
+   "name": "Garden Room",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $86 x0.9 = $77 \u00b7 occ 44% x0.93 \u00b7 19d out x1.0 \u00b7 = $109",
+   "comp_ref": 86.0,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.4444444444444444,
+   "days_out": 19
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488715:2026-11-06": {
+   "expected": 119,
+   "got": 119,
+   "ok": true
+  },
+  "488715:2026-11-07": {
+   "expected": 119,
+   "got": 119,
+   "ok": true
+  },
+  "488715:2026-11-22": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488729:2026-11-06": {
+   "expected": 129,
+   "got": 129,
+   "ok": true
+  },
+  "488729:2026-11-07": {
+   "expected": 129,
+   "got": 129,
+   "ok": true
+  },
+  "488729:2026-11-22": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488727:2026-11-22": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488731:2026-11-22": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488737:2026-11-22": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  }
+ }
+}
