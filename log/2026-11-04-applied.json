@@ -1,0 +1,333 @@
+{
+ "applied_at_utc": "2026-11-04T10:28:27.414753Z",
+ "rec_date": "2026-11-04",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-11-05",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $89 x0.9 = $80 \u00b7 occ 56% x1.0 \u00b7 1d out x1.00 \u00b7 = $109",
+   "comp_ref": 89.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-05",
+   "occupancy": 0.5555555555555556,
+   "days_out": 1
+  },
+  {
+   "date": "2026-11-06",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 119,
+   "recommended": 109,
+   "delta": -10,
+   "reason": "comp median $122 x0.9 = $109 \u00b7 occ 67% x1.0 \u00b7 2d out x1.00 \u00b7 rain 63% x0.95 \u00b7 = $109",
+   "comp_ref": 121.5,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-06",
+   "occupancy": 0.6666666666666666,
+   "days_out": 2
+  },
+  {
+   "date": "2026-11-06",
+   "listing_id": 488729,
+   "room": 8,
+   "name": "Fisherman's Lodge",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $122 x0.9 = $109 \u00b7 occ 67% x1.0 \u00b7 2d out x1.00 \u00b7 rain 63% x0.95 \u00b7 room 8 +$10 \u00b7 = $109",
+   "comp_ref": 121.5,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-06",
+   "occupancy": 0.6666666666666666,
+   "days_out": 2
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 119,
+   "recommended": 109,
+   "delta": -10,
+   "reason": "comp median $127 x0.9 = $114 \u00b7 occ 67% x1.0 \u00b7 3d out x1.0 \u00b7 = $109",
+   "comp_ref": 127.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.6666666666666666,
+   "days_out": 3
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488729,
+   "room": 8,
+   "name": "Fisherman's Lodge",
+   "current": 129,
+   "recommended": 119,
+   "delta": -10,
+   "reason": "comp median $127 x0.9 = $114 \u00b7 occ 67% x1.0 \u00b7 3d out x1.0 \u00b7 room 8 +$10 \u00b7 = $119",
+   "comp_ref": 127.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.6666666666666666,
+   "days_out": 3
+  },
+  {
+   "date": "2026-11-08",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $89 x0.9 = $80 \u00b7 occ 33% x0.93 \u00b7 4d out x1.0 \u00b7 = $109",
+   "comp_ref": 89,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-08",
+   "occupancy": 0.3333333333333333,
+   "days_out": 4
+  },
+  {
+   "date": "2026-11-09",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $87 x0.9 = $78 \u00b7 occ 33% x0.93 \u00b7 5d out x1.0 \u00b7 = $109",
+   "comp_ref": 87.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-09",
+   "occupancy": 0.3333333333333333,
+   "days_out": 5
+  },
+  {
+   "date": "2026-11-10",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $87 x0.9 = $78 \u00b7 occ 33% x0.93 \u00b7 6d out x1.0 \u00b7 = $109",
+   "comp_ref": 87.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-10",
+   "occupancy": 0.3333333333333333,
+   "days_out": 6
+  },
+  {
+   "date": "2026-11-11",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $84 x0.9 = $76 \u00b7 occ 33% x0.93 \u00b7 7d out x1.0 \u00b7 = $109",
+   "comp_ref": 84.5,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-11",
+   "occupancy": 0.3333333333333333,
+   "days_out": 7
+  },
+  {
+   "date": "2026-11-12",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $82 x0.9 = $73 \u00b7 occ 33% x0.93 \u00b7 8d out x1.0 \u00b7 = $109",
+   "comp_ref": 81.5,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.3333333333333333,
+   "days_out": 8
+  },
+  {
+   "date": "2026-11-15",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $82 x0.9 = $73 \u00b7 occ 33% x0.93 \u00b7 11d out x1.0 \u00b7 = $109",
+   "comp_ref": 81.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.3333333333333333,
+   "days_out": 11
+  },
+  {
+   "date": "2026-11-16",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $82 x0.9 = $73 \u00b7 occ 33% x0.93 \u00b7 12d out x1.0 \u00b7 = $109",
+   "comp_ref": 81.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.3333333333333333,
+   "days_out": 12
+  },
+  {
+   "date": "2026-11-17",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $82 x0.9 = $73 \u00b7 occ 33% x0.93 \u00b7 13d out x1.0 \u00b7 = $109",
+   "comp_ref": 81.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.3333333333333333,
+   "days_out": 13
+  },
+  {
+   "date": "2026-11-18",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $82 x0.9 = $73 \u00b7 occ 33% x0.93 \u00b7 14d out x1.0 \u00b7 = $109",
+   "comp_ref": 81.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.3333333333333333,
+   "days_out": 14
+  },
+  {
+   "date": "2026-11-19",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $82 x0.9 = $73 \u00b7 occ 33% x0.93 \u00b7 15d out x1.0 \u00b7 = $109",
+   "comp_ref": 81.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.3333333333333333,
+   "days_out": 15
+  },
+  {
+   "date": "2026-11-22",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $82 x0.9 = $73 \u00b7 occ 33% x0.93 \u00b7 18d out x1.0 \u00b7 = $109",
+   "comp_ref": 81.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.3333333333333333,
+   "days_out": 18
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488709:2026-11-05": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-08": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-09": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-10": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-11": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-12": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-15": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-16": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-17": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-18": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-19": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-22": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488715:2026-11-06": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488715:2026-11-07": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488729:2026-11-06": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488729:2026-11-07": {
+   "expected": 119,
+   "got": 119,
+   "ok": true
+  }
+ }
+}
