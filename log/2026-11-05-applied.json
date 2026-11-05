@@ -1,0 +1,133 @@
+{
+ "applied_at_utc": "2026-11-05T10:29:33.299157Z",
+ "rec_date": "2026-11-05",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-11-06",
+   "listing_id": 488729,
+   "room": 8,
+   "name": "Fisherman's Lodge",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $117 x0.9 = $105 \u00b7 occ 60% x1.0 \u00b7 1d out x1.00 \u00b7 room 8 +$10 \u00b7 = $119",
+   "comp_ref": 117,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-06",
+   "occupancy": 0.6,
+   "days_out": 1
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $129 x0.9 = $116 \u00b7 occ 60% x1.0 \u00b7 2d out x1.00 \u00b7 = $119",
+   "comp_ref": 129.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.6,
+   "days_out": 2
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488709,
+   "room": 3,
+   "name": "Stargazer's Retreat",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $129 x0.9 = $116 \u00b7 occ 60% x1.0 \u00b7 2d out x1.00 \u00b7 = $119",
+   "comp_ref": 129.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.6,
+   "days_out": 2
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488715,
+   "room": 6,
+   "name": "Traveler's Den",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $129 x0.9 = $116 \u00b7 occ 60% x1.0 \u00b7 2d out x1.00 \u00b7 = $119",
+   "comp_ref": 129.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.6,
+   "days_out": 2
+  },
+  {
+   "date": "2026-11-07",
+   "listing_id": 488729,
+   "room": 8,
+   "name": "Fisherman's Lodge",
+   "current": 119,
+   "recommended": 129,
+   "delta": 10,
+   "reason": "comp median $129 x0.9 = $116 \u00b7 occ 60% x1.0 \u00b7 2d out x1.00 \u00b7 room 8 +$10 \u00b7 = $129",
+   "comp_ref": 129.0,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-07",
+   "occupancy": 0.6,
+   "days_out": 2
+  },
+  {
+   "date": "2026-11-22",
+   "listing_id": 488699,
+   "room": 1,
+   "name": "Vinyl Lounge",
+   "current": 129,
+   "recommended": 109,
+   "delta": -20,
+   "reason": "comp median $82 x0.9 = $73 \u00b7 occ 30% x0.93 \u00b7 17d out x1.0 \u00b7 = $109",
+   "comp_ref": 81.5,
+   "comp_kind": "interpolated",
+   "comp_sample_date": "2026-11-12",
+   "occupancy": 0.3,
+   "days_out": 17
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488729:2026-11-06": {
+   "expected": 119,
+   "got": 119,
+   "ok": true
+  },
+  "488729:2026-11-07": {
+   "expected": 129,
+   "got": 129,
+   "ok": true
+  },
+  "488699:2026-11-07": {
+   "expected": 119,
+   "got": 119,
+   "ok": true
+  },
+  "488699:2026-11-22": {
+   "expected": 109,
+   "got": 109,
+   "ok": true
+  },
+  "488709:2026-11-07": {
+   "expected": 119,
+   "got": 119,
+   "ok": true
+  },
+  "488715:2026-11-07": {
+   "expected": 119,
+   "got": 119,
+   "ok": true
+  }
+ }
+}
