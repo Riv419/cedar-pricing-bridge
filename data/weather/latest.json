@@ -1,14 +1,9 @@
 {
- "as_of": "2026-11-06",
+ "as_of": "2026-11-07",
  "forecast": {
-  "2026-11-06": {
-   "high": 50,
-   "rain_prob": 47,
-   "short": "Chance Rain Showers then Mostly Cloudy"
-  },
   "2026-11-07": {
-   "high": 51,
-   "rain_prob": 9,
+   "high": 52,
+   "rain_prob": 4,
    "short": "Mostly Cloudy"
   },
   "2026-11-08": {
@@ -17,24 +12,29 @@
    "short": "Sunny"
   },
   "2026-11-09": {
-   "high": 57,
+   "high": 55,
    "rain_prob": 0,
-   "short": "Sunny"
+   "short": "Mostly Sunny"
   },
   "2026-11-10": {
-   "high": 59,
+   "high": 61,
    "rain_prob": 0,
    "short": "Sunny"
   },
   "2026-11-11": {
    "high": 55,
-   "rain_prob": 15,
-   "short": "Mostly Sunny"
+   "rain_prob": 17,
+   "short": "Partly Sunny"
   },
   "2026-11-12": {
-   "high": 52,
-   "rain_prob": 17,
-   "short": "Slight Chance Light Rain"
+   "high": 50,
+   "rain_prob": 34,
+   "short": "Chance Light Rain"
+  },
+  "2026-11-13": {
+   "high": 46,
+   "rain_prob": 29,
+   "short": "Chance Light Rain"
   }
  }
 }
