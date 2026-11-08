@@ -1,15 +1,12 @@
-# Cedar pricing — Sat Nov 7, 2026
+# Cedar pricing — Sun Nov 8, 2026
 
 _Ingested 15 sampled dates from expedia._
 _Events: 4 from today's search._
-Occupancy: next 7 nights **44%** · next 30 **32%** · floor $109 / ceiling $289 · max move $20/day · target 90% of comp median
+Occupancy: next 7 nights **41%** · next 30 **30%** · floor $109 / ceiling $289 · max move $20/day · target 90% of comp median
 
-## 8 price changes across 1 nights
+**No changes recommended today** — current prices already match the rules.
 
-**Thu Nov 26** — comp $83 (est.) · occ 20% (2/10)
-- Rooms 2-3, 5-9, 11: $129 → **$109** ▼
-
-_Skipped 50 nights with no competitor data: Sun Nov 29 … Thu Feb 4_
+_Skipped 51 nights with no competitor data: Sun Nov 29 … Fri Feb 5_
 
 ---
-**Applying automatically** (fresh competitor sample for 15 nights). Undo a day: run *3 - Revert prices* with date 2026-11-07.
+**Not applied — nothing to change.** To push them anyway, reply **approve** (or **approve except rooms 3,5**, **approve except Sun Nov 8**).
