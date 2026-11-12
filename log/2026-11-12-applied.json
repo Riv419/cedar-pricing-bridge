@@ -1,0 +1,53 @@
+{
+ "applied_at_utc": "2026-11-12T10:30:54.973028Z",
+ "rec_date": "2026-11-12",
+ "approval_text": "approve (automatic)",
+ "dry_run": false,
+ "applied": [
+  {
+   "date": "2026-11-14",
+   "listing_id": 488727,
+   "room": 7,
+   "name": "Captain's Room",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $119 x0.9 = $107 \u00b7 occ 60% x1.0 \u00b7 2d out x1.00 \u00b7 room 7 +$10 \u00b7 = $119",
+   "comp_ref": 119,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-14",
+   "occupancy": 0.6,
+   "days_out": 2
+  },
+  {
+   "date": "2026-11-14",
+   "listing_id": 488731,
+   "room": 9,
+   "name": "Brewmaster's Room",
+   "current": 109,
+   "recommended": 119,
+   "delta": 10,
+   "reason": "comp median $119 x0.9 = $107 \u00b7 occ 60% x1.0 \u00b7 2d out x1.00 \u00b7 room 9 +$10 \u00b7 = $119",
+   "comp_ref": 119,
+   "comp_kind": "direct",
+   "comp_sample_date": "2026-11-14",
+   "occupancy": 0.6,
+   "days_out": 2
+  }
+ ],
+ "excluded": [],
+ "errors": [],
+ "verify_failures": 0,
+ "verify": {
+  "488727:2026-11-14": {
+   "expected": 119,
+   "got": 119,
+   "ok": true
+  },
+  "488731:2026-11-14": {
+   "expected": 119,
+   "got": 119,
+   "ok": true
+  }
+ }
+}
