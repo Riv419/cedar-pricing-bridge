@@ -2234,3 +2234,12 @@
 - 2026-12-02 room 7: $129 → $109 — comp median $93 x0.9 = $84 · occ 30% x0.93 · 19d out x1.0 · room 7 +$10 · = $109
 - 2026-12-02 room 8: $129 → $109 — comp median $93 x0.9 = $84 · occ 30% x0.93 · 19d out x1.0 · room 8 +$10 · = $109
 - 2026-12-02 room 9: $129 → $109 — comp median $93 x0.9 = $84 · occ 30% x0.93 · 19d out x1.0 · room 9 +$10 · = $109
+
+### 2026-11-14T11:28:05.178049Z — Applied to Hostaway (2026-11-14): 7 nights
+- 2026-12-03 room 2: $129 → $109 — comp median $93 x0.9 = $84 · occ 30% x0.93 · 19d out x1.0 · = $109
+- 2026-12-03 room 3: $129 → $109 — comp median $93 x0.9 = $84 · occ 30% x0.93 · 19d out x1.0 · = $109
+- 2026-12-03 room 5: $129 → $109 — comp median $93 x0.9 = $84 · occ 30% x0.93 · 19d out x1.0 · = $109
+- 2026-12-03 room 6: $129 → $109 — comp median $93 x0.9 = $84 · occ 30% x0.93 · 19d out x1.0 · = $109
+- 2026-12-03 room 7: $129 → $109 — comp median $93 x0.9 = $84 · occ 30% x0.93 · 19d out x1.0 · room 7 +$10 · = $109
+- 2026-12-03 room 8: $129 → $109 — comp median $93 x0.9 = $84 · occ 30% x0.93 · 19d out x1.0 · room 8 +$10 · = $109
+- 2026-12-03 room 9: $129 → $109 — comp median $93 x0.9 = $84 · occ 30% x0.93 · 19d out x1.0 · room 9 +$10 · = $109
