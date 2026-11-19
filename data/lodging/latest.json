@@ -1,12 +1,12 @@
 {
-  "generated_at_et": "2026-11-18 17:56:02 EST",
+  "generated_at_et": "2026-11-19 08:51:48 EST",
   "property": "The Cedar (Bay View Lodging)",
-  "night": "2026-11-18",
+  "night": "2026-11-19",
   "capacity": 12,
   "revenue_basis": "occupancy basis: guest total (incl. fees & tax) \u00f7 nights; owner stays = $0",
   "tonight": {
-    "date": "2026-11-18",
-    "dow": "Wed",
+    "date": "2026-11-19",
+    "dow": "Thu",
     "occupied": 5,
     "capacity": 12,
     "occupancy_pct": 42,
@@ -22,21 +22,6 @@
   "arrivals_today": [],
   "departures_tomorrow": [],
   "next_7_nights": [
-    {
-      "date": "2026-11-18",
-      "dow": "Wed",
-      "occupied": 5,
-      "capacity": 12,
-      "occupancy_pct": 42,
-      "revenue": 173.57,
-      "adr": 34.71,
-      "by_channel": {
-        "Direct (manual)": {
-          "rooms": 5,
-          "revenue": 173.57
-        }
-      }
-    },
     {
       "date": "2026-11-19",
       "dow": "Thu",
@@ -130,25 +115,40 @@
           "revenue": 104.28
         }
       }
+    },
+    {
+      "date": "2026-11-25",
+      "dow": "Wed",
+      "occupied": 3,
+      "capacity": 12,
+      "occupancy_pct": 25,
+      "revenue": 103.71,
+      "adr": 34.57,
+      "by_channel": {
+        "Direct (manual)": {
+          "rooms": 3,
+          "revenue": 103.71
+        }
+      }
     }
   ],
   "next_7_totals": {
-    "room_nights": 33,
+    "room_nights": 31,
     "capacity": 84,
-    "occupancy_pct": 39,
-    "revenue": 1213.93
+    "occupancy_pct": 37,
+    "revenue": 1144.07
   },
   "month_to_date": {
     "month": "2026-11",
-    "through": "2026-11-18",
-    "room_nights": 94,
-    "capacity": 216,
-    "occupancy_pct": 44,
-    "revenue": 4012.93,
+    "through": "2026-11-19",
+    "room_nights": 99,
+    "capacity": 228,
+    "occupancy_pct": 43,
+    "revenue": 4186.5,
     "by_channel": {
       "Direct (manual)": {
-        "room_nights": 87,
-        "revenue": 3004.26
+        "room_nights": 92,
+        "revenue": 3177.83
       },
       "Direct (website)": {
         "room_nights": 7,
