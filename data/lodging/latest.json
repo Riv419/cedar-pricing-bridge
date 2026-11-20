@@ -1,12 +1,12 @@
 {
-  "generated_at_et": "2026-11-19 18:01:19 EST",
+  "generated_at_et": "2026-11-20 08:33:28 EST",
   "property": "The Cedar (Bay View Lodging)",
-  "night": "2026-11-19",
+  "night": "2026-11-20",
   "capacity": 12,
   "revenue_basis": "occupancy basis: guest total (incl. fees & tax) \u00f7 nights; owner stays = $0",
   "tonight": {
-    "date": "2026-11-19",
-    "dow": "Thu",
+    "date": "2026-11-20",
+    "dow": "Fri",
     "occupied": 5,
     "capacity": 12,
     "occupancy_pct": 42,
@@ -22,21 +22,6 @@
   "arrivals_today": [],
   "departures_tomorrow": [],
   "next_7_nights": [
-    {
-      "date": "2026-11-19",
-      "dow": "Thu",
-      "occupied": 5,
-      "capacity": 12,
-      "occupancy_pct": 42,
-      "revenue": 173.57,
-      "adr": 34.71,
-      "by_channel": {
-        "Direct (manual)": {
-          "rooms": 5,
-          "revenue": 173.57
-        }
-      }
-    },
     {
       "date": "2026-11-20",
       "dow": "Fri",
@@ -130,25 +115,40 @@
           "revenue": 103.71
         }
       }
+    },
+    {
+      "date": "2026-11-26",
+      "dow": "Thu",
+      "occupied": 3,
+      "capacity": 12,
+      "occupancy_pct": 25,
+      "revenue": 103.71,
+      "adr": 34.57,
+      "by_channel": {
+        "Direct (manual)": {
+          "rooms": 3,
+          "revenue": 103.71
+        }
+      }
     }
   ],
   "next_7_totals": {
-    "room_nights": 31,
+    "room_nights": 29,
     "capacity": 84,
-    "occupancy_pct": 37,
-    "revenue": 1144.07
+    "occupancy_pct": 35,
+    "revenue": 1074.21
   },
   "month_to_date": {
     "month": "2026-11",
-    "through": "2026-11-19",
-    "room_nights": 99,
-    "capacity": 228,
+    "through": "2026-11-20",
+    "room_nights": 104,
+    "capacity": 240,
     "occupancy_pct": 43,
-    "revenue": 4186.5,
+    "revenue": 4360.07,
     "by_channel": {
       "Direct (manual)": {
-        "room_nights": 92,
-        "revenue": 3177.83
+        "room_nights": 97,
+        "revenue": 3351.4
       },
       "Direct (website)": {
         "room_nights": 7,
