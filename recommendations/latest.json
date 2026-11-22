@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-21T17:57:47.346831Z",
- "run_date": "2026-11-21",
+ "generated_at_utc": "2026-11-22T18:30:49.727411Z",
+ "run_date": "2026-11-22",
  "horizon_days": 90,
  "floor": 109,
  "ceiling": 289,
@@ -14,7 +14,7 @@
  "events_on_calendar": 0,
  "notes": [
   "No new competitor sample today; using stored samples where still fresh.",
-  "Events list is 6 days old \u2014 ignored until a fresh search lands."
+  "Events list is 7 days old \u2014 ignored until a fresh search lands."
  ],
  "counts": {
   "changes": 0,
@@ -22,7 +22,6 @@
   "dates_skipped_no_comps": 84
  },
  "skipped_dates": {
-  "2026-11-21": "no fresh competitor sample within window",
   "2026-11-22": "no fresh competitor sample within window",
   "2026-11-23": "no fresh competitor sample within window",
   "2026-11-24": "no fresh competitor sample within window",
@@ -105,27 +104,10 @@
   "2027-02-15": "no fresh competitor sample within window",
   "2027-02-16": "no fresh competitor sample within window",
   "2027-02-17": "no fresh competitor sample within window",
-  "2027-02-18": "no fresh competitor sample within window"
+  "2027-02-18": "no fresh competitor sample within window",
+  "2027-02-19": "no fresh competitor sample within window"
  },
  "date_info": {
-  "2026-11-21": {
-   "ref": null,
-   "comp": {
-    "kind": "none",
-    "reason": "no fresh competitor sample within window"
-   },
-   "occ": {
-    "booked": 5,
-    "capacity": 10,
-    "rate": 0.5
-   },
-   "wx": {
-    "high": 62,
-    "rain_prob": 0,
-    "short": "Sunny"
-   },
-   "event": null
-  },
   "2026-11-22": {
    "ref": null,
    "comp": {
@@ -138,8 +120,8 @@
     "rate": 0.5
    },
    "wx": {
-    "high": 62,
-    "rain_prob": 35,
+    "high": 63,
+    "rain_prob": 42,
     "short": "Mostly Sunny"
    },
    "event": null
@@ -156,9 +138,9 @@
     "rate": 0.4
    },
    "wx": {
-    "high": 46,
-    "rain_prob": 22,
-    "short": "Slight Chance Light Rain then Mostly Sunny"
+    "high": 45,
+    "rain_prob": 1,
+    "short": "Sunny"
    },
    "event": null
   },
@@ -175,7 +157,7 @@
    },
    "wx": {
     "high": 40,
-    "rain_prob": 2,
+    "rain_prob": 0,
     "short": "Mostly Sunny"
    },
    "event": null
@@ -192,8 +174,8 @@
     "rate": 0.3
    },
    "wx": {
-    "high": 42,
-    "rain_prob": 26,
+    "high": 44,
+    "rain_prob": 33,
     "short": "Partly Sunny"
    },
    "event": null
@@ -210,9 +192,9 @@
     "rate": 0.3
    },
    "wx": {
-    "high": 42,
-    "rain_prob": 26,
-    "short": "Chance Light Rain"
+    "high": 45,
+    "rain_prob": 71,
+    "short": "Light Rain Likely"
    },
    "event": null
   },
@@ -228,9 +210,9 @@
     "rate": 0.3
    },
    "wx": {
-    "high": 42,
-    "rain_prob": 16,
-    "short": "Slight Chance Rain And Snow then Partly Sunny"
+    "high": 44,
+    "rain_prob": 31,
+    "short": "Chance Light Rain"
    },
    "event": null
   },
@@ -245,7 +227,11 @@
     "capacity": 10,
     "rate": 0.3
    },
-   "wx": null,
+   "wx": {
+    "high": 45,
+    "rain_prob": 19,
+    "short": "Mostly Cloudy then Slight Chance Light Rain"
+   },
    "event": null
   },
   "2026-11-29": {
@@ -1437,6 +1423,20 @@
    "event": null
   },
   "2027-02-18": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 10,
+    "rate": 0.1
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-02-19": {
    "ref": null,
    "comp": {
     "kind": "none",
