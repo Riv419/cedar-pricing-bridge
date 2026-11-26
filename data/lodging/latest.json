@@ -1,12 +1,12 @@
 {
-  "generated_at_et": "2026-11-25 19:16:33 EST",
+  "generated_at_et": "2026-11-26 09:23:51 EST",
   "property": "The Cedar (Bay View Lodging)",
-  "night": "2026-11-25",
+  "night": "2026-11-26",
   "capacity": 12,
   "revenue_basis": "occupancy basis: guest total (incl. fees & tax) \u00f7 nights; owner stays = $0",
   "tonight": {
-    "date": "2026-11-25",
-    "dow": "Wed",
+    "date": "2026-11-26",
+    "dow": "Thu",
     "occupied": 5,
     "capacity": 12,
     "occupancy_pct": 42,
@@ -22,21 +22,6 @@
   "arrivals_today": [],
   "departures_tomorrow": [],
   "next_7_nights": [
-    {
-      "date": "2026-11-25",
-      "dow": "Wed",
-      "occupied": 5,
-      "capacity": 12,
-      "occupancy_pct": 42,
-      "revenue": 177.4,
-      "adr": 35.48,
-      "by_channel": {
-        "Direct (manual)": {
-          "rooms": 5,
-          "revenue": 177.4
-        }
-      }
-    },
     {
       "date": "2026-11-26",
       "dow": "Thu",
@@ -126,6 +111,21 @@
           "revenue": 177.4
         }
       }
+    },
+    {
+      "date": "2026-12-02",
+      "dow": "Wed",
+      "occupied": 5,
+      "capacity": 12,
+      "occupancy_pct": 42,
+      "revenue": 177.4,
+      "adr": 35.48,
+      "by_channel": {
+        "Direct (manual)": {
+          "rooms": 5,
+          "revenue": 177.4
+        }
+      }
     }
   ],
   "next_7_totals": {
@@ -136,15 +136,15 @@
   },
   "month_to_date": {
     "month": "2026-11",
-    "through": "2026-11-25",
-    "room_nights": 131,
-    "capacity": 300,
+    "through": "2026-11-26",
+    "room_nights": 136,
+    "capacity": 312,
     "occupancy_pct": 44,
-    "revenue": 5429.57,
+    "revenue": 5606.97,
     "by_channel": {
       "Direct (manual)": {
-        "room_nights": 123,
-        "revenue": 4316.62
+        "room_nights": 128,
+        "revenue": 4494.02
       },
       "Direct (website)": {
         "room_nights": 8,
