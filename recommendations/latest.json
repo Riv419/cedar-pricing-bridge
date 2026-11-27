@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-26T20:11:15.081104Z",
- "run_date": "2026-11-26",
+ "generated_at_utc": "2026-11-27T19:56:45.726736Z",
+ "run_date": "2026-11-27",
  "horizon_days": 90,
  "floor": 109,
  "ceiling": 289,
@@ -14,15 +14,14 @@
  "events_on_calendar": 0,
  "notes": [
   "No new competitor sample today; using stored samples where still fresh.",
-  "Events list is 11 days old \u2014 ignored until a fresh search lands."
+  "Events list is 12 days old \u2014 ignored until a fresh search lands."
  ],
  "counts": {
   "changes": 0,
-  "unchanged_open_nights": 40,
-  "dates_skipped_no_comps": 84
+  "unchanged_open_nights": 29,
+  "dates_skipped_no_comps": 85
  },
  "skipped_dates": {
-  "2026-11-26": "no fresh competitor sample within window",
   "2026-11-27": "no fresh competitor sample within window",
   "2026-11-28": "no fresh competitor sample within window",
   "2026-11-29": "no fresh competitor sample within window",
@@ -37,6 +36,7 @@
   "2026-12-08": "no fresh competitor sample within window",
   "2026-12-09": "no fresh competitor sample within window",
   "2026-12-10": "no fresh competitor sample within window",
+  "2026-12-11": "no fresh competitor sample within window",
   "2026-12-13": "no fresh competitor sample within window",
   "2026-12-14": "no fresh competitor sample within window",
   "2026-12-15": "no fresh competitor sample within window",
@@ -105,27 +105,10 @@
   "2027-02-20": "no fresh competitor sample within window",
   "2027-02-21": "no fresh competitor sample within window",
   "2027-02-22": "no fresh competitor sample within window",
-  "2027-02-23": "no fresh competitor sample within window"
+  "2027-02-23": "no fresh competitor sample within window",
+  "2027-02-24": "no fresh competitor sample within window"
  },
  "date_info": {
-  "2026-11-26": {
-   "ref": null,
-   "comp": {
-    "kind": "none",
-    "reason": "no fresh competitor sample within window"
-   },
-   "occ": {
-    "booked": 5,
-    "capacity": 9,
-    "rate": 0.5555555555555556
-   },
-   "wx": {
-    "high": 46,
-    "rain_prob": 100,
-    "short": "Rain"
-   },
-   "event": null
-  },
   "2026-11-27": {
    "ref": null,
    "comp": {
@@ -138,9 +121,9 @@
     "rate": 0.5555555555555556
    },
    "wx": {
-    "high": 43,
-    "rain_prob": 100,
-    "short": "Rain Showers"
+    "high": 42,
+    "rain_prob": 44,
+    "short": "Chance Light Rain"
    },
    "event": null
   },
@@ -152,12 +135,12 @@
    },
    "occ": {
     "booked": 5,
-    "capacity": 9,
-    "rate": 0.5555555555555556
+    "capacity": 8,
+    "rate": 0.625
    },
    "wx": {
-    "high": 44,
-    "rain_prob": 3,
+    "high": 43,
+    "rain_prob": 9,
     "short": "Partly Sunny"
    },
    "event": null
@@ -170,12 +153,12 @@
    },
    "occ": {
     "booked": 5,
-    "capacity": 9,
-    "rate": 0.5555555555555556
+    "capacity": 8,
+    "rate": 0.625
    },
    "wx": {
-    "high": 48,
-    "rain_prob": 91,
+    "high": 47,
+    "rain_prob": 100,
     "short": "Light Rain"
    },
    "event": null
@@ -188,12 +171,12 @@
    },
    "occ": {
     "booked": 5,
-    "capacity": 10,
-    "rate": 0.5
+    "capacity": 9,
+    "rate": 0.5555555555555556
    },
    "wx": {
-    "high": 42,
-    "rain_prob": 28,
+    "high": 39,
+    "rain_prob": 43,
     "short": "Chance Light Rain then Mostly Cloudy"
    },
    "event": null
@@ -206,12 +189,12 @@
    },
    "occ": {
     "booked": 5,
-    "capacity": 10,
-    "rate": 0.5
+    "capacity": 9,
+    "rate": 0.5555555555555556
    },
    "wx": {
-    "high": 44,
-    "rain_prob": 5,
+    "high": 41,
+    "rain_prob": 0,
     "short": "Partly Sunny"
    },
    "event": null
@@ -224,12 +207,12 @@
    },
    "occ": {
     "booked": 5,
-    "capacity": 10,
-    "rate": 0.5
+    "capacity": 9,
+    "rate": 0.5555555555555556
    },
    "wx": {
-    "high": 49,
-    "rain_prob": 5,
+    "high": 50,
+    "rain_prob": 1,
     "short": "Partly Sunny"
    },
    "event": null
@@ -242,10 +225,14 @@
    },
    "occ": {
     "booked": 5,
-    "capacity": 10,
-    "rate": 0.5
+    "capacity": 9,
+    "rate": 0.5555555555555556
    },
-   "wx": null,
+   "wx": {
+    "high": 56,
+    "rain_prob": 44,
+    "short": "Partly Sunny then Slight Chance Light Rain"
+   },
    "event": null
   },
   "2026-12-04": {
@@ -256,8 +243,8 @@
    },
    "occ": {
     "booked": 5,
-    "capacity": 10,
-    "rate": 0.5
+    "capacity": 9,
+    "rate": 0.5555555555555556
    },
    "wx": null,
    "event": null
@@ -270,8 +257,8 @@
    },
    "occ": {
     "booked": 5,
-    "capacity": 10,
-    "rate": 0.5
+    "capacity": 9,
+    "rate": 0.5555555555555556
    },
    "wx": null,
    "event": null
@@ -284,8 +271,8 @@
    },
    "occ": {
     "booked": 5,
-    "capacity": 10,
-    "rate": 0.5
+    "capacity": 9,
+    "rate": 0.5555555555555556
    },
    "wx": null,
    "event": null
@@ -298,8 +285,8 @@
    },
    "occ": {
     "booked": 5,
-    "capacity": 10,
-    "rate": 0.5
+    "capacity": 9,
+    "rate": 0.5555555555555556
    },
    "wx": null,
    "event": null
@@ -312,8 +299,8 @@
    },
    "occ": {
     "booked": 5,
-    "capacity": 10,
-    "rate": 0.5
+    "capacity": 9,
+    "rate": 0.5555555555555556
    },
    "wx": null,
    "event": null
@@ -326,8 +313,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -340,31 +327,22 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
   },
   "2026-12-11": {
-   "ref": 110,
+   "ref": null,
    "comp": {
-    "kind": "direct",
-    "sample_date": "2026-12-11",
-    "n": 19,
-    "segments": {
-     "strip": 95.5,
-     "port_clinton": 101.0,
-     "motel": 124
-    },
-    "vr_median": null,
-    "sampled_at": "2026-11-15T11:28:50Z",
-    "source": "expedia"
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -386,8 +364,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -400,8 +378,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -414,8 +392,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -428,8 +406,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -442,8 +420,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -456,8 +434,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -479,8 +457,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -502,8 +480,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -516,8 +494,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -530,8 +508,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -544,8 +522,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -558,8 +536,8 @@
    },
    "occ": {
     "booked": 4,
-    "capacity": 10,
-    "rate": 0.4
+    "capacity": 9,
+    "rate": 0.4444444444444444
    },
    "wx": null,
    "event": null
@@ -572,8 +550,8 @@
    },
    "occ": {
     "booked": 2,
-    "capacity": 10,
-    "rate": 0.2
+    "capacity": 9,
+    "rate": 0.2222222222222222
    },
    "wx": null,
    "event": null
@@ -595,8 +573,8 @@
    },
    "occ": {
     "booked": 2,
-    "capacity": 10,
-    "rate": 0.2
+    "capacity": 9,
+    "rate": 0.2222222222222222
    },
    "wx": null,
    "event": null
@@ -618,8 +596,8 @@
    },
    "occ": {
     "booked": 2,
-    "capacity": 10,
-    "rate": 0.2
+    "capacity": 9,
+    "rate": 0.2222222222222222
    },
    "wx": null,
    "event": null
@@ -632,8 +610,8 @@
    },
    "occ": {
     "booked": 2,
-    "capacity": 10,
-    "rate": 0.2
+    "capacity": 9,
+    "rate": 0.2222222222222222
    },
    "wx": null,
    "event": null
@@ -646,8 +624,8 @@
    },
    "occ": {
     "booked": 2,
-    "capacity": 10,
-    "rate": 0.2
+    "capacity": 9,
+    "rate": 0.2222222222222222
    },
    "wx": null,
    "event": null
@@ -660,8 +638,8 @@
    },
    "occ": {
     "booked": 2,
-    "capacity": 10,
-    "rate": 0.2
+    "capacity": 9,
+    "rate": 0.2222222222222222
    },
    "wx": null,
    "event": null
@@ -1437,6 +1415,20 @@
    "event": null
   },
   "2027-02-23": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 10,
+    "rate": 0.1
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-02-24": {
    "ref": null,
    "comp": {
     "kind": "none",
