@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-27T19:56:45.726736Z",
- "run_date": "2026-11-27",
+ "generated_at_utc": "2026-11-28T18:57:20.922740Z",
+ "run_date": "2026-11-28",
  "horizon_days": 90,
  "floor": 109,
  "ceiling": 289,
@@ -14,15 +14,14 @@
  "events_on_calendar": 0,
  "notes": [
   "No new competitor sample today; using stored samples where still fresh.",
-  "Events list is 12 days old \u2014 ignored until a fresh search lands."
+  "Events list is 13 days old \u2014 ignored until a fresh search lands."
  ],
  "counts": {
   "changes": 0,
-  "unchanged_open_nights": 29,
-  "dates_skipped_no_comps": 85
+  "unchanged_open_nights": 10,
+  "dates_skipped_no_comps": 88
  },
  "skipped_dates": {
-  "2026-11-27": "no fresh competitor sample within window",
   "2026-11-28": "no fresh competitor sample within window",
   "2026-11-29": "no fresh competitor sample within window",
   "2026-11-30": "no fresh competitor sample within window",
@@ -37,6 +36,7 @@
   "2026-12-09": "no fresh competitor sample within window",
   "2026-12-10": "no fresh competitor sample within window",
   "2026-12-11": "no fresh competitor sample within window",
+  "2026-12-12": "no fresh competitor sample within window",
   "2026-12-13": "no fresh competitor sample within window",
   "2026-12-14": "no fresh competitor sample within window",
   "2026-12-15": "no fresh competitor sample within window",
@@ -47,6 +47,8 @@
   "2026-12-22": "no fresh competitor sample within window",
   "2026-12-23": "no fresh competitor sample within window",
   "2026-12-24": "no fresh competitor sample within window",
+  "2026-12-25": "no fresh competitor sample within window",
+  "2026-12-26": "no fresh competitor sample within window",
   "2026-12-27": "no fresh competitor sample within window",
   "2026-12-28": "no fresh competitor sample within window",
   "2026-12-29": "no fresh competitor sample within window",
@@ -106,27 +108,10 @@
   "2027-02-21": "no fresh competitor sample within window",
   "2027-02-22": "no fresh competitor sample within window",
   "2027-02-23": "no fresh competitor sample within window",
-  "2027-02-24": "no fresh competitor sample within window"
+  "2027-02-24": "no fresh competitor sample within window",
+  "2027-02-25": "no fresh competitor sample within window"
  },
  "date_info": {
-  "2026-11-27": {
-   "ref": null,
-   "comp": {
-    "kind": "none",
-    "reason": "no fresh competitor sample within window"
-   },
-   "occ": {
-    "booked": 5,
-    "capacity": 9,
-    "rate": 0.5555555555555556
-   },
-   "wx": {
-    "high": 42,
-    "rain_prob": 44,
-    "short": "Chance Light Rain"
-   },
-   "event": null
-  },
   "2026-11-28": {
    "ref": null,
    "comp": {
@@ -140,8 +125,8 @@
    },
    "wx": {
     "high": 43,
-    "rain_prob": 9,
-    "short": "Partly Sunny"
+    "rain_prob": 1,
+    "short": "Mostly Sunny"
    },
    "event": null
   },
@@ -157,9 +142,9 @@
     "rate": 0.625
    },
    "wx": {
-    "high": 47,
+    "high": 49,
     "rain_prob": 100,
-    "short": "Light Rain"
+    "short": "Cloudy then Light Rain"
    },
    "event": null
   },
@@ -175,9 +160,9 @@
     "rate": 0.5555555555555556
    },
    "wx": {
-    "high": 39,
-    "rain_prob": 43,
-    "short": "Chance Light Rain then Mostly Cloudy"
+    "high": 41,
+    "rain_prob": 4,
+    "short": "Mostly Cloudy"
    },
    "event": null
   },
@@ -193,7 +178,7 @@
     "rate": 0.5555555555555556
    },
    "wx": {
-    "high": 41,
+    "high": 42,
     "rain_prob": 0,
     "short": "Partly Sunny"
    },
@@ -212,8 +197,8 @@
    },
    "wx": {
     "high": 50,
-    "rain_prob": 1,
-    "short": "Partly Sunny"
+    "rain_prob": 0,
+    "short": "Mostly Sunny"
    },
    "event": null
   },
@@ -229,9 +214,9 @@
     "rate": 0.5555555555555556
    },
    "wx": {
-    "high": 56,
-    "rain_prob": 44,
-    "short": "Partly Sunny then Slight Chance Light Rain"
+    "high": 55,
+    "rain_prob": 23,
+    "short": "Mostly Cloudy"
    },
    "event": null
   },
@@ -246,7 +231,11 @@
     "capacity": 9,
     "rate": 0.5555555555555556
    },
-   "wx": null,
+   "wx": {
+    "high": 56,
+    "rain_prob": 70,
+    "short": "Light Rain Likely"
+   },
    "event": null
   },
   "2026-12-05": {
@@ -348,19 +337,10 @@
    "event": null
   },
   "2026-12-12": {
-   "ref": 116,
+   "ref": null,
    "comp": {
-    "kind": "direct",
-    "sample_date": "2026-12-12",
-    "n": 19,
-    "segments": {
-     "strip": 99.0,
-     "motel": 159,
-     "port_clinton": 122.0
-    },
-    "vr_median": null,
-    "sampled_at": "2026-11-15T11:28:50Z",
-    "source": "expedia"
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
    },
    "occ": {
     "booked": 4,
@@ -441,18 +421,18 @@
    "event": null
   },
   "2026-12-18": {
-   "ref": 95,
+   "ref": 116,
    "comp": {
-    "kind": "direct",
-    "sample_date": "2026-12-18",
-    "n": 17,
+    "kind": "interpolated",
+    "sample_date": "2026-12-12",
+    "n": 19,
     "segments": {
-     "strip": 95.0,
-     "port_clinton": 69,
-     "motel": 90.0
+     "strip": 99.0,
+     "motel": 159,
+     "port_clinton": 122.0
     },
     "vr_median": null,
-    "sampled_at": "2026-11-13T11:26:31Z",
+    "sampled_at": "2026-11-15T11:28:50Z",
     "source": "expedia"
    },
    "occ": {
@@ -464,18 +444,18 @@
    "event": null
   },
   "2026-12-19": {
-   "ref": 95,
+   "ref": 116,
    "comp": {
     "kind": "interpolated",
-    "sample_date": "2026-12-18",
-    "n": 17,
+    "sample_date": "2026-12-12",
+    "n": 19,
     "segments": {
-     "strip": 95.0,
-     "port_clinton": 69,
-     "motel": 90.0
+     "strip": 99.0,
+     "motel": 159,
+     "port_clinton": 122.0
     },
     "vr_median": null,
-    "sampled_at": "2026-11-13T11:26:31Z",
+    "sampled_at": "2026-11-15T11:28:50Z",
     "source": "expedia"
    },
    "occ": {
@@ -557,19 +537,10 @@
    "event": null
   },
   "2026-12-25": {
-   "ref": 95,
+   "ref": null,
    "comp": {
-    "kind": "interpolated",
-    "sample_date": "2026-12-18",
-    "n": 17,
-    "segments": {
-     "strip": 95.0,
-     "port_clinton": 69,
-     "motel": 90.0
-    },
-    "vr_median": null,
-    "sampled_at": "2026-11-13T11:26:31Z",
-    "source": "expedia"
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
    },
    "occ": {
     "booked": 2,
@@ -580,19 +551,10 @@
    "event": null
   },
   "2026-12-26": {
-   "ref": 95,
+   "ref": null,
    "comp": {
-    "kind": "interpolated",
-    "sample_date": "2026-12-18",
-    "n": 17,
-    "segments": {
-     "strip": 95.0,
-     "port_clinton": 69,
-     "motel": 90.0
-    },
-    "vr_median": null,
-    "sampled_at": "2026-11-13T11:26:31Z",
-    "source": "expedia"
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
    },
    "occ": {
     "booked": 2,
@@ -1429,6 +1391,20 @@
    "event": null
   },
   "2027-02-24": {
+   "ref": null,
+   "comp": {
+    "kind": "none",
+    "reason": "no fresh competitor sample within window"
+   },
+   "occ": {
+    "booked": 1,
+    "capacity": 10,
+    "rate": 0.1
+   },
+   "wx": null,
+   "event": null
+  },
+  "2027-02-25": {
    "ref": null,
    "comp": {
     "kind": "none",
